@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LianSaiFenzuViewController">
+            <connections>
+                <outlet property="numberTextField" destination="5O9-j5-7w4" id="gl5-BN-AA7"/>
+                <outlet property="shengjiangjiSwitch" destination="Qjm-Z5-UNH" id="0Hf-xK-ZaR"/>
+                <outlet property="tableView" destination="BSg-q2-1Sc" id="bQm-Ls-2YD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BSg-q2-1Sc">
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="uc2-Gy-0gz"/>
+                        <outlet property="delegate" destination="-1" id="7kg-B4-eWP"/>
+                    </connections>
+                </tableView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="每组球队数" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5O9-j5-7w4">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="Ns0-E0-6RF"/>
+                        <constraint firstAttribute="height" constant="30" id="ut2-df-acp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dx-Lg-71J">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="Rak-ys-M2h"/>
+                        <constraint firstAttribute="height" constant="30" id="joU-Fm-KSS"/>
+                    </constraints>
+                    <state key="normal" title="分组">
+                        <color key="titleColor" red="0.1764705882" green="0.80000000000000004" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="tapFenzuButton:" destination="-1" eventType="touchUpInside" id="H5P-9v-yHg"/>
+                    </connections>
+                </button>
+                <switch hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Qjm-Z5-UNH">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="31" id="1uC-ps-cPv"/>
+                        <constraint firstAttribute="width" constant="49" id="wLG-34-ftY"/>
+                    </constraints>
+                    <connections>
+                        <action selector="shengjiangji:" destination="-1" eventType="valueChanged" id="rbC-W0-dbn"/>
+                    </connections>
+                </switch>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9fh-d5-Rch">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="49" id="Nib-Ew-X8C"/>
+                        <constraint firstAttribute="height" constant="31" id="PS4-Fa-7lU"/>
+                    </constraints>
+                    <connections>
+                        <action selector="shijiebei:" destination="-1" eventType="valueChanged" id="m1Z-Mp-DfV"/>
+                    </connections>
+                </switch>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="BSg-q2-1Sc" secondAttribute="bottom" id="G8g-5Q-g3a"/>
+                <constraint firstItem="Qjm-Z5-UNH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="73" id="Gvj-Tu-hKt"/>
+                <constraint firstItem="5O9-j5-7w4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="HTQ-YN-xGU"/>
+                <constraint firstItem="Qjm-Z5-UNH" firstAttribute="leading" secondItem="9fh-d5-Rch" secondAttribute="trailing" constant="22" id="Iay-wd-FIJ"/>
+                <constraint firstItem="5O9-j5-7w4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="74" id="JAF-Bk-5u0"/>
+                <constraint firstItem="9fh-d5-Rch" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="74" id="LHa-uP-UNu"/>
+                <constraint firstItem="9dx-Lg-71J" firstAttribute="leading" secondItem="5O9-j5-7w4" secondAttribute="trailing" constant="10" id="Ne4-aQ-ex0"/>
+                <constraint firstAttribute="trailing" secondItem="BSg-q2-1Sc" secondAttribute="trailing" id="OtX-sJ-fgx"/>
+                <constraint firstItem="BSg-q2-1Sc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="SE4-WO-Anh"/>
+                <constraint firstItem="9dx-Lg-71J" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="74" id="XU2-Aa-Zzw"/>
+                <constraint firstItem="BSg-q2-1Sc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="kIb-Ll-4Kh"/>
+                <constraint firstAttribute="trailing" secondItem="Qjm-Z5-UNH" secondAttribute="trailing" constant="10" id="yqr-4V-Wvo"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

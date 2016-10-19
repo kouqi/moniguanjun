@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShengjiangjiModeViewController">
+            <connections>
+                <outlet property="jiajiTextView" destination="SD5-Dk-bV5" id="6Tk-XM-D8c"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="yijiTextView" destination="QLP-z2-JGU" id="2lB-hQ-oav"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Vc-z0-jmt">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="甲级联赛" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUY-Im-oQg">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="z8g-En-dYI"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SD5-Dk-bV5">
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="dUY-Im-oQg" firstAttribute="top" secondItem="8Vc-z0-jmt" secondAttribute="top" id="CdY-dm-fby"/>
+                        <constraint firstItem="SD5-Dk-bV5" firstAttribute="leading" secondItem="8Vc-z0-jmt" secondAttribute="leading" constant="10" id="Dkz-4F-YKF"/>
+                        <constraint firstAttribute="trailing" secondItem="dUY-Im-oQg" secondAttribute="trailing" constant="10" id="Xaq-es-xSR"/>
+                        <constraint firstItem="SD5-Dk-bV5" firstAttribute="top" secondItem="dUY-Im-oQg" secondAttribute="bottom" id="dWg-sd-eCW"/>
+                        <constraint firstAttribute="bottom" secondItem="SD5-Dk-bV5" secondAttribute="bottom" id="iAt-DH-Fvh"/>
+                        <constraint firstItem="dUY-Im-oQg" firstAttribute="leading" secondItem="8Vc-z0-jmt" secondAttribute="leading" constant="10" id="qcy-ef-xda"/>
+                        <constraint firstAttribute="trailing" secondItem="SD5-Dk-bV5" secondAttribute="trailing" constant="10" id="wfT-3r-4Vf"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4cX-Yl-vf0">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="乙级联赛" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jzu-Dn-4NR">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="uHg-RT-Eok"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QLP-z2-JGU">
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Jzu-Dn-4NR" firstAttribute="leading" secondItem="4cX-Yl-vf0" secondAttribute="leading" constant="10" id="3Cj-NI-ysJ"/>
+                        <constraint firstItem="QLP-z2-JGU" firstAttribute="leading" secondItem="4cX-Yl-vf0" secondAttribute="leading" constant="10" id="74K-8d-HAH"/>
+                        <constraint firstAttribute="bottom" secondItem="QLP-z2-JGU" secondAttribute="bottom" id="7xp-BD-dU7"/>
+                        <constraint firstItem="QLP-z2-JGU" firstAttribute="top" secondItem="Jzu-Dn-4NR" secondAttribute="bottom" id="ENX-AR-Ewu"/>
+                        <constraint firstAttribute="trailing" secondItem="Jzu-Dn-4NR" secondAttribute="trailing" constant="10" id="Xcj-Qr-heJ"/>
+                        <constraint firstItem="Jzu-Dn-4NR" firstAttribute="top" secondItem="4cX-Yl-vf0" secondAttribute="top" id="bae-4H-fDd"/>
+                        <constraint firstAttribute="trailing" secondItem="QLP-z2-JGU" secondAttribute="trailing" constant="10" id="kHs-gk-KAv"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="8Vc-z0-jmt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="A6Z-lH-uZt"/>
+                <constraint firstItem="4cX-Yl-vf0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Efk-LB-aaY"/>
+                <constraint firstAttribute="trailing" secondItem="8Vc-z0-jmt" secondAttribute="trailing" id="Ghc-4w-lGh"/>
+                <constraint firstItem="8Vc-z0-jmt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="Msa-32-vsO"/>
+                <constraint firstAttribute="trailing" secondItem="4cX-Yl-vf0" secondAttribute="trailing" id="UP4-6J-GKG"/>
+                <constraint firstAttribute="bottom" secondItem="4cX-Yl-vf0" secondAttribute="bottom" id="glV-YN-M1v"/>
+                <constraint firstItem="4cX-Yl-vf0" firstAttribute="top" secondItem="8Vc-z0-jmt" secondAttribute="bottom" id="mLy-hp-bsV"/>
+                <constraint firstItem="4cX-Yl-vf0" firstAttribute="height" secondItem="8Vc-z0-jmt" secondAttribute="height" id="ns9-vg-Nrr"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>shi</key>
+		<string>海口</string>
+		<key>city</key>
+		<array>
+			<string>秀英区</string>
+			<string>龙华区</string>
+			<string>琼山区</string>
+			<string>美兰区</string>
+		</array>
+	</dict>
+	<dict>
+		<key>shi</key>
+		<string>三亚</string>
+		<key>city</key>
+		<array>
+			<string>吉阳区</string>
+			<string>崖州区</string>
+			<string>天涯区</string>
+			<string>海棠区</string>
+		</array>
+	</dict>
+	<dict>
+		<key>shi</key>
+		<string>海南省</string>
+		<key>city</key>
+		<array>
+			<string>琼海市</string>
+			<string>儋州市</string>
+			<string>文昌市</string>
+			<string>东方市</string>
+			<string>五指山市</string>
+			<string>万宁市</string>
+			<string>定安县</string>
+			<string>屯昌县</string>
+			<string>澄迈县</string>
+			<string>临高县</string>
+			<string>陵水黎族自治县</string>
+			<string>琼中黎族苗族自治县</string>
+			<string>保亭黎族苗族自治县</string>
+			<string>乐东黎族自治县</string>
+			<string>昌江黎族自治县</string>
+			<string>白沙黎族自治县</string>
+		</array>
+	</dict>
+</array>
+</plist>

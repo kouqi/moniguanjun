@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>shi</key>
+		<string>台湾省</string>
+		<key>city</key>
+		<array>
+			<string>基隆市</string>
+			<string>新竹市</string>
+			<string>嘉义市</string>
+			<string>桃园县</string>
+			<string>新竹县</string>
+			<string>苗栗县</string>
+			<string>彰化县</string>
+			<string>南投县</string>
+			<string>云林县</string>
+			<string>嘉义县</string>
+			<string>屏东县</string>
+			<string>宜兰县</string>
+			<string>花莲县</string>
+			<string>台东县</string>
+			<string>澎湖县</string>
+			<string>金门县</string>
+			<string>连江县</string>
+		</array>
+	</dict>
+</array>
+</plist>

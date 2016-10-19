@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>shi</key>
+		<string>银川</string>
+		<key>city</key>
+		<array>
+			<string>兴庆区</string>
+			<string>西夏区</string>
+			<string>金凤区</string>
+			<string>永宁县</string>
+			<string>贺兰县</string>
+			<string>灵武市</string>
+		</array>
+	</dict>
+	<dict>
+		<key>shi</key>
+		<string>石嘴山</string>
+		<key>city</key>
+		<array>
+			<string>大武口区</string>
+			<string>惠农区</string>
+			<string>平罗县</string>
+		</array>
+	</dict>
+	<dict>
+		<key>shi</key>
+		<string>吴忠</string>
+		<key>city</key>
+		<array>
+			<string>利通区</string>
+			<string>红寺堡区</string>
+			<string>盐池县</string>
+			<string>同心县</string>
+			<string>青铜峡市</string>
+		</array>
+	</dict>
+	<dict>
+		<key>shi</key>
+		<string>中卫</string>
+		<key>city</key>
+		<array>
+			<string>沙坡头区</string>
+			<string>中宁县</string>
+			<string>海原县</string>
+		</array>
+	</dict>
+	<dict>
+		<key>shi</key>
+		<string>固原</string>
+		<key>city</key>
+		<array>
+			<string>原州区</string>
+			<string>西吉县</string>
+			<string>隆德县</string>
+			<string>泾源县</string>
+			<string>彭阳县</string>
+		</array>
+	</dict>
+</array>
+</plist>
