@@ -176,63 +176,63 @@
     
     return;
     
-    if (self.cansaiArray.count % 2 != 0) {
-        NSInteger index = arc4random() % self.cansaiArray.count;
-        self.lastDictionary = [NSMutableDictionary dictionaryWithDictionary:[self.cansaiArray objectAtIndex:index]];
-        [self.cansaiArray removeObjectAtIndex:index];
-        NSMutableArray *diyisss = [NSMutableArray array];
-        NSMutableArray *shuju = [NSMutableArray array];
-        for (int i = 0; i < self.cansaiArray.count; i++) {
-            NSMutableArray *sshuju = [NSMutableArray array];
-            if (i % 2 == 0) {
-                [sshuju addObject:self.lastDictionary];
-                [sshuju addObject:[self.cansaiArray objectAtIndex:i]];
-            }else{
-                [sshuju addObject:[self.cansaiArray objectAtIndex:i]];
-                [sshuju addObject:self.lastDictionary];
-            }
-            
-            [shuju addObject:sshuju];
-        }
-        [diyisss addObject:shuju];
-        NSMutableArray *shujus = [NSMutableArray array];
-        for (int i = 0; i < self.cansaiArray.count; i++) {
-            NSMutableArray *sshuju = [NSMutableArray array];
-            if (i % 2 != 0) {
-                [sshuju addObject:self.lastDictionary];
-                [sshuju addObject:[self.cansaiArray objectAtIndex:i]];
-            }else{
-                [sshuju addObject:[self.cansaiArray objectAtIndex:i]];
-                [sshuju addObject:self.lastDictionary];
-            }
-            [shujus addObject:sshuju];
-        }
-        [diyisss addObject:shujus];
-        self.jiqianArray = [NSMutableArray array];
-        NSMutableArray *jiemuArray = [NSMutableArray array];
-        for (int i = 0; i < diyisss.count; i++) {
-            NSMutableArray *lunArray = [diyisss objectAtIndex:i];
-            [jiemuArray addObject:lunArray.firstObject];
-            [lunArray removeObjectAtIndex:0];
-            [self.jiqianArray addObjectsFromArray:lunArray];
-        }
-        NSLog(@"揭幕战");
-        [self.xianshiString appendFormat:@"揭幕战\n"];
-        [self bisaikaishiWithArray:jiemuArray];
+//    if ((self.cansaiArray.count % 2) != 0) {
+//        NSInteger index = arc4random() % self.cansaiArray.count;
+//        self.lastDictionary = [NSMutableDictionary dictionaryWithDictionary:[self.cansaiArray objectAtIndex:index]];
+//        [self.cansaiArray removeObjectAtIndex:index];
+//        NSMutableArray *diyisss = [NSMutableArray array];
+//        NSMutableArray *shuju = [NSMutableArray array];
+//        for (int i = 0; i < self.cansaiArray.count; i++) {
+//            NSMutableArray *sshuju = [NSMutableArray array];
+//            if (i % 2 == 0) {
+//                [sshuju addObject:self.lastDictionary];
+//                [sshuju addObject:[self.cansaiArray objectAtIndex:i]];
+//            }else{
+//                [sshuju addObject:[self.cansaiArray objectAtIndex:i]];
+//                [sshuju addObject:self.lastDictionary];
+//            }
+//            
+//            [shuju addObject:sshuju];
+//        }
+//        [diyisss addObject:shuju];
+//        NSMutableArray *shujus = [NSMutableArray array];
+//        for (int i = 0; i < self.cansaiArray.count; i++) {
+//            NSMutableArray *sshuju = [NSMutableArray array];
+//            if (i % 2 != 0) {
+//                [sshuju addObject:self.lastDictionary];
+//                [sshuju addObject:[self.cansaiArray objectAtIndex:i]];
+//            }else{
+//                [sshuju addObject:[self.cansaiArray objectAtIndex:i]];
+//                [sshuju addObject:self.lastDictionary];
+//            }
+//            [shujus addObject:sshuju];
+//        }
+//        [diyisss addObject:shujus];
+//        self.jiqianArray = [NSMutableArray array];
+//        NSMutableArray *jiemuArray = [NSMutableArray array];
+//        for (int i = 0; i < diyisss.count; i++) {
+//            NSMutableArray *lunArray = [diyisss objectAtIndex:i];
+//            [jiemuArray addObject:lunArray.firstObject];
+//            [lunArray removeObjectAtIndex:0];
+//            [self.jiqianArray addObjectsFromArray:lunArray];
+//        }
+//        NSLog(@"揭幕战");
+//        [self.xianshiString appendFormat:@"揭幕战\n"];
+//        [self bisaikaishiWithArray:jiemuArray];
 //        for (int i = 0; i < diyisss.count; i++) {
 //            NSMutableArray *lunArray = [diyisss objectAtIndex:i];
 //            NSLog(@"赛前第%d轮",(i + 1));
 //            [self.xianshiString appendFormat:@"\n赛前第%d轮\n",(i + 1)];
 //            [self bisaikaishiWithArray:lunArray];
 //        }
-        [self lunshuduizhen];
-        [self paiming];
-        self.textView.text = self.xianshiString;
-    }else{
-        [self lunshuduizhen];
-        [self paiming];
-        self.textView.text = self.xianshiString;
-    }
+//        [self lunshuduizhen];
+//        [self paiming];
+//        self.textView.text = self.xianshiString;
+//    }else{
+//        [self lunshuduizhen];
+//        [self paiming];
+//        self.textView.text = self.xianshiString;
+//    }
 }
 
 -(void) beigerduizhen{

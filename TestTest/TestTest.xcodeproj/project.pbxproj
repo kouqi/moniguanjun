@@ -17,29 +17,30 @@
 		13205EED1DB64B1300A3360D /* ShijiebeiModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13205EEB1DB64B1300A3360D /* ShijiebeiModeViewController.m */; };
 		13205EEE1DB64B1300A3360D /* ShijiebeiModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13205EEC1DB64B1300A3360D /* ShijiebeiModeViewController.xib */; };
 		13205EF11DB64F6300A3360D /* ShijieBeiModeCalcul.m in Sources */ = {isa = PBXBuildFile; fileRef = 13205EF01DB64F6300A3360D /* ShijieBeiModeCalcul.m */; };
-		1347508F1D8B9B72007C09C2 /* TaiWan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1347508E1D8B9B72007C09C2 /* TaiWan.plist */; };
+		1347508F1D8B9B72007C09C2 /* TAIWAN.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1347508E1D8B9B72007C09C2 /* TAIWAN.plist */; };
 		1357822E1D755CEE00E2C5A3 /* CalculationGameTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1357822D1D755CEE00E2C5A3 /* CalculationGameTool.m */; };
+		13D066F81DBDA4070056301A /* ChineseToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D066F71DBDA4070056301A /* ChineseToPinyin.m */; };
 		13DCDC2D1D94FFC200E156E2 /* ShengjiangjiModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DCDC2B1D94FFC200E156E2 /* ShengjiangjiModeViewController.m */; };
 		13DCDC2E1D94FFC200E156E2 /* ShengjiangjiModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13DCDC2C1D94FFC200E156E2 /* ShengjiangjiModeViewController.xib */; };
-		7E00C7E11CC46CA7002701BC /* JiangSu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C7E01CC46CA7002701BC /* JiangSu.plist */; };
-		7E00C7E31CC473D8002701BC /* JiangXi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C7E21CC473D8002701BC /* JiangXi.plist */; };
-		7E00C7E51CC4788E002701BC /* ZheJiang.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C7E41CC4788E002701BC /* ZheJiang.plist */; };
-		7E00C7E71CC4873A002701BC /* FuJian.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C7E61CC4873A002701BC /* FuJian.plist */; };
-		7E00C7E91CC48B46002701BC /* JiLin.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C7E81CC48B46002701BC /* JiLin.plist */; };
-		7E00C7EB1CC48E7A002701BC /* YunNan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C7EA1CC48E7A002701BC /* YunNan.plist */; };
-		7E00C7ED1CC4BEA3002701BC /* GuiZhou.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C7EC1CC4BEA3002701BC /* GuiZhou.plist */; };
-		7E00C7EF1CC4C3A8002701BC /* SiChuan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C7EE1CC4C3A8002701BC /* SiChuan.plist */; };
-		7E00C7F11CC4D9A1002701BC /* NeiMengGu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C7F01CC4D9A1002701BC /* NeiMengGu.plist */; };
+		7E00C7E11CC46CA7002701BC /* JIANGSU.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C7E01CC46CA7002701BC /* JIANGSU.plist */; };
+		7E00C7E31CC473D8002701BC /* JIANGXI.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C7E21CC473D8002701BC /* JIANGXI.plist */; };
+		7E00C7E51CC4788E002701BC /* ZHEJIANG.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C7E41CC4788E002701BC /* ZHEJIANG.plist */; };
+		7E00C7E71CC4873A002701BC /* FUJIAN.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C7E61CC4873A002701BC /* FUJIAN.plist */; };
+		7E00C7E91CC48B46002701BC /* JILINSHENG.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C7E81CC48B46002701BC /* JILINSHENG.plist */; };
+		7E00C7EB1CC48E7A002701BC /* YUNNAN.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C7EA1CC48E7A002701BC /* YUNNAN.plist */; };
+		7E00C7ED1CC4BEA3002701BC /* GUIZHOU.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C7EC1CC4BEA3002701BC /* GUIZHOU.plist */; };
+		7E00C7EF1CC4C3A8002701BC /* SICHUAN.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C7EE1CC4C3A8002701BC /* SICHUAN.plist */; };
+		7E00C7F11CC4D9A1002701BC /* NEIMENGGU.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C7F01CC4D9A1002701BC /* NEIMENGGU.plist */; };
 		7E11FC6B1CBDEB6400E354F0 /* CityList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E11FC6A1CBDEB6400E354F0 /* CityList.plist */; };
-		7E1AB5A31CBFD282002836F2 /* SiShi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1AB5A21CBFD282002836F2 /* SiShi.plist */; };
-		7E1AB5A51CBFDBBB002836F2 /* HeiLongJiang.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1AB5A41CBFDBBB002836F2 /* HeiLongJiang.plist */; };
-		7E1D465F1CBF283F00968F31 /* HuBei.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1D465E1CBF283F00968F31 /* HuBei.plist */; };
-		7E1D46611CBF2F1700968F31 /* GuangDong.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1D46601CBF2F1700968F31 /* GuangDong.plist */; };
-		7E1D46631CBF36D800968F31 /* GuangXi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1D46621CBF36D800968F31 /* GuangXi.plist */; };
-		7E1D46651CBF3D1800968F31 /* HeNan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1D46641CBF3D1800968F31 /* HeNan.plist */; };
-		7E1D46671CBF469100968F31 /* HeBei.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1D46661CBF469100968F31 /* HeBei.plist */; };
-		7E1D46691CBF5E1A00968F31 /* ShangDong.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1D46681CBF5E1A00968F31 /* ShangDong.plist */; };
-		7E1D466B1CBF86EA00968F31 /* ShangXi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1D466A1CBF86EA00968F31 /* ShangXi.plist */; };
+		7E1AB5A31CBFD282002836F2 /* SISHI.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1AB5A21CBFD282002836F2 /* SISHI.plist */; };
+		7E1AB5A51CBFDBBB002836F2 /* HEILONGJIANG.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1AB5A41CBFDBBB002836F2 /* HEILONGJIANG.plist */; };
+		7E1D465F1CBF283F00968F31 /* HUBEI.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1D465E1CBF283F00968F31 /* HUBEI.plist */; };
+		7E1D46611CBF2F1700968F31 /* GUANGDONG.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1D46601CBF2F1700968F31 /* GUANGDONG.plist */; };
+		7E1D46631CBF36D800968F31 /* GUANGXI.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1D46621CBF36D800968F31 /* GUANGXI.plist */; };
+		7E1D46651CBF3D1800968F31 /* HENAN.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1D46641CBF3D1800968F31 /* HENAN.plist */; };
+		7E1D46671CBF469100968F31 /* HEBEI.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1D46661CBF469100968F31 /* HEBEI.plist */; };
+		7E1D46691CBF5E1A00968F31 /* SHANGDONG.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1D46681CBF5E1A00968F31 /* SHANGDONG.plist */; };
+		7E1D466B1CBF86EA00968F31 /* SHANGXI.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1D466A1CBF86EA00968F31 /* SHANGXI.plist */; };
 		7E30B8EF1B9D7F8800F9A12A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E30B8EE1B9D7F8800F9A12A /* main.m */; };
 		7E30B8F21B9D7F8800F9A12A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E30B8F11B9D7F8800F9A12A /* AppDelegate.m */; };
 		7E30B8F51B9D7F8800F9A12A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E30B8F41B9D7F8800F9A12A /* ViewController.m */; };
@@ -47,16 +48,16 @@
 		7E30B8FA1B9D7F8800F9A12A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E30B8F91B9D7F8800F9A12A /* Images.xcassets */; };
 		7E30B8FD1B9D7F8800F9A12A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E30B8FB1B9D7F8800F9A12A /* LaunchScreen.xib */; };
 		7E3F85C71BA131F9006D67E7 /* 民航局项目接口文档.doc in Resources */ = {isa = PBXBuildFile; fileRef = 7E3F85C61BA131F9006D67E7 /* 民航局项目接口文档.doc */; };
-		7EAB17471CBE33D80063E874 /* AnHui.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EAB17461CBE33D80063E874 /* AnHui.plist */; };
-		7EAB17491CBE428B0063E874 /* HuNan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EAB17481CBE428B0063E874 /* HuNan.plist */; };
-		7ED237C01CC51CB7003F1AF2 /* QingHai.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ED237BF1CC51CB7003F1AF2 /* QingHai.plist */; };
-		7ED237C21CC521BB003F1AF2 /* XiZang.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ED237C11CC521BB003F1AF2 /* XiZang.plist */; };
-		7ED237C41CC526AA003F1AF2 /* XinJiang.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ED237C31CC526AA003F1AF2 /* XinJiang.plist */; };
-		7ED237C61CC52CEA003F1AF2 /* SHanXi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ED237C51CC52CEA003F1AF2 /* SHanXi.plist */; };
-		7ED237C81CC5346A003F1AF2 /* GanSu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ED237C71CC5346A003F1AF2 /* GanSu.plist */; };
-		7ED237CA1CC53835003F1AF2 /* LiaoNing.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ED237C91CC53835003F1AF2 /* LiaoNing.plist */; };
-		7ED237CC1CC53CCA003F1AF2 /* NingXia.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ED237CB1CC53CCA003F1AF2 /* NingXia.plist */; };
-		7ED237CE1CC53E0F003F1AF2 /* HaiNan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ED237CD1CC53E0F003F1AF2 /* HaiNan.plist */; };
+		7EAB17471CBE33D80063E874 /* ANHUI.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EAB17461CBE33D80063E874 /* ANHUI.plist */; };
+		7EAB17491CBE428B0063E874 /* HUNAN.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EAB17481CBE428B0063E874 /* HUNAN.plist */; };
+		7ED237C01CC51CB7003F1AF2 /* QINGHAI.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ED237BF1CC51CB7003F1AF2 /* QINGHAI.plist */; };
+		7ED237C21CC521BB003F1AF2 /* XIZANG.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ED237C11CC521BB003F1AF2 /* XIZANG.plist */; };
+		7ED237C41CC526AA003F1AF2 /* XINJIANG.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ED237C31CC526AA003F1AF2 /* XINJIANG.plist */; };
+		7ED237C61CC52CEA003F1AF2 /* SHANXISHENG.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ED237C51CC52CEA003F1AF2 /* SHANXISHENG.plist */; };
+		7ED237C81CC5346A003F1AF2 /* GANSU.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ED237C71CC5346A003F1AF2 /* GANSU.plist */; };
+		7ED237CA1CC53835003F1AF2 /* LIAONING.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ED237C91CC53835003F1AF2 /* LIAONING.plist */; };
+		7ED237CC1CC53CCA003F1AF2 /* NINGXIA.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ED237CB1CC53CCA003F1AF2 /* NINGXIA.plist */; };
+		7ED237CE1CC53E0F003F1AF2 /* HAINAN.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ED237CD1CC53E0F003F1AF2 /* HAINAN.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,32 +86,34 @@
 		13205EEC1DB64B1300A3360D /* ShijiebeiModeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShijiebeiModeViewController.xib; sourceTree = "<group>"; };
 		13205EEF1DB64F6300A3360D /* ShijieBeiModeCalcul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShijieBeiModeCalcul.h; sourceTree = "<group>"; };
 		13205EF01DB64F6300A3360D /* ShijieBeiModeCalcul.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShijieBeiModeCalcul.m; sourceTree = "<group>"; };
-		1347508E1D8B9B72007C09C2 /* TaiWan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TaiWan.plist; sourceTree = "<group>"; };
+		1347508E1D8B9B72007C09C2 /* TAIWAN.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TAIWAN.plist; sourceTree = "<group>"; };
 		1357822C1D755CEE00E2C5A3 /* CalculationGameTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculationGameTool.h; sourceTree = "<group>"; };
 		1357822D1D755CEE00E2C5A3 /* CalculationGameTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculationGameTool.m; sourceTree = "<group>"; };
 		1395A0CF1D936E02000BB2F2 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		13D066F61DBDA4070056301A /* ChineseToPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyin.h; sourceTree = "<group>"; };
+		13D066F71DBDA4070056301A /* ChineseToPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyin.m; sourceTree = "<group>"; };
 		13DCDC2A1D94FFC200E156E2 /* ShengjiangjiModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShengjiangjiModeViewController.h; sourceTree = "<group>"; };
 		13DCDC2B1D94FFC200E156E2 /* ShengjiangjiModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShengjiangjiModeViewController.m; sourceTree = "<group>"; };
 		13DCDC2C1D94FFC200E156E2 /* ShengjiangjiModeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShengjiangjiModeViewController.xib; sourceTree = "<group>"; };
-		7E00C7E01CC46CA7002701BC /* JiangSu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JiangSu.plist; sourceTree = "<group>"; };
-		7E00C7E21CC473D8002701BC /* JiangXi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JiangXi.plist; sourceTree = "<group>"; };
-		7E00C7E41CC4788E002701BC /* ZheJiang.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ZheJiang.plist; sourceTree = "<group>"; };
-		7E00C7E61CC4873A002701BC /* FuJian.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FuJian.plist; sourceTree = "<group>"; };
-		7E00C7E81CC48B46002701BC /* JiLin.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JiLin.plist; sourceTree = "<group>"; };
-		7E00C7EA1CC48E7A002701BC /* YunNan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YunNan.plist; sourceTree = "<group>"; };
-		7E00C7EC1CC4BEA3002701BC /* GuiZhou.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GuiZhou.plist; sourceTree = "<group>"; };
-		7E00C7EE1CC4C3A8002701BC /* SiChuan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SiChuan.plist; sourceTree = "<group>"; };
-		7E00C7F01CC4D9A1002701BC /* NeiMengGu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NeiMengGu.plist; sourceTree = "<group>"; };
+		7E00C7E01CC46CA7002701BC /* JIANGSU.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JIANGSU.plist; sourceTree = "<group>"; };
+		7E00C7E21CC473D8002701BC /* JIANGXI.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JIANGXI.plist; sourceTree = "<group>"; };
+		7E00C7E41CC4788E002701BC /* ZHEJIANG.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ZHEJIANG.plist; sourceTree = "<group>"; };
+		7E00C7E61CC4873A002701BC /* FUJIAN.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FUJIAN.plist; sourceTree = "<group>"; };
+		7E00C7E81CC48B46002701BC /* JILINSHENG.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JILINSHENG.plist; sourceTree = "<group>"; };
+		7E00C7EA1CC48E7A002701BC /* YUNNAN.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YUNNAN.plist; sourceTree = "<group>"; };
+		7E00C7EC1CC4BEA3002701BC /* GUIZHOU.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GUIZHOU.plist; sourceTree = "<group>"; };
+		7E00C7EE1CC4C3A8002701BC /* SICHUAN.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SICHUAN.plist; sourceTree = "<group>"; };
+		7E00C7F01CC4D9A1002701BC /* NEIMENGGU.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NEIMENGGU.plist; sourceTree = "<group>"; };
 		7E11FC6A1CBDEB6400E354F0 /* CityList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityList.plist; sourceTree = "<group>"; };
-		7E1AB5A21CBFD282002836F2 /* SiShi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SiShi.plist; sourceTree = "<group>"; };
-		7E1AB5A41CBFDBBB002836F2 /* HeiLongJiang.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HeiLongJiang.plist; sourceTree = "<group>"; };
-		7E1D465E1CBF283F00968F31 /* HuBei.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HuBei.plist; sourceTree = "<group>"; };
-		7E1D46601CBF2F1700968F31 /* GuangDong.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GuangDong.plist; sourceTree = "<group>"; };
-		7E1D46621CBF36D800968F31 /* GuangXi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GuangXi.plist; sourceTree = "<group>"; };
-		7E1D46641CBF3D1800968F31 /* HeNan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HeNan.plist; sourceTree = "<group>"; };
-		7E1D46661CBF469100968F31 /* HeBei.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HeBei.plist; sourceTree = "<group>"; };
-		7E1D46681CBF5E1A00968F31 /* ShangDong.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ShangDong.plist; sourceTree = "<group>"; };
-		7E1D466A1CBF86EA00968F31 /* ShangXi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ShangXi.plist; sourceTree = "<group>"; };
+		7E1AB5A21CBFD282002836F2 /* SISHI.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SISHI.plist; sourceTree = "<group>"; };
+		7E1AB5A41CBFDBBB002836F2 /* HEILONGJIANG.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HEILONGJIANG.plist; sourceTree = "<group>"; };
+		7E1D465E1CBF283F00968F31 /* HUBEI.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HUBEI.plist; sourceTree = "<group>"; };
+		7E1D46601CBF2F1700968F31 /* GUANGDONG.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GUANGDONG.plist; sourceTree = "<group>"; };
+		7E1D46621CBF36D800968F31 /* GUANGXI.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GUANGXI.plist; sourceTree = "<group>"; };
+		7E1D46641CBF3D1800968F31 /* HENAN.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HENAN.plist; sourceTree = "<group>"; };
+		7E1D46661CBF469100968F31 /* HEBEI.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HEBEI.plist; sourceTree = "<group>"; };
+		7E1D46681CBF5E1A00968F31 /* SHANGDONG.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SHANGDONG.plist; sourceTree = "<group>"; };
+		7E1D466A1CBF86EA00968F31 /* SHANGXI.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SHANGXI.plist; sourceTree = "<group>"; };
 		7E30B8E91B9D7F8800F9A12A /* TestTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E30B8ED1B9D7F8800F9A12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E30B8EE1B9D7F8800F9A12A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -123,16 +126,16 @@
 		7E30B8FC1B9D7F8800F9A12A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7E30B9021B9D7F8800F9A12A /* TestTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3F85C61BA131F9006D67E7 /* 民航局项目接口文档.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "民航局项目接口文档.doc"; sourceTree = "<group>"; };
-		7EAB17461CBE33D80063E874 /* AnHui.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AnHui.plist; sourceTree = "<group>"; };
-		7EAB17481CBE428B0063E874 /* HuNan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HuNan.plist; sourceTree = "<group>"; };
-		7ED237BF1CC51CB7003F1AF2 /* QingHai.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QingHai.plist; sourceTree = "<group>"; };
-		7ED237C11CC521BB003F1AF2 /* XiZang.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XiZang.plist; sourceTree = "<group>"; };
-		7ED237C31CC526AA003F1AF2 /* XinJiang.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XinJiang.plist; sourceTree = "<group>"; };
-		7ED237C51CC52CEA003F1AF2 /* SHanXi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SHanXi.plist; sourceTree = "<group>"; };
-		7ED237C71CC5346A003F1AF2 /* GanSu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GanSu.plist; sourceTree = "<group>"; };
-		7ED237C91CC53835003F1AF2 /* LiaoNing.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LiaoNing.plist; sourceTree = "<group>"; };
-		7ED237CB1CC53CCA003F1AF2 /* NingXia.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NingXia.plist; sourceTree = "<group>"; };
-		7ED237CD1CC53E0F003F1AF2 /* HaiNan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HaiNan.plist; sourceTree = "<group>"; };
+		7EAB17461CBE33D80063E874 /* ANHUI.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ANHUI.plist; sourceTree = "<group>"; };
+		7EAB17481CBE428B0063E874 /* HUNAN.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HUNAN.plist; sourceTree = "<group>"; };
+		7ED237BF1CC51CB7003F1AF2 /* QINGHAI.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QINGHAI.plist; sourceTree = "<group>"; };
+		7ED237C11CC521BB003F1AF2 /* XIZANG.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XIZANG.plist; sourceTree = "<group>"; };
+		7ED237C31CC526AA003F1AF2 /* XINJIANG.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XINJIANG.plist; sourceTree = "<group>"; };
+		7ED237C51CC52CEA003F1AF2 /* SHANXISHENG.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SHANXISHENG.plist; sourceTree = "<group>"; };
+		7ED237C71CC5346A003F1AF2 /* GANSU.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GANSU.plist; sourceTree = "<group>"; };
+		7ED237C91CC53835003F1AF2 /* LIAONING.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LIAONING.plist; sourceTree = "<group>"; };
+		7ED237CB1CC53CCA003F1AF2 /* NINGXIA.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NINGXIA.plist; sourceTree = "<group>"; };
+		7ED237CD1CC53E0F003F1AF2 /* HAINAN.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HAINAN.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,8 +166,18 @@
 				1317B8081D781E7800F48B18 /* FileManageObject.h */,
 				1317B8091D781E7800F48B18 /* FileManageObject.m */,
 				1317B80B1D782C8F00F48B18 /* resultDataModel.xcdatamodeld */,
+				13D066F51DBDA4070056301A /* ChineseToPinyin */,
 			);
 			name = tools;
+			sourceTree = "<group>";
+		};
+		13D066F51DBDA4070056301A /* ChineseToPinyin */ = {
+			isa = PBXGroup;
+			children = (
+				13D066F61DBDA4070056301A /* ChineseToPinyin.h */,
+				13D066F71DBDA4070056301A /* ChineseToPinyin.m */,
+			);
+			path = ChineseToPinyin;
 			sourceTree = "<group>";
 		};
 		7E30B8E01B9D7F8800F9A12A = {
@@ -228,35 +241,35 @@
 			isa = PBXGroup;
 			children = (
 				7E11FC6A1CBDEB6400E354F0 /* CityList.plist */,
-				7EAB17481CBE428B0063E874 /* HuNan.plist */,
-				7E1D465E1CBF283F00968F31 /* HuBei.plist */,
-				7E1D46601CBF2F1700968F31 /* GuangDong.plist */,
-				7E1D46621CBF36D800968F31 /* GuangXi.plist */,
-				7E1D46641CBF3D1800968F31 /* HeNan.plist */,
-				7E1D46661CBF469100968F31 /* HeBei.plist */,
-				7E1D46681CBF5E1A00968F31 /* ShangDong.plist */,
-				7E1D466A1CBF86EA00968F31 /* ShangXi.plist */,
-				7E1AB5A21CBFD282002836F2 /* SiShi.plist */,
-				7E1AB5A41CBFDBBB002836F2 /* HeiLongJiang.plist */,
-				7E00C7E01CC46CA7002701BC /* JiangSu.plist */,
-				7E00C7E21CC473D8002701BC /* JiangXi.plist */,
-				7E00C7E41CC4788E002701BC /* ZheJiang.plist */,
-				7E00C7E61CC4873A002701BC /* FuJian.plist */,
-				7E00C7E81CC48B46002701BC /* JiLin.plist */,
-				7EAB17461CBE33D80063E874 /* AnHui.plist */,
-				7E00C7EA1CC48E7A002701BC /* YunNan.plist */,
-				7E00C7EC1CC4BEA3002701BC /* GuiZhou.plist */,
-				7E00C7EE1CC4C3A8002701BC /* SiChuan.plist */,
-				7E00C7F01CC4D9A1002701BC /* NeiMengGu.plist */,
-				7ED237BF1CC51CB7003F1AF2 /* QingHai.plist */,
-				7ED237C11CC521BB003F1AF2 /* XiZang.plist */,
-				7ED237C31CC526AA003F1AF2 /* XinJiang.plist */,
-				7ED237C51CC52CEA003F1AF2 /* SHanXi.plist */,
-				7ED237C71CC5346A003F1AF2 /* GanSu.plist */,
-				7ED237C91CC53835003F1AF2 /* LiaoNing.plist */,
-				7ED237CB1CC53CCA003F1AF2 /* NingXia.plist */,
-				7ED237CD1CC53E0F003F1AF2 /* HaiNan.plist */,
-				1347508E1D8B9B72007C09C2 /* TaiWan.plist */,
+				7EAB17481CBE428B0063E874 /* HUNAN.plist */,
+				7E1D465E1CBF283F00968F31 /* HUBEI.plist */,
+				7E1D46601CBF2F1700968F31 /* GUANGDONG.plist */,
+				7E1D46621CBF36D800968F31 /* GUANGXI.plist */,
+				7E1D46641CBF3D1800968F31 /* HENAN.plist */,
+				7E1D46661CBF469100968F31 /* HEBEI.plist */,
+				7E1D46681CBF5E1A00968F31 /* SHANGDONG.plist */,
+				7E1D466A1CBF86EA00968F31 /* SHANGXI.plist */,
+				7E1AB5A21CBFD282002836F2 /* SISHI.plist */,
+				7E1AB5A41CBFDBBB002836F2 /* HEILONGJIANG.plist */,
+				7E00C7E01CC46CA7002701BC /* JIANGSU.plist */,
+				7E00C7E21CC473D8002701BC /* JIANGXI.plist */,
+				7E00C7E41CC4788E002701BC /* ZHEJIANG.plist */,
+				7E00C7E61CC4873A002701BC /* FUJIAN.plist */,
+				7E00C7E81CC48B46002701BC /* JILINSHENG.plist */,
+				7EAB17461CBE33D80063E874 /* ANHUI.plist */,
+				7E00C7EA1CC48E7A002701BC /* YUNNAN.plist */,
+				7E00C7EC1CC4BEA3002701BC /* GUIZHOU.plist */,
+				7E00C7EE1CC4C3A8002701BC /* SICHUAN.plist */,
+				7E00C7F01CC4D9A1002701BC /* NEIMENGGU.plist */,
+				7ED237BF1CC51CB7003F1AF2 /* QINGHAI.plist */,
+				7ED237C11CC521BB003F1AF2 /* XIZANG.plist */,
+				7ED237C31CC526AA003F1AF2 /* XINJIANG.plist */,
+				7ED237C51CC52CEA003F1AF2 /* SHANXISHENG.plist */,
+				7ED237C71CC5346A003F1AF2 /* GANSU.plist */,
+				7ED237C91CC53835003F1AF2 /* LIAONING.plist */,
+				7ED237CB1CC53CCA003F1AF2 /* NINGXIA.plist */,
+				7ED237CD1CC53E0F003F1AF2 /* HAINAN.plist */,
+				1347508E1D8B9B72007C09C2 /* TAIWAN.plist */,
 				13205EE81DB63BDD00A3360D /* zulian.plist */,
 			);
 			name = city;
@@ -348,45 +361,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ED237CE1CC53E0F003F1AF2 /* HaiNan.plist in Resources */,
+				7ED237CE1CC53E0F003F1AF2 /* HAINAN.plist in Resources */,
 				13205EEE1DB64B1300A3360D /* ShijiebeiModeViewController.xib in Resources */,
-				7ED237C21CC521BB003F1AF2 /* XiZang.plist in Resources */,
-				1347508F1D8B9B72007C09C2 /* TaiWan.plist in Resources */,
-				7EAB17471CBE33D80063E874 /* AnHui.plist in Resources */,
+				7ED237C21CC521BB003F1AF2 /* XIZANG.plist in Resources */,
+				1347508F1D8B9B72007C09C2 /* TAIWAN.plist in Resources */,
+				7EAB17471CBE33D80063E874 /* ANHUI.plist in Resources */,
 				7E30B8F81B9D7F8800F9A12A /* Main.storyboard in Resources */,
-				7E1D46671CBF469100968F31 /* HeBei.plist in Resources */,
-				7E00C7E91CC48B46002701BC /* JiLin.plist in Resources */,
-				7E1D46691CBF5E1A00968F31 /* ShangDong.plist in Resources */,
-				7E00C7ED1CC4BEA3002701BC /* GuiZhou.plist in Resources */,
-				7E1D465F1CBF283F00968F31 /* HuBei.plist in Resources */,
+				7E1D46671CBF469100968F31 /* HEBEI.plist in Resources */,
+				7E00C7E91CC48B46002701BC /* JILINSHENG.plist in Resources */,
+				7E1D46691CBF5E1A00968F31 /* SHANGDONG.plist in Resources */,
+				7E00C7ED1CC4BEA3002701BC /* GUIZHOU.plist in Resources */,
+				7E1D465F1CBF283F00968F31 /* HUBEI.plist in Resources */,
 				7E3F85C71BA131F9006D67E7 /* 民航局项目接口文档.doc in Resources */,
-				7E1D46651CBF3D1800968F31 /* HeNan.plist in Resources */,
-				7E00C7E11CC46CA7002701BC /* JiangSu.plist in Resources */,
+				7E1D46651CBF3D1800968F31 /* HENAN.plist in Resources */,
+				7E00C7E11CC46CA7002701BC /* JIANGSU.plist in Resources */,
 				13DCDC2E1D94FFC200E156E2 /* ShengjiangjiModeViewController.xib in Resources */,
-				7E00C7E51CC4788E002701BC /* ZheJiang.plist in Resources */,
+				7E00C7E51CC4788E002701BC /* ZHEJIANG.plist in Resources */,
 				13205EE91DB63BDD00A3360D /* zulian.plist in Resources */,
-				7E1AB5A31CBFD282002836F2 /* SiShi.plist in Resources */,
-				7EAB17491CBE428B0063E874 /* HuNan.plist in Resources */,
+				7E1AB5A31CBFD282002836F2 /* SISHI.plist in Resources */,
+				7EAB17491CBE428B0063E874 /* HUNAN.plist in Resources */,
 				7E30B8FD1B9D7F8800F9A12A /* LaunchScreen.xib in Resources */,
-				7E00C7EB1CC48E7A002701BC /* YunNan.plist in Resources */,
-				7ED237CA1CC53835003F1AF2 /* LiaoNing.plist in Resources */,
-				7E1D466B1CBF86EA00968F31 /* ShangXi.plist in Resources */,
-				7E1AB5A51CBFDBBB002836F2 /* HeiLongJiang.plist in Resources */,
-				7E1D46611CBF2F1700968F31 /* GuangDong.plist in Resources */,
-				7ED237C01CC51CB7003F1AF2 /* QingHai.plist in Resources */,
-				7ED237CC1CC53CCA003F1AF2 /* NingXia.plist in Resources */,
-				7E00C7EF1CC4C3A8002701BC /* SiChuan.plist in Resources */,
+				7E00C7EB1CC48E7A002701BC /* YUNNAN.plist in Resources */,
+				7ED237CA1CC53835003F1AF2 /* LIAONING.plist in Resources */,
+				7E1D466B1CBF86EA00968F31 /* SHANGXI.plist in Resources */,
+				7E1AB5A51CBFDBBB002836F2 /* HEILONGJIANG.plist in Resources */,
+				7E1D46611CBF2F1700968F31 /* GUANGDONG.plist in Resources */,
+				7ED237C01CC51CB7003F1AF2 /* QINGHAI.plist in Resources */,
+				7ED237CC1CC53CCA003F1AF2 /* NINGXIA.plist in Resources */,
+				7E00C7EF1CC4C3A8002701BC /* SICHUAN.plist in Resources */,
 				7E30B8FA1B9D7F8800F9A12A /* Images.xcassets in Resources */,
 				130B7CC71D82A3CA008BC15D /* LianSaiJingxingshiViewController.xib in Resources */,
-				7E00C7E31CC473D8002701BC /* JiangXi.plist in Resources */,
-				7E00C7F11CC4D9A1002701BC /* NeiMengGu.plist in Resources */,
-				7ED237C41CC526AA003F1AF2 /* XinJiang.plist in Resources */,
-				7ED237C61CC52CEA003F1AF2 /* SHanXi.plist in Resources */,
+				7E00C7E31CC473D8002701BC /* JIANGXI.plist in Resources */,
+				7E00C7F11CC4D9A1002701BC /* NEIMENGGU.plist in Resources */,
+				7ED237C41CC526AA003F1AF2 /* XINJIANG.plist in Resources */,
+				7ED237C61CC52CEA003F1AF2 /* SHANXISHENG.plist in Resources */,
 				130B7CC21D82949E008BC15D /* LianSaiFenzuViewController.xib in Resources */,
-				7E1D46631CBF36D800968F31 /* GuangXi.plist in Resources */,
+				7E1D46631CBF36D800968F31 /* GUANGXI.plist in Resources */,
 				7E11FC6B1CBDEB6400E354F0 /* CityList.plist in Resources */,
-				7E00C7E71CC4873A002701BC /* FuJian.plist in Resources */,
-				7ED237C81CC5346A003F1AF2 /* GanSu.plist in Resources */,
+				7E00C7E71CC4873A002701BC /* FUJIAN.plist in Resources */,
+				7ED237C81CC5346A003F1AF2 /* GANSU.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +426,7 @@
 				13205EF11DB64F6300A3360D /* ShijieBeiModeCalcul.m in Sources */,
 				1317B80A1D781E7800F48B18 /* FileManageObject.m in Sources */,
 				13DCDC2D1D94FFC200E156E2 /* ShengjiangjiModeViewController.m in Sources */,
+				13D066F81DBDA4070056301A /* ChineseToPinyin.m in Sources */,
 				1317B80D1D782C8F00F48B18 /* resultDataModel.xcdatamodeld in Sources */,
 				1357822E1D755CEE00E2C5A3 /* CalculationGameTool.m in Sources */,
 			);

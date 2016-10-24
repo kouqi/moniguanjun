@@ -845,7 +845,7 @@
     NSMutableDictionary *mdic = [NSMutableDictionary dictionary];
     NSInteger jieguoType;
     NSInteger c1Number = arc4random() % 5;
-    NSInteger c2Number = arc4random() % 4;
+    NSInteger c2Number = arc4random() % 5;
     if (c1Number > c2Number) {
         jieguoType = 0;
     }else{

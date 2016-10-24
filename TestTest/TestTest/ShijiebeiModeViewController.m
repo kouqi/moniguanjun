@@ -42,15 +42,14 @@
 
 -(NSString *) yuxuansaiWith:(NSString *) dio and:(NSString *) dit
 {
-    NSInteger fjinqiushu = 0,fkejin = 0;
-    NSInteger sjinqiushu = 0,skejin = 0;
+    NSInteger fjinqiushu = 0;
+    NSInteger sjinqiushu = 0;
     
     NSMutableDictionary *dic12 = [ShijieBeiModeCalcul biSaiJieGuoWithCity:dio andCity:dit];
     NSArray *arr12 = [dic12 valueForKey:@"typeArray"];
     [self.nstring appendFormat:@"%@",[dic12 valueForKey:@"rString"]];
     fjinqiushu += [[arr12 objectAtIndex:1] integerValue];
     sjinqiushu += [[arr12 objectAtIndex:2] integerValue];
-    skejin += [[arr12 objectAtIndex:2] integerValue];
     
 //    NSLog(@"总比分\n%@ %ld-%ld %@",dio,(long)fjinqiushu,(long)sjinqiushu,dit);
 //    [self.nstring appendFormat:@"总比分\n%@ %ld-%ld %@\n",dio,(long)fjinqiushu,(long)sjinqiushu,dit];

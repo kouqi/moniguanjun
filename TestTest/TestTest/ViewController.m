@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "CalculationGameTool.h"
 #import "LianSaiFenzuViewController.h"
+#import "ChineseToPinyin.h"
 
 @interface ViewController ()<UIDocumentInteractionControllerDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *bSText;
@@ -607,35 +608,35 @@
             NSString *filePath = [[NSBundle mainBundle] pathForResource:@"CityList" ofType:@"plist"];
             [arra addObjectsFromArray:[NSArray arrayWithContentsOfFile:filePath]];
         }else{
-            NSString *filePath1 = [[NSBundle mainBundle] pathForResource:@"AnHui" ofType:@"plist"];
-            NSString *filePath2 = [[NSBundle mainBundle] pathForResource:@"HeiLongJiang" ofType:@"plist"];
-            NSString *filePath3 = [[NSBundle mainBundle] pathForResource:@"GuangDong" ofType:@"plist"];
-            NSString *filePath4 = [[NSBundle mainBundle] pathForResource:@"GuangXi" ofType:@"plist"];
-            NSString *filePath5 = [[NSBundle mainBundle] pathForResource:@"HeNan" ofType:@"plist"];
-            NSString *filePath6 = [[NSBundle mainBundle] pathForResource:@"HeBei" ofType:@"plist"];
-            NSString *filePath7 = [[NSBundle mainBundle] pathForResource:@"ShangDong" ofType:@"plist"];
-            NSString *filePath8 = [[NSBundle mainBundle] pathForResource:@"SiShi" ofType:@"plist"];
-            NSString *filePath9 = [[NSBundle mainBundle] pathForResource:@"ShangXi" ofType:@"plist"];
-            NSString *filePath10 = [[NSBundle mainBundle] pathForResource:@"HuNan" ofType:@"plist"];
-            NSString *filePath11 = [[NSBundle mainBundle] pathForResource:@"HuBei" ofType:@"plist"];
-            NSString *filePath12 = [[NSBundle mainBundle] pathForResource:@"JiangSu" ofType:@"plist"];
-            NSString *filePath13 = [[NSBundle mainBundle] pathForResource:@"JiangXi" ofType:@"plist"];
-            NSString *filePath14 = [[NSBundle mainBundle] pathForResource:@"ZheJiang" ofType:@"plist"];
-            NSString *filePath15 = [[NSBundle mainBundle] pathForResource:@"FuJian" ofType:@"plist"];
-            NSString *filePath16 = [[NSBundle mainBundle] pathForResource:@"JiLin" ofType:@"plist"];
-            NSString *filePath17 = [[NSBundle mainBundle] pathForResource:@"YunNan" ofType:@"plist"];
-            NSString *filePath18 = [[NSBundle mainBundle] pathForResource:@"GuiZhou" ofType:@"plist"];
-            NSString *filePath19 = [[NSBundle mainBundle] pathForResource:@"SiChuan" ofType:@"plist"];
-            NSString *filePath20 = [[NSBundle mainBundle] pathForResource:@"NeiMengGu" ofType:@"plist"];
-            NSString *filePath21 = [[NSBundle mainBundle] pathForResource:@"QingHai" ofType:@"plist"];
-            NSString *filePath22 = [[NSBundle mainBundle] pathForResource:@"XiZang" ofType:@"plist"];
-            NSString *filePath23 = [[NSBundle mainBundle] pathForResource:@"XinJiang" ofType:@"plist"];
-            NSString *filePath24 = [[NSBundle mainBundle] pathForResource:@"SHanXi" ofType:@"plist"];
-            NSString *filePath25 = [[NSBundle mainBundle] pathForResource:@"GanSu" ofType:@"plist"];
-            NSString *filePath26 = [[NSBundle mainBundle] pathForResource:@"LiaoNing" ofType:@"plist"];
-            NSString *filePath27 = [[NSBundle mainBundle] pathForResource:@"NingXia" ofType:@"plist"];
-            NSString *filePath28 = [[NSBundle mainBundle] pathForResource:@"HaiNan" ofType:@"plist"];
-            NSString *filePath29 = [[NSBundle mainBundle] pathForResource:@"TaiWan" ofType:@"plist"];
+            NSString *filePath10 = [[NSBundle mainBundle] pathForResource:@"HUNAN" ofType:@"plist"];
+            NSString *filePath11 = [[NSBundle mainBundle] pathForResource:@"HUBEI" ofType:@"plist"];
+            NSString *filePath3 = [[NSBundle mainBundle] pathForResource:@"GUANGDONG" ofType:@"plist"];
+            NSString *filePath4 = [[NSBundle mainBundle] pathForResource:@"GUANGXI" ofType:@"plist"];
+            NSString *filePath5 = [[NSBundle mainBundle] pathForResource:@"HENAN" ofType:@"plist"];
+            NSString *filePath6 = [[NSBundle mainBundle] pathForResource:@"HEBEI" ofType:@"plist"];
+            NSString *filePath7 = [[NSBundle mainBundle] pathForResource:@"SHANDONG" ofType:@"plist"];
+            NSString *filePath9 = [[NSBundle mainBundle] pathForResource:@"SHANXI" ofType:@"plist"];
+            NSString *filePath8 = [[NSBundle mainBundle] pathForResource:@"SISHI" ofType:@"plist"];
+            NSString *filePath12 = [[NSBundle mainBundle] pathForResource:@"JIANGXU" ofType:@"plist"];
+            NSString *filePath13 = [[NSBundle mainBundle] pathForResource:@"JIANGXI" ofType:@"plist"];
+            NSString *filePath14 = [[NSBundle mainBundle] pathForResource:@"ZHEJIANG" ofType:@"plist"];
+            NSString *filePath2 = [[NSBundle mainBundle] pathForResource:@"HEILONGJIANG" ofType:@"plist"];
+            NSString *filePath15 = [[NSBundle mainBundle] pathForResource:@"FUJIAN" ofType:@"plist"];
+            NSString *filePath16 = [[NSBundle mainBundle] pathForResource:@"JILINSHENG" ofType:@"plist"];
+            NSString *filePath1 = [[NSBundle mainBundle] pathForResource:@"ANHUI" ofType:@"plist"];
+            NSString *filePath17 = [[NSBundle mainBundle] pathForResource:@"YUNNAN" ofType:@"plist"];
+            NSString *filePath18 = [[NSBundle mainBundle] pathForResource:@"GUIZHOU" ofType:@"plist"];
+            NSString *filePath19 = [[NSBundle mainBundle] pathForResource:@"SICHUAN" ofType:@"plist"];
+            NSString *filePath20 = [[NSBundle mainBundle] pathForResource:@"NEIMENGGU" ofType:@"plist"];
+            NSString *filePath21 = [[NSBundle mainBundle] pathForResource:@"QINGHAI" ofType:@"plist"];
+            NSString *filePath22 = [[NSBundle mainBundle] pathForResource:@"XIZANG" ofType:@"plist"];
+            NSString *filePath23 = [[NSBundle mainBundle] pathForResource:@"XINJIANG" ofType:@"plist"];
+            NSString *filePath24 = [[NSBundle mainBundle] pathForResource:@"SHANXISHENG" ofType:@"plist"];
+            NSString *filePath25 = [[NSBundle mainBundle] pathForResource:@"GANSU" ofType:@"plist"];
+            NSString *filePath26 = [[NSBundle mainBundle] pathForResource:@"LIAONING" ofType:@"plist"];
+            NSString *filePath27 = [[NSBundle mainBundle] pathForResource:@"NINGXIA" ofType:@"plist"];
+            NSString *filePath28 = [[NSBundle mainBundle] pathForResource:@"HAINAN" ofType:@"plist"];
+            NSString *filePath29 = [[NSBundle mainBundle] pathForResource:@"TAIWAN" ofType:@"plist"];
             
             [arra addObjectsFromArray:[NSArray arrayWithContentsOfFile:filePath1]];
             [arra addObjectsFromArray:[NSArray arrayWithContentsOfFile:filePath2]];
@@ -675,6 +676,25 @@
     }else{
         keyStr = @"shi";
     }
+    
+    NSMutableArray *array = [self shaixuanshujuwithArray:arra andkeyStr:keyStr];
+    if ([keyStr isEqualToString:@"shi"] && array.count == 0) {
+        [arra removeAllObjects];
+        NSString *tiaojian1 = [ChineseToPinyin pinyinFromChiniseString:self.biOText.text];
+        NSString *tiaojian2 = [ChineseToPinyin pinyinFromChiniseString:self.bSText.text];
+        NSString *filePath1 = [[NSBundle mainBundle] pathForResource:tiaojian1 ofType:@"plist"];
+        if(tiaojian2){
+            NSString *filePath2 = [[NSBundle mainBundle] pathForResource:tiaojian2 ofType:@"plist"];
+            [arra addObjectsFromArray:[NSArray arrayWithContentsOfFile:filePath2]];
+        }
+        [arra addObjectsFromArray:[NSArray arrayWithContentsOfFile:filePath1]];
+        
+        array = [self ssshaixuanshujuwithArray:arra];
+    }
+    self.allArray = [NSMutableArray arrayWithArray:array];
+}
+
+-(NSMutableArray *) shaixuanshujuwithArray:(NSMutableArray *) arra andkeyStr:(NSString *) keyStr{
     NSMutableArray *array = [NSMutableArray array];
     for (NSDictionary *dic in arra) {
         if ((self.biOText.text != nil) && (![self.biOText.text isEqualToString:@""])) {
@@ -724,7 +744,22 @@
             }
         }
     }
-    self.allArray = [NSMutableArray arrayWithArray:array];
+    return array;
+}
+
+-(NSMutableArray *) ssshaixuanshujuwithArray:(NSMutableArray *) arra{
+    NSMutableArray *array = [NSMutableArray array];
+    for (NSDictionary *dic in arra) {
+        NSMutableArray *all = [dic valueForKey:@"city"];
+        for (NSString *cityNmae in all) {
+            if (self.isShiji) {
+                [array addObject:cityNmae];
+            }else{
+                [array addObject:[NSString stringWithFormat:@"%@%@",[dic valueForKey:@"shi"],cityNmae]];
+            }
+        }
+    }
+    return array;
 }
 
 -(void) kaishiMoniWithArray{

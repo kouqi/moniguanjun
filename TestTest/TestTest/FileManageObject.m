@@ -29,7 +29,7 @@
     BOOL writeSucess = NO;
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat:@"yyyyMMddHHmmss"];
-    NSString *finalFileName = [NSString stringWithFormat:@"%@%@",fileName,[dateFormatter stringFromDate:[NSDate date]]];
+//    NSString *finalFileName = [NSString stringWithFormat:@"%@%@",fileName,[dateFormatter stringFromDate:[NSDate date]]];
     return writeSucess;
 }
 
