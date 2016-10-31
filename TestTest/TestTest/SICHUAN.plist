@@ -90,7 +90,7 @@
 			<string>游仙区</string>
 			<string>三台县</string>
 			<string>盐亭县</string>
-			<string>安县</string>
+			<string>安州区</string>
 			<string>梓潼县</string>
 			<string>北川羌族自治县</string>
 			<string>平武县</string>
@@ -103,7 +103,7 @@
 		<key>city</key>
 		<array>
 			<string>利州区</string>
-			<string>元坝区</string>
+			<string>昭化区</string>
 			<string>朝天区</string>
 			<string>旺苍县</string>
 			<string>青川县</string>
@@ -276,7 +276,7 @@
 			<string>金川县</string>
 			<string>小金县</string>
 			<string>黑水县</string>
-			<string>马尔康县</string>
+			<string>马尔康市</string>
 			<string>壤塘县</string>
 			<string>阿坝县</string>
 			<string>若尔盖县</string>

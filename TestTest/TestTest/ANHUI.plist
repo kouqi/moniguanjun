@@ -33,7 +33,6 @@
 			<string>宜秀区</string>
 			<string>望江县</string>
 			<string>大观区</string>
-			<string>枞阳县</string>
 		</array>
 	</dict>
 	<dict>
@@ -58,6 +57,7 @@
 			<string>大通区</string>
 			<string>八公山区</string>
 			<string>谢家集区</string>
+			<string>寿县</string>
 		</array>
 	</dict>
 	<dict>
@@ -68,10 +68,10 @@
 			<string>霍邱县</string>
 			<string>舒城县</string>
 			<string>金寨县</string>
-			<string>寿县</string>
 			<string>裕安区</string>
 			<string>金安区</string>
 			<string>霍山县</string>
+			<string>叶集区</string>
 		</array>
 	</dict>
 	<dict>
@@ -121,9 +121,9 @@
 		<key>city</key>
 		<array>
 			<string>铜官山区</string>
-			<string>铜陵县</string>
+			<string>义安区</string>
 			<string>郊区</string>
-			<string>狮子山区</string>
+			<string>枞阳县</string>
 		</array>
 	</dict>
 	<dict>

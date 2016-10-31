@@ -44,6 +44,7 @@
 			<string>北流市</string>
 			<string>博白县</string>
 			<string>容县</string>
+			<string>福绵区</string>
 			<string>玉州区</string>
 			<string>兴业县</string>
 		</array>
@@ -121,6 +122,7 @@
 		<key>city</key>
 		<array>
 			<string>昭平县</string>
+			<string>平桂区</string>
 			<string>富川瑶族自治县</string>
 			<string>钟山县</string>
 			<string>八步区</string>
@@ -173,7 +175,7 @@
 		<string>柳州</string>
 		<key>city</key>
 		<array>
-			<string>柳江县</string>
+			<string>柳江区</string>
 			<string>柳南区</string>
 			<string>三江侗族自治县</string>
 			<string>融水苗族自治县</string>
@@ -198,7 +200,7 @@
 			<string>资源县</string>
 			<string>雁山区</string>
 			<string>秀峰区</string>
-			<string>临桂县</string>
+			<string>临桂区</string>
 			<string>阳朔县</string>
 			<string>叠彩区</string>
 			<string>龙胜各族自治县</string>

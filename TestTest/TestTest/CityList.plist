@@ -428,7 +428,7 @@
 			<string>那曲地区</string>
 			<string>昌都市</string>
 			<string>林芝市</string>
-			<string>山南地区</string>
+			<string>山南市</string>
 			<string>日喀则市</string>
 			<string>阿里地区</string>
 		</array>
@@ -444,7 +444,7 @@
 			<string>阿克苏地区</string>
 			<string>和田地区</string>
 			<string>吐鲁番市</string>
-			<string>哈密地区</string>
+			<string>哈密市</string>
 			<string>克孜勒苏柯尔克孜自治州</string>
 			<string>博尔塔拉蒙古自治州</string>
 			<string>昌吉回族自治州</string>
@@ -531,7 +531,7 @@
 		<key>city</key>
 		<array>
 			<string>海口市</string>
-			<string>琼海市</string>
+			<string>儋州市</string>
 			<string>三亚市</string>
 			<string>三沙市</string>
 		</array>

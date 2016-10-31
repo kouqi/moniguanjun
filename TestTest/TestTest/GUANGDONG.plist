@@ -14,7 +14,6 @@
 			<string>南沙区</string>
 			<string>花都区</string>
 			<string>增城区</string>
-			<string>萝岗区</string>
 			<string>越秀区</string>
 			<string>海珠区</string>
 			<string>荔湾区</string>
@@ -106,7 +105,7 @@
 		<key>city</key>
 		<array>
 			<string>连山壮族瑶族自治县</string>
-			<string>清新县</string>
+			<string>清新区</string>
 			<string>阳山县</string>
 			<string>佛冈县</string>
 			<string>连州市</string>
@@ -240,7 +239,7 @@
 			<string>云城区</string>
 			<string>新兴县</string>
 			<string>罗定市</string>
-			<string>云安县</string>
+			<string>云安区</string>
 			<string>郁南县</string>
 		</array>
 	</dict>
@@ -251,7 +250,7 @@
 		<array>
 			<string>平远县</string>
 			<string>蕉岭县</string>
-			<string>梅县</string>
+			<string>梅县区</string>
 			<string>兴宁市</string>
 			<string>丰顺县</string>
 			<string>大埔县</string>

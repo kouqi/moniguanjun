@@ -617,7 +617,7 @@
             NSString *filePath7 = [[NSBundle mainBundle] pathForResource:@"SHANDONG" ofType:@"plist"];
             NSString *filePath9 = [[NSBundle mainBundle] pathForResource:@"SHANXI" ofType:@"plist"];
             NSString *filePath8 = [[NSBundle mainBundle] pathForResource:@"SISHI" ofType:@"plist"];
-            NSString *filePath12 = [[NSBundle mainBundle] pathForResource:@"JIANGXU" ofType:@"plist"];
+            NSString *filePath12 = [[NSBundle mainBundle] pathForResource:@"JIANGSU" ofType:@"plist"];
             NSString *filePath13 = [[NSBundle mainBundle] pathForResource:@"JIANGXI" ofType:@"plist"];
             NSString *filePath14 = [[NSBundle mainBundle] pathForResource:@"ZHEJIANG" ofType:@"plist"];
             NSString *filePath2 = [[NSBundle mainBundle] pathForResource:@"HEILONGJIANG" ofType:@"plist"];
@@ -629,13 +629,13 @@
             NSString *filePath19 = [[NSBundle mainBundle] pathForResource:@"SICHUAN" ofType:@"plist"];
             NSString *filePath20 = [[NSBundle mainBundle] pathForResource:@"NEIMENGGU" ofType:@"plist"];
             NSString *filePath21 = [[NSBundle mainBundle] pathForResource:@"QINGHAI" ofType:@"plist"];
-            NSString *filePath22 = [[NSBundle mainBundle] pathForResource:@"XIZANG" ofType:@"plist"];
-            NSString *filePath23 = [[NSBundle mainBundle] pathForResource:@"XINJIANG" ofType:@"plist"];
+            NSString *filePath22 = [[NSBundle mainBundle] pathForResource:@"XICANG" ofType:@"plist"];
+            NSString *filePath23 = [[NSBundle mainBundle] pathForResource:@"XINJIANGQU" ofType:@"plist"];
             NSString *filePath24 = [[NSBundle mainBundle] pathForResource:@"SHANXISHENG" ofType:@"plist"];
             NSString *filePath25 = [[NSBundle mainBundle] pathForResource:@"GANSU" ofType:@"plist"];
             NSString *filePath26 = [[NSBundle mainBundle] pathForResource:@"LIAONING" ofType:@"plist"];
             NSString *filePath27 = [[NSBundle mainBundle] pathForResource:@"NINGXIA" ofType:@"plist"];
-            NSString *filePath28 = [[NSBundle mainBundle] pathForResource:@"HAINAN" ofType:@"plist"];
+            NSString *filePath28 = [[NSBundle mainBundle] pathForResource:@"HAINANSHENG" ofType:@"plist"];
             NSString *filePath29 = [[NSBundle mainBundle] pathForResource:@"TAIWAN" ofType:@"plist"];
             
             [arra addObjectsFromArray:[NSArray arrayWithContentsOfFile:filePath1]];

@@ -43,7 +43,7 @@
 		<string>哈密</string>
 		<key>city</key>
 		<array>
-			<string>哈密市</string>
+			<string>伊州区</string>
 			<string>巴里坤哈萨克自治县</string>
 			<string>伊吾县</string>
 		</array>
@@ -202,9 +202,14 @@
 		<key>city</key>
 		<array>
 			<string>五家渠市</string>
+			<string>昆玉市</string>
 			<string>石河子市</string>
 			<string>阿拉尔市</string>
 			<string>图木舒克市</string>
+			<string>可克达拉市</string>
+			<string>双河市</string>
+			<string>铁门关市</string>
+			<string>北屯市</string>
 		</array>
 	</dict>
 </array>

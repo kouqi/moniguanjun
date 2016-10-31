@@ -26,11 +26,10 @@
 	</dict>
 	<dict>
 		<key>shi</key>
-		<string>海南省</string>
+		<string>海南</string>
 		<key>city</key>
 		<array>
 			<string>琼海市</string>
-			<string>儋州市</string>
 			<string>文昌市</string>
 			<string>东方市</string>
 			<string>五指山市</string>

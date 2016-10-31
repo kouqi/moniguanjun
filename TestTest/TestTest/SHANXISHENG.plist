@@ -19,7 +19,7 @@
 			<string>蓝田县</string>
 			<string>周至县</string>
 			<string>户县</string>
-			<string>高陵县</string>
+			<string>高陵区</string>
 		</array>
 	</dict>
 	<dict>
@@ -79,7 +79,7 @@
 		<key>city</key>
 		<array>
 			<string>临渭区</string>
-			<string>华县</string>
+			<string>华州区</string>
 			<string>潼关县</string>
 			<string>大荔县</string>
 			<string>合阳县</string>
@@ -100,7 +100,7 @@
 			<string>延长县</string>
 			<string>延川县</string>
 			<string>子长县</string>
-			<string>安塞县</string>
+			<string>安塞区</string>
 			<string>志丹县</string>
 			<string>吴起县</string>
 			<string>甘泉县</string>
@@ -137,7 +137,7 @@
 			<string>榆阳区</string>
 			<string>神木县</string>
 			<string>府谷县</string>
-			<string>横山县</string>
+			<string>横山区</string>
 			<string>靖边县</string>
 			<string>定边县</string>
 			<string>绥德县</string>

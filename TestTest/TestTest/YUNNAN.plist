@@ -35,7 +35,7 @@
 			<string>罗平县</string>
 			<string>富源县</string>
 			<string>会泽县</string>
-			<string>沾益县</string>
+			<string>沾益区</string>
 			<string>宣威市</string>
 		</array>
 	</dict>
@@ -45,7 +45,7 @@
 		<key>city</key>
 		<array>
 			<string>红塔区</string>
-			<string>江川县</string>
+			<string>江川区</string>
 			<string>澄江县</string>
 			<string>通海县</string>
 			<string>华宁县</string>
@@ -227,7 +227,7 @@
 		<string>怒江</string>
 		<key>city</key>
 		<array>
-			<string>泸水县</string>
+			<string>泸水市</string>
 			<string>福贡县</string>
 			<string>贡山独龙族怒族自治县</string>
 			<string>兰坪白族普米族自治县</string>
