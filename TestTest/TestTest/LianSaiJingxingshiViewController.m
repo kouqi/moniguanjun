@@ -162,6 +162,7 @@
         [mdic setValue:[NSNumber numberWithInt:0] forKey:@"sheng"];
         [mdic setValue:[NSNumber numberWithInt:0] forKey:@"ping"];
         [mdic setValue:[NSNumber numberWithInt:0] forKey:@"fu"];
+        [mdic setValue:[NSNumber numberWithInt:0] forKey:@"changci"];
         [self.cansaiArray addObject:mdic];
     }
 //    if (self.cansaiArray.count < 4) {
@@ -527,6 +528,10 @@
                 default:
                     break;
             }
+            int changci1 = [[mdic1 valueForKey:@"changci"] intValue];
+            int changci2 = [[mdic2 valueForKey:@"changci"] intValue];
+            changci1++;
+            changci2++;
             fjingqiu += [[arr21 objectAtIndex:1] integerValue];
             sjingqiu += [[arr21 objectAtIndex:2] integerValue];
             fjingsheng += ([[arr21 objectAtIndex:1] integerValue] - [[arr21 objectAtIndex:2] integerValue]);
@@ -537,12 +542,15 @@
             [mdic1 setValue:[NSNumber numberWithInt:fsheng] forKey:@"sheng"];
             [mdic1 setValue:[NSNumber numberWithInt:fping] forKey:@"ping"];
             [mdic1 setValue:[NSNumber numberWithInt:ffu] forKey:@"fu"];
+            [mdic1 setValue:[NSNumber numberWithInt:changci1] forKey:@"changci"];
+            
             [mdic2 setValue:[NSNumber numberWithInt:sjifen] forKey:@"jifen"];
             [mdic2 setValue:[NSNumber numberWithInt:sjingsheng] forKey:@"jingshengqiu"];
             [mdic2 setValue:[NSNumber numberWithInt:sjingqiu] forKey:@"jingqiu"];
             [mdic2 setValue:[NSNumber numberWithInt:ssheng] forKey:@"sheng"];
             [mdic2 setValue:[NSNumber numberWithInt:sping] forKey:@"ping"];
             [mdic2 setValue:[NSNumber numberWithInt:sfu] forKey:@"fu"];
+            [mdic2 setValue:[NSNumber numberWithInt:changci2] forKey:@"changci"];
         }
     }
 }
