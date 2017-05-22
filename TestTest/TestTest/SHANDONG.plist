@@ -7,16 +7,16 @@
 		<string>济南</string>
 		<key>city</key>
 		<array>
+			<string>历下区</string>
 			<string>长清区</string>
 			<string>天桥区</string>
 			<string>槐荫区</string>
-			<string>济阳县</string>
-			<string>商河县</string>
-			<string>章丘市</string>
-			<string>平阴县</string>
-			<string>历下区</string>
+			<string>章丘区</string>
 			<string>市中区</string>
 			<string>历城区</string>
+			<string>商河县</string>
+			<string>平阴县</string>
+			<string>济阳县</string>
 		</array>
 	</dict>
 	<dict>
@@ -24,16 +24,16 @@
 		<string>青岛</string>
 		<key>city</key>
 		<array>
+			<string>市南区</string>
 			<string>黄岛区</string>
-			<string>即墨市</string>
-			<string>胶州市</string>
 			<string>市北区</string>
-			<string>莱西市</string>
-			<string>平度市</string>
 			<string>城阳区</string>
 			<string>崂山区</string>
 			<string>李沧区</string>
-			<string>市南区</string>
+			<string>莱西市</string>
+			<string>平度市</string>
+			<string>胶州市</string>
+			<string>即墨市</string>
 		</array>
 	</dict>
 	<dict>
@@ -41,17 +41,17 @@
 		<string>济宁</string>
 		<key>city</key>
 		<array>
-			<string>梁山县</string>
+			<string>任城区</string>
 			<string>兖州区</string>
-			<string>邹城市</string>
-			<string>曲阜市</string>
+			<string>梁山县</string>
 			<string>泗水县</string>
 			<string>鱼台县</string>
 			<string>嘉祥县</string>
 			<string>汶上县</string>
 			<string>金乡县</string>
-			<string>任城区</string>
 			<string>微山县</string>
+			<string>曲阜市</string>
+			<string>邹城市</string>
 		</array>
 	</dict>
 	<dict>
@@ -59,17 +59,17 @@
 		<string>德州</string>
 		<key>city</key>
 		<array>
-			<string>乐陵市</string>
+			<string>德城区</string>
+			<string>陵城区</string>
 			<string>平原县</string>
 			<string>临邑县</string>
 			<string>夏津县</string>
-			<string>禹城市</string>
 			<string>宁津县</string>
 			<string>庆云县</string>
-			<string>陵城区</string>
 			<string>武城县</string>
-			<string>德城区</string>
 			<string>齐河县</string>
+			<string>乐陵市</string>
+			<string>禹城市</string>
 		</array>
 	</dict>
 	<dict>
@@ -77,9 +77,9 @@
 		<string>日照</string>
 		<key>city</key>
 		<array>
-			<string>莒县</string>
 			<string>东港区</string>
 			<string>岚山区</string>
+			<string>莒县</string>
 			<string>五莲县</string>
 		</array>
 	</dict>
@@ -88,14 +88,14 @@
 		<string>菏泽</string>
 		<key>city</key>
 		<array>
+			<string>牡丹区</string>
+			<string>定陶区</string>
+			<string>曹县</string>
+			<string>单县</string>
+			<string>东明县</string>
 			<string>成武县</string>
 			<string>鄄城县</string>
 			<string>郓城县</string>
-			<string>曹县</string>
-			<string>东明县</string>
-			<string>单县</string>
-			<string>定陶区</string>
-			<string>牡丹区</string>
 			<string>巨野县</string>
 		</array>
 	</dict>
@@ -104,18 +104,18 @@
 		<string>烟台</string>
 		<key>city</key>
 		<array>
-			<string>莱阳市</string>
+			<string>莱山区</string>
+			<string>福山区</string>
+			<string>芝罘区</string>
+			<string>牟平区</string>
+			<string>长岛县</string>
 			<string>莱州市</string>
 			<string>蓬莱市</string>
 			<string>招远市</string>
 			<string>龙口市</string>
 			<string>海阳市</string>
-			<string>福山区</string>
-			<string>芝罘区</string>
 			<string>栖霞市</string>
-			<string>牟平区</string>
-			<string>莱山区</string>
-			<string>长岛县</string>
+			<string>莱阳市</string>
 		</array>
 	</dict>
 	<dict>
@@ -123,10 +123,10 @@
 		<string>威海</string>
 		<key>city</key>
 		<array>
-			<string>乳山市</string>
 			<string>环翠区</string>
-			<string>荣成市</string>
 			<string>文登区</string>
+			<string>荣成市</string>
+			<string>乳山市</string>
 		</array>
 	</dict>
 	<dict>
@@ -134,11 +134,11 @@
 		<string>滨州</string>
 		<key>city</key>
 		<array>
-			<string>无棣县</string>
 			<string>滨城区</string>
+			<string>沾化区</string>
+			<string>无棣县</string>
 			<string>阳信县</string>
 			<string>惠民县</string>
-			<string>沾化区</string>
 			<string>博兴县</string>
 			<string>邹平县</string>
 		</array>
@@ -148,12 +148,12 @@
 		<string>泰安</string>
 		<key>city</key>
 		<array>
-			<string>肥城市</string>
-			<string>宁阳县</string>
-			<string>东平县</string>
-			<string>新泰市</string>
 			<string>泰山区</string>
 			<string>岱岳区</string>
+			<string>宁阳县</string>
+			<string>东平县</string>
+			<string>肥城市</string>
+			<string>新泰市</string>
 		</array>
 	</dict>
 	<dict>
@@ -161,6 +161,9 @@
 		<string>临沂</string>
 		<key>city</key>
 		<array>
+			<string>兰山区</string>
+			<string>罗庄区</string>
+			<string>河东区</string>
 			<string>费县</string>
 			<string>兰陵县</string>
 			<string>沂水县</string>
@@ -169,9 +172,6 @@
 			<string>蒙阴县</string>
 			<string>莒南县</string>
 			<string>平邑县</string>
-			<string>罗庄区</string>
-			<string>河东区</string>
-			<string>兰山区</string>
 			<string>临沭县</string>
 		</array>
 	</dict>
@@ -180,17 +180,17 @@
 		<string>潍坊</string>
 		<key>city</key>
 		<array>
-			<string>寿光市</string>
-			<string>高密市</string>
-			<string>临朐县</string>
-			<string>诸城市</string>
+			<string>奎文区</string>
 			<string>坊子区</string>
 			<string>寒亭区</string>
 			<string>潍城区</string>
-			<string>奎文区</string>
+			<string>临朐县</string>
+			<string>昌乐县</string>
+			<string>高密市</string>
+			<string>诸城市</string>
 			<string>安丘市</string>
 			<string>昌邑市</string>
-			<string>昌乐县</string>
+			<string>寿光市</string>
 			<string>青州市</string>
 		</array>
 	</dict>
@@ -199,14 +199,14 @@
 		<string>聊城</string>
 		<key>city</key>
 		<array>
-			<string>高唐县</string>
+			<string>东昌府区</string>
 			<string>冠县</string>
 			<string>莘县</string>
+			<string>高唐县</string>
 			<string>阳谷县</string>
 			<string>东阿县</string>
-			<string>东昌府区</string>
-			<string>临清市</string>
 			<string>茌平县</string>
+			<string>临清市</string>
 		</array>
 	</dict>
 	<dict>
@@ -214,11 +214,11 @@
 		<string>东营</string>
 		<key>city</key>
 		<array>
-			<string>广饶县</string>
-			<string>利津县</string>
 			<string>东营区</string>
 			<string>河口区</string>
 			<string>垦利区</string>
+			<string>广饶县</string>
+			<string>利津县</string>
 		</array>
 	</dict>
 	<dict>
@@ -235,12 +235,12 @@
 		<string>枣庄</string>
 		<key>city</key>
 		<array>
-			<string>滕州市</string>
+			<string>薛城区</string>
 			<string>峄城区</string>
 			<string>山亭区</string>
-			<string>薛城区</string>
 			<string>市中区</string>
 			<string>台儿庄区</string>
+			<string>滕州市</string>
 		</array>
 	</dict>
 	<dict>
@@ -248,14 +248,14 @@
 		<string>淄博</string>
 		<key>city</key>
 		<array>
-			<string>高青县</string>
-			<string>沂源县</string>
+			<string>张店区</string>
 			<string>淄川区</string>
 			<string>临淄区</string>
 			<string>周村区</string>
 			<string>博山区</string>
-			<string>张店区</string>
+			<string>高青县</string>
 			<string>桓台县</string>
+			<string>沂源县</string>
 		</array>
 	</dict>
 </array>

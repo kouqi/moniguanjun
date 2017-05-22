@@ -10,4 +10,5 @@
 
 @interface LianSaiFenzuViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
 @property(strong, nonatomic) NSMutableArray *allQiuduiArray;
+@property(assign,nonatomic) BOOL isCountry;
 @end

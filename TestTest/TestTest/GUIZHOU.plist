@@ -8,8 +8,8 @@
 		<key>city</key>
 		<array>
 			<string>观山湖区</string>
-			<string>南明区</string>
 			<string>云岩区</string>
+			<string>南明区</string>
 			<string>花溪区</string>
 			<string>乌当区</string>
 			<string>白云区</string>
@@ -25,9 +25,9 @@
 		<key>city</key>
 		<array>
 			<string>钟山区</string>
-			<string>六枝特区</string>
-			<string>水城县</string>
 			<string>盘县</string>
+			<string>水城县</string>
+			<string>六枝特区</string>
 		</array>
 	</dict>
 	<dict>
@@ -35,18 +35,18 @@
 		<string>遵义</string>
 		<key>city</key>
 		<array>
-			<string>红花岗区</string>
 			<string>汇川区</string>
 			<string>播州区</string>
+			<string>红花岗区</string>
 			<string>桐梓县</string>
 			<string>绥阳县</string>
 			<string>正安县</string>
-			<string>道真仡佬族苗族自治县</string>
-			<string>务川仡佬族苗族自治县</string>
 			<string>凤冈县</string>
 			<string>湄潭县</string>
 			<string>余庆县</string>
 			<string>习水县</string>
+			<string>道真仡佬族苗族自治县</string>
+			<string>务川仡佬族苗族自治县</string>
 			<string>赤水市</string>
 			<string>仁怀市</string>
 		</array>
@@ -72,13 +72,13 @@
 			<string>碧江区</string>
 			<string>万山区</string>
 			<string>江口县</string>
-			<string>玉屏侗族自治县</string>
 			<string>石阡县</string>
 			<string>思南县</string>
-			<string>印江土家族苗族自治县</string>
 			<string>德江县</string>
-			<string>沿河土家族自治县</string>
+			<string>玉屏侗族自治县</string>
 			<string>松桃苗族自治县</string>
+			<string>沿河土家族自治县</string>
+			<string>印江土家族苗族自治县</string>
 		</array>
 	</dict>
 	<dict>
@@ -92,8 +92,8 @@
 			<string>金沙县</string>
 			<string>织金县</string>
 			<string>纳雍县</string>
-			<string>威宁彝族回族苗族自治县</string>
 			<string>赫章县</string>
+			<string>威宁彝族回族苗族自治县</string>
 		</array>
 	</dict>
 	<dict>

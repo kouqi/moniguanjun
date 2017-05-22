@@ -7,18 +7,18 @@
 		<string>昆明</string>
 		<key>city</key>
 		<array>
-			<string>寻甸回族彝族自治县</string>
+			<string>呈贡区</string>
 			<string>五华区</string>
 			<string>盘龙区</string>
 			<string>官渡区</string>
 			<string>西山区</string>
 			<string>东川区</string>
-			<string>呈贡区</string>
-			<string>晋宁县</string>
+			<string>晋宁区</string>
 			<string>富民县</string>
 			<string>宜良县</string>
-			<string>石林彝族自治县</string>
 			<string>嵩明县</string>
+			<string>石林彝族自治县</string>
+			<string>寻甸回族彝族自治县</string>
 			<string>禄劝彝族苗族自治县</string>
 			<string>安宁市</string>
 		</array>
@@ -29,13 +29,13 @@
 		<key>city</key>
 		<array>
 			<string>麒麟区</string>
+			<string>沾益区</string>
 			<string>马龙县</string>
 			<string>陆良县</string>
 			<string>师宗县</string>
 			<string>罗平县</string>
 			<string>富源县</string>
 			<string>会泽县</string>
-			<string>沾益区</string>
 			<string>宣威市</string>
 		</array>
 	</dict>
@@ -62,9 +62,9 @@
 		<array>
 			<string>隆阳区</string>
 			<string>施甸县</string>
-			<string>腾冲市</string>
 			<string>龙陵县</string>
 			<string>昌宁县</string>
+			<string>腾冲市</string>
 		</array>
 	</dict>
 	<dict>
@@ -91,10 +91,10 @@
 		<key>city</key>
 		<array>
 			<string>古城区</string>
-			<string>玉龙纳西族自治县</string>
 			<string>永胜县</string>
 			<string>华坪县</string>
 			<string>宁蒗彝族自治县</string>
+			<string>玉龙纳西族自治县</string>
 		</array>
 	</dict>
 	<dict>
@@ -103,15 +103,15 @@
 		<key>city</key>
 		<array>
 			<string>思茅区</string>
-			<string>宁洱哈尼族彝族自治县</string>
-			<string>墨江哈尼族自治县</string>
 			<string>景东彝族自治县</string>
+			<string>西盟佤族自治县</string>
+			<string>澜沧拉祜族自治县</string>
+			<string>墨江哈尼族自治县</string>
 			<string>景谷傣族彝族自治县</string>
-			<string>镇沅彝族哈尼族拉祜族自治县</string>
+			<string>宁洱哈尼族彝族自治县</string>
 			<string>江城哈尼族彝族自治县</string>
 			<string>孟连傣族拉祜族佤族自治县</string>
-			<string>澜沧拉祜族自治县</string>
-			<string>西盟佤族自治县</string>
+			<string>镇沅彝族哈尼族拉祜族自治县</string>
 		</array>
 	</dict>
 	<dict>
@@ -120,13 +120,13 @@
 		<key>city</key>
 		<array>
 			<string>临翔区</string>
-			<string>凤庆县</string>
 			<string>云县</string>
+			<string>凤庆县</string>
 			<string>永德县</string>
 			<string>镇康县</string>
-			<string>双江拉祜族佤族布朗族傣族自治县 </string>
-			<string>耿马傣族佤族自治县</string>
 			<string>沧源佤族自治县</string>
+			<string>耿马傣族佤族自治县</string>
+			<string>双江拉祜族佤族布朗族傣族自治县 </string>
 		</array>
 	</dict>
 	<dict>
@@ -137,11 +137,11 @@
 			<string>文山市</string>
 			<string>砚山县</string>
 			<string>西畴县</string>
-			<string>麻栗坡县</string>
 			<string>马关县</string>
 			<string>丘北县</string>
 			<string>广南县</string>
 			<string>富宁县</string>
+			<string>麻栗坡县</string>
 		</array>
 	</dict>
 	<dict>
@@ -149,19 +149,19 @@
 		<string>红河</string>
 		<key>city</key>
 		<array>
+			<string>蒙自市</string>
 			<string>个旧市</string>
 			<string>开远市</string>
-			<string>蒙自市</string>
-			<string>屏边苗族自治县</string>
+			<string>弥勒市</string>
 			<string>建水县</string>
 			<string>石屏县</string>
-			<string>弥勒市</string>
 			<string>泸西县</string>
 			<string>元阳县</string>
 			<string>红河县</string>
-			<string>金平苗族瑶族傣族自治县</string>
 			<string>绿春县</string>
+			<string>屏边苗族自治县</string>
 			<string>河口瑶族自治县</string>
+			<string>金平苗族瑶族傣族自治县</string>
 		</array>
 	</dict>
 	<dict>
@@ -196,18 +196,18 @@
 		<string>大理</string>
 		<key>city</key>
 		<array>
-			<string>漾濞彝族自治县</string>
 			<string>大理市</string>
 			<string>祥云县</string>
 			<string>宾川县</string>
 			<string>弥渡县</string>
-			<string>南涧彝族自治县</string>
-			<string>巍山彝族回族自治县</string>
 			<string>永平县</string>
 			<string>云龙县</string>
 			<string>洱源县</string>
 			<string>剑川县</string>
 			<string>鹤庆县</string>
+			<string>漾濞彝族自治县</string>
+			<string>南涧彝族自治县</string>
+			<string>巍山彝族回族自治县</string>
 		</array>
 	</dict>
 	<dict>
@@ -215,8 +215,8 @@
 		<string>德宏</string>
 		<key>city</key>
 		<array>
-			<string>瑞丽市</string>
 			<string>芒市</string>
+			<string>瑞丽市</string>
 			<string>梁河县</string>
 			<string>盈江县</string>
 			<string>陇川县</string>
@@ -238,8 +238,8 @@
 		<string>迪庆</string>
 		<key>city</key>
 		<array>
-			<string>德钦县</string>
 			<string>香格里拉市</string>
+			<string>德钦县</string>
 			<string>维西傈僳族自治县</string>
 		</array>
 	</dict>

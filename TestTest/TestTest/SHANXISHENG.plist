@@ -7,19 +7,19 @@
 		<string>西安</string>
 		<key>city</key>
 		<array>
+			<string>未央区</string>
 			<string>新城区</string>
 			<string>碑林区</string>
 			<string>莲湖区</string>
 			<string>灞桥区</string>
-			<string>未央区</string>
 			<string>雁塔区</string>
 			<string>阎良区</string>
 			<string>临潼区</string>
 			<string>长安区</string>
+			<string>鄠邑区</string>
+			<string>高陵区</string>
 			<string>蓝田县</string>
 			<string>周至县</string>
-			<string>户县</string>
-			<string>高陵区</string>
 		</array>
 	</dict>
 	<dict>
@@ -27,9 +27,9 @@
 		<string>铜川</string>
 		<key>city</key>
 		<array>
+			<string>耀州区</string>
 			<string>王益区</string>
 			<string>印台区</string>
-			<string>耀州区</string>
 			<string>宜君县</string>
 		</array>
 	</dict>
@@ -38,17 +38,17 @@
 		<string>宝鸡</string>
 		<key>city</key>
 		<array>
-			<string>渭滨区</string>
 			<string>金台区</string>
+			<string>渭滨区</string>
 			<string>陈仓区</string>
+			<string>凤县</string>
+			<string>眉县</string>
+			<string>陇县</string>
 			<string>凤翔县</string>
 			<string>岐山县</string>
 			<string>扶风县</string>
-			<string>眉县</string>
-			<string>陇县</string>
 			<string>千阳县</string>
 			<string>麟游县</string>
-			<string>凤县</string>
 			<string>太白县</string>
 		</array>
 	</dict>
@@ -57,15 +57,15 @@
 		<string>咸阳</string>
 		<key>city</key>
 		<array>
-			<string>杨陵区</string>
 			<string>秦都区</string>
+			<string>杨陵区</string>
 			<string>渭城区</string>
+			<string>乾县</string>
+			<string>彬县</string>
 			<string>三原县</string>
 			<string>泾阳县</string>
-			<string>乾县</string>
 			<string>礼泉县</string>
 			<string>永寿县</string>
-			<string>彬县</string>
 			<string>长武县</string>
 			<string>旬邑县</string>
 			<string>淳化县</string>
@@ -97,14 +97,14 @@
 		<key>city</key>
 		<array>
 			<string>宝塔区</string>
+			<string>安塞区</string>
+			<string>富县</string>
 			<string>延长县</string>
 			<string>延川县</string>
 			<string>子长县</string>
-			<string>安塞区</string>
 			<string>志丹县</string>
 			<string>吴起县</string>
 			<string>甘泉县</string>
-			<string>富县</string>
 			<string>洛川县</string>
 			<string>宜川县</string>
 			<string>黄龙县</string>
@@ -117,11 +117,11 @@
 		<key>city</key>
 		<array>
 			<string>汉台区</string>
+			<string>洋县</string>
+			<string>勉县</string>
 			<string>南郑县</string>
 			<string>城固县</string>
-			<string>洋县</string>
 			<string>西乡县</string>
-			<string>勉县</string>
 			<string>宁强县</string>
 			<string>略阳县</string>
 			<string>镇巴县</string>
@@ -135,14 +135,14 @@
 		<key>city</key>
 		<array>
 			<string>榆阳区</string>
+			<string>横山区</string>
+			<string>佳县</string>
 			<string>神木县</string>
 			<string>府谷县</string>
-			<string>横山区</string>
 			<string>靖边县</string>
 			<string>定边县</string>
 			<string>绥德县</string>
 			<string>米脂县</string>
-			<string>佳县</string>
 			<string>吴堡县</string>
 			<string>清涧县</string>
 			<string>子洲县</string>
@@ -170,7 +170,7 @@
 		<string>商洛</string>
 		<key>city</key>
 		<array>
-			<string>商周区</string>
+			<string>商州区</string>
 			<string>洛南县</string>
 			<string>丹凤县</string>
 			<string>商南县</string>

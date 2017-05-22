@@ -7,12 +7,25 @@
 		<string>亚足联</string>
 		<key>city</key>
 		<array>
-			<string>韩国</string>
-			<string>日本</string>
-			<string>澳大利亚</string>
-			<string>乌兹别克斯坦</string>
-			<string>沙特阿拉伯</string>
-			<string>伊朗</string>
+			<string>🇰🇷韩国</string>
+			<string>🇯🇵日本</string>
+			<string>🇦🇺澳大利亚</string>
+			<string>🇺🇿乌兹别克斯坦</string>
+			<string>🇸🇦沙特阿拉伯</string>
+			<string>🇮🇷伊朗</string>
+			<string>🇦🇪阿联酋</string>
+			<string>🇶🇦卡塔尔</string>
+			<string>🇨🇳中国</string>
+			<string>🇸🇾叙利亚</string>
+			<string>🇯🇴约旦</string>
+			<string>🇰🇵朝鲜</string>
+			<string>🇴🇲阿曼</string>
+			<string>🇮🇶伊拉克</string>
+			<string>🇵🇭菲律宾</string>
+			<string>🇰🇬吉尔吉斯斯坦</string>
+			<string>🇧🇭巴林</string>
+			<string>🇹🇭泰国</string>
+			<string>🇵🇸巴勒斯坦</string>
 		</array>
 	</dict>
 	<dict>
@@ -20,37 +33,53 @@
 		<string>欧足联</string>
 		<key>city</key>
 		<array>
-			<string>德国</string>
-			<string>意大利</string>
-			<string>法国</string>
-			<string>西班牙</string>
-			<string>英格兰</string>
-			<string>苏格兰</string>
-			<string>威尔士</string>
-			<string>北爱尔兰</string>
-			<string>荷兰</string>
-			<string>葡萄牙</string>
-			<string>瑞典</string>
-			<string>丹麦</string>
-			<string>冰岛</string>
-			<string>波兰</string>
-			<string>匈牙利</string>
-			<string>捷克</string>
-			<string>斯洛伐克</string>
-			<string>瑞士</string>
-			<string>罗马尼亚</string>
-			<string>奥地利</string>
-			<string>希腊</string>
-			<string>塞尔维亚</string>
-			<string>克罗地亚</string>
-			<string>波黑</string>
-			<string>阿尔巴尼亚</string>
-			<string>俄罗斯</string>
-			<string>乌克兰</string>
-			<string>白俄罗斯</string>
-			<string>爱尔兰</string>
-			<string>比利时</string>
-			<string>土耳其</string>
+			<string>🇩🇪德国</string>
+			<string>🇮🇹意大利</string>
+			<string>🇫🇷法国</string>
+			<string>🇪🇸西班牙</string>
+			<string>🇬🇧英格兰</string>
+			<string>🇬🇧苏格兰</string>
+			<string>🇬🇧威尔士</string>
+			<string>🇬🇧北爱尔兰</string>
+			<string>🇳🇱荷兰</string>
+			<string>🇵🇹葡萄牙</string>
+			<string>🇸🇪瑞典</string>
+			<string>🇩🇰丹麦</string>
+			<string>🇮🇸冰岛</string>
+			<string>🇵🇱波兰</string>
+			<string>🇭🇺匈牙利</string>
+			<string>🇨🇿捷克</string>
+			<string>🇸🇰斯洛伐克</string>
+			<string>🇨🇭瑞士</string>
+			<string>🇷🇴罗马尼亚</string>
+			<string>🇦🇹奥地利</string>
+			<string>🇬🇷希腊</string>
+			<string>🇷🇸塞尔维亚</string>
+			<string>🇭🇷克罗地亚</string>
+			<string>🇧🇦波黑</string>
+			<string>🇦🇱阿尔巴尼亚</string>
+			<string>🇷🇺俄罗斯</string>
+			<string>🇺🇦乌克兰</string>
+			<string>🇧🇾白俄罗斯</string>
+			<string>🇮🇪爱尔兰</string>
+			<string>🇧🇪比利时</string>
+			<string>🇹🇷土耳其</string>
+			<string>🇬🇪格鲁吉亚</string>
+			<string>🇪🇪爱沙尼亚</string>
+			<string>🇨🇾塞浦路斯</string>
+			<string>🇱🇻拉脱维亚</string>
+			<string>🇱🇹立陶宛</string>
+			<string>🇫🇮芬兰</string>
+			<string>🇰🇿哈萨克斯坦</string>
+			<string>🇦🇿阿塞拜疆</string>
+			<string>🇦🇲亚美尼亚</string>
+			<string>🇫🇴法罗群岛</string>
+			<string>🇳🇴挪威</string>
+			<string>🇬🇹危地马拉</string>
+			<string>🇧🇬保加利亚</string>
+			<string>🇲🇪黑山</string>
+			<string>🇮🇱以色列</string>
+			<string>🇸🇮斯洛文尼亚</string>
 		</array>
 	</dict>
 	<dict>
@@ -58,20 +87,44 @@
 		<string>非足联</string>
 		<key>city</key>
 		<array>
-			<string>阿尔及利亚</string>
-			<string>喀麦隆</string>
-			<string>刚果(布)</string>
-			<string>刚果(金)</string>
-			<string>科特迪瓦</string>
-			<string>埃及</string>
-			<string>加纳</string>
-			<string>几内亚</string>
-			<string>马里</string>
-			<string>摩洛哥</string>
-			<string>尼日利亚</string>
-			<string>塞内加尔</string>
-			<string>南非</string>
-			<string>突尼斯</string>
+			<string>🇩🇿阿尔及利亚</string>
+			<string>🇨🇲喀麦隆</string>
+			<string>🇨🇬刚果(布)</string>
+			<string>🇨🇩刚果(金)</string>
+			<string>🇨🇮科特迪瓦</string>
+			<string>🇪🇬埃及</string>
+			<string>🇬🇭加纳</string>
+			<string>🇬🇳几内亚</string>
+			<string>🇲🇱马里</string>
+			<string>🇲🇦摩洛哥</string>
+			<string>🇳🇬尼日利亚</string>
+			<string>🇸🇳塞内加尔</string>
+			<string>🇿🇦南非</string>
+			<string>🇹🇳突尼斯</string>
+			<string>🇧🇫布基纳法索</string>
+			<string>🇧🇯贝宁</string>
+			<string>🇨🇻佛得角</string>
+			<string>🇺🇬乌干达</string>
+			<string>🇯🇲牙买加</string>
+			<string>🇬🇼几内亚比绍</string>
+			<string>🇰🇪肯尼亚</string>
+			<string>🇬🇦加蓬</string>
+			<string>🇿🇲赞比亚</string>
+			<string>🇱🇾利比亚</string>
+			<string>🇸🇱塞拉利昂</string>
+			<string>🇸🇿斯威士兰</string>
+			<string>🇳🇦纳米比亚</string>
+			<string>🇷🇼卢旺达</string>
+			<string>🇹🇬多哥</string>
+			<string>🇱🇷利比里亚</string>
+			<string>🇪🇹埃塞俄比亚</string>
+			<string>🇿🇼津巴布韦</string>
+			<string>🇲🇿莫桑比克</string>
+			<string>🇲🇷毛里塔尼亚</string>
+			<string>🇨🇫中非共和国</string>
+			<string>🇬🇶赤道几内亚</string>
+			<string>🇧🇼博茨瓦纳</string>
+			<string>🇲🇼马拉维</string>
 		</array>
 	</dict>
 	<dict>
@@ -79,32 +132,44 @@
 		<string>中北美足联</string>
 		<key>city</key>
 		<array>
-			<string>墨西哥</string>
-			<string>美国</string>
-			<string>哥斯达黎加</string>
-			<string>巴拿马</string>
+			<string>🇲🇽墨西哥</string>
+			<string>🇺🇸美国</string>
+			<string>🇨🇷哥斯达黎加</string>
+			<string>🇵🇦巴拿马</string>
+			<string>🇭🇳洪都拉斯</string>
+			<string>🇭🇹海地</string>
+			<string>🇨🇼库拉索</string>
+			<string>🇹🇹特立尼达和多巴哥</string>
+			<string>🇦🇬安提瓜和巴布达</string>
+			<string>🇸🇻萨尔瓦多</string>
+			<string>🇳🇮尼加拉瓜</string>
+			<string>🇨🇦加拿大</string>
+			<string>🇰🇳圣基茨和尼维斯</string>
 		</array>
 	</dict>
 	<dict>
 		<key>prov</key>
 		<string>大洋足联</string>
 		<key>city</key>
-		<array/>
+		<array>
+			<string>🇳🇿新西兰</string>
+		</array>
 	</dict>
 	<dict>
 		<key>prov</key>
 		<string>南美足联</string>
 		<key>city</key>
 		<array>
-			<string>巴西</string>
-			<string>阿根廷</string>
-			<string>乌拉圭</string>
-			<string>巴拉圭</string>
-			<string>智利</string>
-			<string>哥伦比亚</string>
-			<string>厄瓜多尔</string>
-			<string>委内瑞拉</string>
-			<string>秘鲁</string>
+			<string>🇧🇷巴西</string>
+			<string>🇦🇷阿根廷</string>
+			<string>🇺🇾乌拉圭</string>
+			<string>🇵🇾巴拉圭</string>
+			<string>🇨🇱智利</string>
+			<string>🇨🇴哥伦比亚</string>
+			<string>🇪🇨厄瓜多尔</string>
+			<string>🇻🇪委内瑞拉</string>
+			<string>🇵🇪秘鲁</string>
+			<string>🇧🇴玻利维亚</string>
 		</array>
 	</dict>
 </array>

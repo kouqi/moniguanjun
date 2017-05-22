@@ -15,6 +15,7 @@
 @interface CalculationGameTool : NSObject
 +(NSMutableDictionary *) saiChengSaiGuoWithMdic:(NSMutableArray *) xiaozuArray;
 +(NSMutableDictionary *) biSaiJieGuoWithCity:(NSString *) city1 andCity:(NSString *) city2;
++(NSMutableDictionary *) biSaiJieGuoWithCityDic:(NSMutableDictionary *) cityDic1 andCityDic:(NSMutableDictionary *) cityDic2;
 +(NSMutableDictionary *) sasanduiJinruJuesaiWithMdic:(NSMutableArray *) xiaozuArray;
 +(NSMutableArray *) fenzuArrayWithAllArray:(NSMutableArray *) allArray andArrayNumber:(NSInteger) number;
 @end

@@ -7,13 +7,13 @@
 		<string>西宁</string>
 		<key>city</key>
 		<array>
+			<string>城中区</string>
 			<string>城东区</string>
 			<string>城西区</string>
-			<string>城中区</string>
 			<string>城北区</string>
-			<string>大通回族土族自治县</string>
 			<string>湟中县</string>
 			<string>湟源县</string>
+			<string>大通回族土族自治县</string>
 		</array>
 	</dict>
 	<dict>
@@ -21,12 +21,12 @@
 		<string>海东</string>
 		<key>city</key>
 		<array>
-			<string>平安区</string>
-			<string>民和回族土族自治县</string>
 			<string>乐都区</string>
+			<string>平安区</string>
 			<string>互助土族自治县</string>
 			<string>化隆回族自治县</string>
 			<string>循化撒拉族自治县</string>
+			<string>民和回族土族自治县</string>
 		</array>
 	</dict>
 	<dict>
@@ -34,10 +34,10 @@
 		<string>海北</string>
 		<key>city</key>
 		<array>
-			<string>门源回族自治县</string>
-			<string>祁连县</string>
 			<string>海晏县</string>
+			<string>祁连县</string>
 			<string>刚察县</string>
+			<string>门源回族自治县</string>
 		</array>
 	</dict>
 	<dict>
@@ -94,8 +94,8 @@
 		<string>海西</string>
 		<key>city</key>
 		<array>
-			<string>格尔木市</string>
 			<string>德令哈市</string>
+			<string>格尔木市</string>
 			<string>乌兰县</string>
 			<string>都兰县</string>
 			<string>天峻县</string>

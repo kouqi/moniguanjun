@@ -12,8 +12,6 @@
 			<string>朝阳区</string>
 			<string>海淀区</string>
 			<string>丰台区</string>
-			<string>石景山区</string>
-			<string>门头沟区</string>
 			<string>昌平区</string>
 			<string>房山区</string>
 			<string>大兴区</string>
@@ -23,6 +21,8 @@
 			<string>密云区</string>
 			<string>延庆区</string>
 			<string>怀柔区</string>
+			<string>石景山区</string>
+			<string>门头沟区</string>
 		</array>
 	</dict>
 	<dict>
@@ -30,12 +30,12 @@
 		<string>上海</string>
 		<key>city</key>
 		<array>
+			<string>黄浦区</string>
 			<string>奉贤区</string>
 			<string>静安区</string>
 			<string>松江区</string>
 			<string>崇明区</string>
 			<string>金山区</string>
-			<string>黄浦区</string>
 			<string>徐汇区</string>
 			<string>长宁区</string>
 			<string>普陀区</string>
@@ -44,8 +44,8 @@
 			<string>宝山区</string>
 			<string>闵行区</string>
 			<string>嘉定区</string>
-			<string>浦东新区</string>
 			<string>青浦区</string>
+			<string>浦东新区</string>
 		</array>
 	</dict>
 	<dict>
@@ -53,13 +53,12 @@
 		<string>天津</string>
 		<key>city</key>
 		<array>
-			<string>滨海新区</string>
+			<string>河西区</string>
 			<string>宝坻区</string>
 			<string>静海区</string>
 			<string>津南区</string>
 			<string>东丽区</string>
 			<string>宁河区</string>
-			<string>河西区</string>
 			<string>西青区</string>
 			<string>武清区</string>
 			<string>河北区</string>
@@ -69,6 +68,7 @@
 			<string>北辰区</string>
 			<string>河东区</string>
 			<string>蓟州区</string>
+			<string>滨海新区</string>
 		</array>
 	</dict>
 	<dict>
@@ -76,44 +76,44 @@
 		<string>重庆</string>
 		<key>city</key>
 		<array>
-			<string>沙坪坝区</string>
+			<string>渝中区</string>
 			<string>永川区</string>
-			<string>九龙坡区</string>
 			<string>万州区</string>
 			<string>南川区</string>
 			<string>合川区</string>
-			<string>秀山土家族苗族自治县</string>
-			<string>石柱土家族自治县</string>
-			<string>巫溪县</string>
 			<string>江津区</string>
-			<string>彭水苗族土家族自治县</string>
-			<string>丰都县</string>
-			<string>酉阳土家族苗族自治县</string>
-			<string>巫山县</string>
-			<string>奉节县</string>
-			<string>云阳县</string>
 			<string>开州区</string>
-			<string>忠县</string>
-			<string>武隆县</string>
-			<string>垫江县</string>
+			<string>武隆区</string>
 			<string>长寿区</string>
 			<string>巴南区</string>
 			<string>南岸区</string>
 			<string>北碚区</string>
-			<string>大渡口区</string>
 			<string>江北区</string>
-			<string>渝中区</string>
 			<string>潼南区</string>
 			<string>綦江区</string>
 			<string>大足区</string>
 			<string>铜梁区</string>
 			<string>璧山区</string>
 			<string>荣昌区</string>
-			<string>城口县</string>
-			<string>梁平县</string>
+			<string>梁平区</string>
 			<string>黔江区</string>
 			<string>涪陵区</string>
 			<string>渝北区</string>
+			<string>沙坪坝区</string>
+			<string>九龙坡区</string>
+			<string>大渡口区</string>
+			<string>忠县</string>
+			<string>巫溪县</string>
+			<string>丰都县</string>
+			<string>奉节县</string>
+			<string>巫山县</string>
+			<string>云阳县</string>
+			<string>城口县</string>
+			<string>垫江县</string>
+			<string>石柱土家族自治县</string>
+			<string>秀山土家族苗族自治县</string>
+			<string>彭水苗族土家族自治县</string>
+			<string>酉阳土家族苗族自治县</string>
 		</array>
 	</dict>
 </array>

@@ -1091,6 +1091,7 @@
     return mdic;
 }
 
+//模拟比赛无强弱之分，有主场优势
 +(NSMutableDictionary *) biSaiJieGuoWithCity:(NSString *) city1 andCity:(NSString *) city2{
     NSMutableDictionary *mdic = [NSMutableDictionary dictionary];
     NSInteger jieguoType;
@@ -1114,8 +1115,53 @@
     return mdic;
 }
 
+//模拟比赛有强弱之分，有主场优势
++(NSMutableDictionary *) biSaiJieGuoWithCityDic:(NSMutableDictionary *) cityDic1 andCityDic:(NSMutableDictionary *) cityDic2{
+    NSString *city1 = [cityDic1 valueForKey:@"city"];
+    NSString *city2 = [cityDic2 valueForKey:@"city"];
+    NSMutableDictionary *mdic = [NSMutableDictionary dictionary];
+    
+    NSInteger c1level = [[cityDic1 valueForKey:@"strongLevel"] integerValue];
+    NSInteger c2level = [[cityDic2 valueForKey:@"strongLevel"] integerValue];
+    NSInteger c1max = 4;
+    NSInteger c2max = 3;
+    if (c1level == 2) {
+        c1max = 6;
+    }else if (c1level == 1){
+        c1max = 5;
+    }
+    if (c2level == 2) {
+        c2max = 5;
+    }else if (c2level == 1){
+        c2max = 4;
+    }
+    NSInteger c1Number = arc4random() % c1max;
+    NSInteger c2Number = arc4random() % c2max;
+    NSInteger jieguoType;//0代表主队胜、1代表平局、2代表客队胜
+    if (c1Number > c2Number) {
+        jieguoType = 0;
+    }else{
+        if (c1Number < c2Number) {
+            jieguoType = 2;
+        }else{
+            jieguoType = 1;
+        }
+    }
+    NSLog(@"%@ %ld-%ld %@",city1,(long)c1Number,(long)c2Number,city2);
+    NSMutableString *returnString = [NSMutableString string];
+    [returnString appendFormat:@"%@ %ld-%ld %@\n",city1,(long)c1Number,(long)c2Number,city2];
+    NSArray *arr = [NSArray arrayWithObjects:[NSNumber numberWithInteger:jieguoType],[NSNumber numberWithInteger:c1Number],[NSNumber numberWithInteger:c2Number], nil];
+    [mdic setValue:returnString forKey:@"rString"];
+    [mdic setValue:arr forKey:@"typeArray"];
+    return mdic;
+}
+
+
 +(NSMutableArray *) fenzuArrayWithAllArray:(NSMutableArray *) allArray andArrayNumber:(NSInteger) number
 {
+    if (number < 3) {
+        number = 3;
+    }
     NSMutableArray *returnArray = [NSMutableArray array];
     if (allArray.count < number) {
         [returnArray addObject:allArray];
@@ -1129,6 +1175,10 @@
         fnumber = yushu;
     }else{
         fnumber = number + yushu;
+        zushu--;
+    }
+    if (fnumber < 3) {
+        fnumber += number;
         zushu--;
     }
     NSMutableArray *farray = [NSMutableArray array];

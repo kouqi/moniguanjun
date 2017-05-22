@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TestWidget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>135C5FE41E10A9EF0073C1FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>7E30B8E81B9D7F8800F9A12A</key>
 		<dict>
 			<key>primary</key>

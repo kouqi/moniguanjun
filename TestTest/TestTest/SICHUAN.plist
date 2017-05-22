@@ -7,26 +7,26 @@
 		<string>成都</string>
 		<key>city</key>
 		<array>
+			<string>武侯区</string>
 			<string>锦江区</string>
 			<string>青羊区</string>
 			<string>金牛区</string>
-			<string>武侯区</string>
 			<string>成华区</string>
-			<string>龙泉驿区</string>
-			<string>青白江区</string>
 			<string>新都区</string>
 			<string>温江区</string>
-			<string>金堂县</string>
 			<string>双流区</string>
-			<string>郫县</string>
+			<string>郫都区</string>
+			<string>龙泉驿区</string>
+			<string>青白江区</string>
+			<string>金堂县</string>
 			<string>大邑县</string>
 			<string>蒲江县</string>
 			<string>新津县</string>
-			<string>都江堰市</string>
 			<string>彭州市</string>
 			<string>崇州市</string>
 			<string>邛崃市</string>
 			<string>简阳市</string>
+			<string>都江堰市</string>
 		</array>
 	</dict>
 	<dict>
@@ -88,12 +88,12 @@
 		<array>
 			<string>涪城区</string>
 			<string>游仙区</string>
+			<string>安州区</string>
 			<string>三台县</string>
 			<string>盐亭县</string>
-			<string>安州区</string>
 			<string>梓潼县</string>
-			<string>北川羌族自治县</string>
 			<string>平武县</string>
+			<string>北川羌族自治县</string>
 			<string>江油市</string>
 		</array>
 	</dict>
@@ -176,12 +176,12 @@
 		<array>
 			<string>翠屏区</string>
 			<string>南溪区</string>
+			<string>珙县</string>
+			<string>高县</string>
 			<string>宜宾县</string>
 			<string>江安县</string>
 			<string>长宁县</string>
-			<string>高县</string>
 			<string>筠连县</string>
-			<string>珙县</string>
 			<string>兴文县</string>
 			<string>屏山县</string>
 		</array>
@@ -191,8 +191,8 @@
 		<string>广安</string>
 		<key>city</key>
 		<array>
-			<string>前锋区</string>
 			<string>广安区</string>
+			<string>前锋区</string>
 			<string>岳池县</string>
 			<string>武胜县</string>
 			<string>邻水县</string>
@@ -204,12 +204,12 @@
 		<string>达州</string>
 		<key>city</key>
 		<array>
-			<string>达川区</string>
 			<string>通川区</string>
+			<string>达川区</string>
+			<string>渠县</string>
 			<string>宣汉县</string>
 			<string>开江县</string>
 			<string>大竹县</string>
-			<string>渠县</string>
 			<string>万源市</string>
 		</array>
 	</dict>
@@ -219,8 +219,8 @@
 		<key>city</key>
 		<array>
 			<string>东坡区</string>
-			<string>仁寿县</string>
 			<string>彭山区</string>
+			<string>仁寿县</string>
 			<string>洪雅县</string>
 			<string>丹棱县</string>
 			<string>青神县</string>
@@ -246,8 +246,8 @@
 		<string>巴中</string>
 		<key>city</key>
 		<array>
-			<string>恩阳区</string>
 			<string>巴州区</string>
+			<string>恩阳区</string>
 			<string>通江县</string>
 			<string>南江县</string>
 			<string>平昌县</string>
@@ -268,19 +268,19 @@
 		<string>阿坝</string>
 		<key>city</key>
 		<array>
-			<string>汶川县</string>
+			<string>马尔康市</string>
 			<string>理县</string>
 			<string>茂县</string>
+			<string>汶川县</string>
 			<string>松潘县</string>
-			<string>九寨沟县</string>
 			<string>金川县</string>
 			<string>小金县</string>
 			<string>黑水县</string>
-			<string>马尔康市</string>
 			<string>壤塘县</string>
 			<string>阿坝县</string>
-			<string>若尔盖县</string>
 			<string>红原县</string>
+			<string>若尔盖县</string>
+			<string>九寨沟县</string>
 		</array>
 	</dict>
 	<dict>
@@ -314,7 +314,6 @@
 		<key>city</key>
 		<array>
 			<string>西昌市</string>
-			<string>木里藏族自治县</string>
 			<string>盐源县</string>
 			<string>德昌县</string>
 			<string>会理县</string>
@@ -330,6 +329,7 @@
 			<string>甘洛县</string>
 			<string>美姑县</string>
 			<string>雷波县</string>
+			<string>木里藏族自治县</string>
 		</array>
 	</dict>
 </array>

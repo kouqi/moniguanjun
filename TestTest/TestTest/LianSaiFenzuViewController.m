@@ -11,6 +11,7 @@
 #import "LianSaiJingxingshiViewController.h"
 #import "ShengjiangjiModeViewController.h"
 #import "ShijiebeiModeViewController.h"
+#import "CountryCupModeViewController.h"
 @interface LianSaiFenzuViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSMutableArray *xiaozuArray;
@@ -113,25 +114,31 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (self.isShiJieBeiMode) {
+    if (self.isCountry) {
         NSArray *shuzuArray = [self.xiaozuArray objectAtIndex:indexPath.row];
-        ShijiebeiModeViewController *llllsvc = [[ShijiebeiModeViewController alloc] initWithNibName:@"ShijiebeiModeViewController" bundle:nil];
+        CountryCupModeViewController *llllsvc = [[CountryCupModeViewController alloc] initWithNibName:@"CountryCupModeViewController" bundle:nil];
         llllsvc.cansaiArray = [NSMutableArray arrayWithArray:shuzuArray];
         [self.navigationController pushViewController:llllsvc animated:YES];
     }else{
-        if (self.isShengjiangji) {
+        if (self.isShiJieBeiMode) {
             NSArray *shuzuArray = [self.xiaozuArray objectAtIndex:indexPath.row];
-            ShengjiangjiModeViewController *llllsvc = [[ShengjiangjiModeViewController alloc] initWithNibName:@"ShengjiangjiModeViewController" bundle:nil];
-            llllsvc.allQiuduiArray = [NSMutableArray arrayWithArray:shuzuArray];
+            ShijiebeiModeViewController *llllsvc = [[ShijiebeiModeViewController alloc] initWithNibName:@"ShijiebeiModeViewController" bundle:nil];
+            llllsvc.cansaiArray = [NSMutableArray arrayWithArray:shuzuArray];
             [self.navigationController pushViewController:llllsvc animated:YES];
         }else{
-            NSArray *shuzuArray = [self.xiaozuArray objectAtIndex:indexPath.row];
-            LianSaiJingxingshiViewController *llllsvc = [[LianSaiJingxingshiViewController alloc] initWithNibName:@"LianSaiJingxingshiViewController" bundle:nil];
-            llllsvc.allQiuduiArray = [NSMutableArray arrayWithArray:shuzuArray];
-            [self.navigationController pushViewController:llllsvc animated:YES];
+            if (self.isShengjiangji) {
+                NSArray *shuzuArray = [self.xiaozuArray objectAtIndex:indexPath.row];
+                ShengjiangjiModeViewController *llllsvc = [[ShengjiangjiModeViewController alloc] initWithNibName:@"ShengjiangjiModeViewController" bundle:nil];
+                llllsvc.allQiuduiArray = [NSMutableArray arrayWithArray:shuzuArray];
+                [self.navigationController pushViewController:llllsvc animated:YES];
+            }else{
+                NSArray *shuzuArray = [self.xiaozuArray objectAtIndex:indexPath.row];
+                LianSaiJingxingshiViewController *llllsvc = [[LianSaiJingxingshiViewController alloc] initWithNibName:@"LianSaiJingxingshiViewController" bundle:nil];
+                llllsvc.allQiuduiArray = [NSMutableArray arrayWithArray:shuzuArray];
+                [self.navigationController pushViewController:llllsvc animated:YES];
+            }
         }
     }
-    
 }
 
 @end

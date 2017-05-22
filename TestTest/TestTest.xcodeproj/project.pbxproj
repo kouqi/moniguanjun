@@ -11,17 +11,26 @@
 		130B7CC21D82949E008BC15D /* LianSaiFenzuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 130B7CC01D82949E008BC15D /* LianSaiFenzuViewController.xib */; };
 		130B7CC61D82A3CA008BC15D /* LianSaiJingxingshiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130B7CC41D82A3CA008BC15D /* LianSaiJingxingshiViewController.m */; };
 		130B7CC71D82A3CA008BC15D /* LianSaiJingxingshiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 130B7CC51D82A3CA008BC15D /* LianSaiJingxingshiViewController.xib */; };
+		1311408C1E6D03A80083FC8C /* YuXuanSaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1311408A1E6D03A80083FC8C /* YuXuanSaiViewController.m */; };
+		1311408D1E6D03A80083FC8C /* YuXuanSaiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1311408B1E6D03A80083FC8C /* YuXuanSaiViewController.xib */; };
 		1317B80A1D781E7800F48B18 /* FileManageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1317B8091D781E7800F48B18 /* FileManageObject.m */; };
 		1317B80D1D782C8F00F48B18 /* resultDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1317B80B1D782C8F00F48B18 /* resultDataModel.xcdatamodeld */; };
+		131F97931E03DCF60038F005 /* kouqiCircleRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 131F97921E03DCF60038F005 /* kouqiCircleRecognizer.m */; };
+		131F97971E03DEC10038F005 /* kouqiGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 131F97961E03DEC10038F005 /* kouqiGeometry.m */; };
 		13205EE91DB63BDD00A3360D /* zulian.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13205EE81DB63BDD00A3360D /* zulian.plist */; };
 		13205EED1DB64B1300A3360D /* ShijiebeiModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13205EEB1DB64B1300A3360D /* ShijiebeiModeViewController.m */; };
 		13205EEE1DB64B1300A3360D /* ShijiebeiModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13205EEC1DB64B1300A3360D /* ShijiebeiModeViewController.xib */; };
 		13205EF11DB64F6300A3360D /* ShijieBeiModeCalcul.m in Sources */ = {isa = PBXBuildFile; fileRef = 13205EF01DB64F6300A3360D /* ShijieBeiModeCalcul.m */; };
 		1347508F1D8B9B72007C09C2 /* TAIWAN.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1347508E1D8B9B72007C09C2 /* TAIWAN.plist */; };
 		1357822E1D755CEE00E2C5A3 /* CalculationGameTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1357822D1D755CEE00E2C5A3 /* CalculationGameTool.m */; };
+		13A0CBD81E6677B900096050 /* zulianpaiming.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13A0CBD71E6677B900096050 /* zulianpaiming.plist */; };
+		13A0CBDC1E66818900096050 /* CountryCupModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A0CBDA1E66818900096050 /* CountryCupModeViewController.m */; };
+		13A0CBDD1E66818900096050 /* CountryCupModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13A0CBDB1E66818900096050 /* CountryCupModeViewController.xib */; };
+		13A0CBE01E6683C700096050 /* CountryCupModeCalcul.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A0CBDF1E6683C700096050 /* CountryCupModeCalcul.m */; };
 		13D066F81DBDA4070056301A /* ChineseToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D066F71DBDA4070056301A /* ChineseToPinyin.m */; };
 		13DCDC2D1D94FFC200E156E2 /* ShengjiangjiModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DCDC2B1D94FFC200E156E2 /* ShengjiangjiModeViewController.m */; };
 		13DCDC2E1D94FFC200E156E2 /* ShengjiangjiModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13DCDC2C1D94FFC200E156E2 /* ShengjiangjiModeViewController.xib */; };
+		13FBF4971E711C0000D568BC /* NSString+ChineseToPinyinCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FBF4961E711C0000D568BC /* NSString+ChineseToPinyinCategory.m */; };
 		7E00C7E11CC46CA7002701BC /* JIANGSU.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C7E01CC46CA7002701BC /* JIANGSU.plist */; };
 		7E00C7E31CC473D8002701BC /* JIANGXI.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C7E21CC473D8002701BC /* JIANGXI.plist */; };
 		7E00C7E51CC4788E002701BC /* ZHEJIANG.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E00C7E41CC4788E002701BC /* ZHEJIANG.plist */; };
@@ -70,6 +79,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		135C5FF71E10A9EF0073C1FC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		130B7CBE1D82949E008BC15D /* LianSaiFenzuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LianSaiFenzuViewController.h; sourceTree = "<group>"; };
 		130B7CBF1D82949E008BC15D /* LianSaiFenzuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LianSaiFenzuViewController.m; sourceTree = "<group>"; };
@@ -77,9 +99,16 @@
 		130B7CC31D82A3CA008BC15D /* LianSaiJingxingshiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LianSaiJingxingshiViewController.h; sourceTree = "<group>"; };
 		130B7CC41D82A3CA008BC15D /* LianSaiJingxingshiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LianSaiJingxingshiViewController.m; sourceTree = "<group>"; };
 		130B7CC51D82A3CA008BC15D /* LianSaiJingxingshiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LianSaiJingxingshiViewController.xib; sourceTree = "<group>"; };
+		131140891E6D03A80083FC8C /* YuXuanSaiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuXuanSaiViewController.h; sourceTree = "<group>"; };
+		1311408A1E6D03A80083FC8C /* YuXuanSaiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuXuanSaiViewController.m; sourceTree = "<group>"; };
+		1311408B1E6D03A80083FC8C /* YuXuanSaiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YuXuanSaiViewController.xib; sourceTree = "<group>"; };
 		1317B8081D781E7800F48B18 /* FileManageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManageObject.h; sourceTree = "<group>"; };
 		1317B8091D781E7800F48B18 /* FileManageObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManageObject.m; sourceTree = "<group>"; };
 		1317B80C1D782C8F00F48B18 /* resultDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = resultDataModel.xcdatamodel; sourceTree = "<group>"; };
+		131F97911E03DCF60038F005 /* kouqiCircleRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kouqiCircleRecognizer.h; sourceTree = "<group>"; };
+		131F97921E03DCF60038F005 /* kouqiCircleRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kouqiCircleRecognizer.m; sourceTree = "<group>"; };
+		131F97951E03DEC10038F005 /* kouqiGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kouqiGeometry.h; sourceTree = "<group>"; };
+		131F97961E03DEC10038F005 /* kouqiGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kouqiGeometry.m; sourceTree = "<group>"; };
 		13205EE81DB63BDD00A3360D /* zulian.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = zulian.plist; sourceTree = "<group>"; };
 		13205EEA1DB64B1300A3360D /* ShijiebeiModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShijiebeiModeViewController.h; sourceTree = "<group>"; };
 		13205EEB1DB64B1300A3360D /* ShijiebeiModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShijiebeiModeViewController.m; sourceTree = "<group>"; };
@@ -89,12 +118,27 @@
 		1347508E1D8B9B72007C09C2 /* TAIWAN.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TAIWAN.plist; sourceTree = "<group>"; };
 		1357822C1D755CEE00E2C5A3 /* CalculationGameTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculationGameTool.h; sourceTree = "<group>"; };
 		1357822D1D755CEE00E2C5A3 /* CalculationGameTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculationGameTool.m; sourceTree = "<group>"; };
+		135C5FE71E10A9EF0073C1FC /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		135C5FEA1E10A9EF0073C1FC /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		135C5FEB1E10A9EF0073C1FC /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		135C5FEE1E10A9EF0073C1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		135C5FF01E10A9EF0073C1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		135C5FF81E10ACB60073C1FC /* TestWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestWidget.entitlements; sourceTree = "<group>"; };
+		135C5FF91E10ACC50073C1FC /* TestTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestTest.entitlements; sourceTree = "<group>"; };
 		1395A0CF1D936E02000BB2F2 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		13A0CBD71E6677B900096050 /* zulianpaiming.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = zulianpaiming.plist; sourceTree = "<group>"; };
+		13A0CBD91E66818900096050 /* CountryCupModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryCupModeViewController.h; sourceTree = "<group>"; };
+		13A0CBDA1E66818900096050 /* CountryCupModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryCupModeViewController.m; sourceTree = "<group>"; };
+		13A0CBDB1E66818900096050 /* CountryCupModeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountryCupModeViewController.xib; sourceTree = "<group>"; };
+		13A0CBDE1E6683C700096050 /* CountryCupModeCalcul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryCupModeCalcul.h; sourceTree = "<group>"; };
+		13A0CBDF1E6683C700096050 /* CountryCupModeCalcul.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryCupModeCalcul.m; sourceTree = "<group>"; };
 		13D066F61DBDA4070056301A /* ChineseToPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyin.h; sourceTree = "<group>"; };
 		13D066F71DBDA4070056301A /* ChineseToPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyin.m; sourceTree = "<group>"; };
 		13DCDC2A1D94FFC200E156E2 /* ShengjiangjiModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShengjiangjiModeViewController.h; sourceTree = "<group>"; };
 		13DCDC2B1D94FFC200E156E2 /* ShengjiangjiModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShengjiangjiModeViewController.m; sourceTree = "<group>"; };
 		13DCDC2C1D94FFC200E156E2 /* ShengjiangjiModeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShengjiangjiModeViewController.xib; sourceTree = "<group>"; };
+		13FBF4951E711C0000D568BC /* NSString+ChineseToPinyinCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ChineseToPinyinCategory.h"; sourceTree = "<group>"; };
+		13FBF4961E711C0000D568BC /* NSString+ChineseToPinyinCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ChineseToPinyinCategory.m"; sourceTree = "<group>"; };
 		7E00C7E01CC46CA7002701BC /* JIANGSU.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JIANGSU.plist; sourceTree = "<group>"; };
 		7E00C7E21CC473D8002701BC /* JIANGXI.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JIANGXI.plist; sourceTree = "<group>"; };
 		7E00C7E41CC4788E002701BC /* ZHEJIANG.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ZHEJIANG.plist; sourceTree = "<group>"; };
@@ -156,6 +200,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		131F97941E03DE300038F005 /* circleReconger */ = {
+			isa = PBXGroup;
+			children = (
+				131F97911E03DCF60038F005 /* kouqiCircleRecognizer.h */,
+				131F97921E03DCF60038F005 /* kouqiCircleRecognizer.m */,
+				131F97951E03DEC10038F005 /* kouqiGeometry.h */,
+				131F97961E03DEC10038F005 /* kouqiGeometry.m */,
+				13FBF4951E711C0000D568BC /* NSString+ChineseToPinyinCategory.h */,
+				13FBF4961E711C0000D568BC /* NSString+ChineseToPinyinCategory.m */,
+			);
+			name = circleReconger;
+			sourceTree = "<group>";
+		};
 		1357822B1D755C6800E2C5A3 /* tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,12 +220,34 @@
 				1357822D1D755CEE00E2C5A3 /* CalculationGameTool.m */,
 				13205EEF1DB64F6300A3360D /* ShijieBeiModeCalcul.h */,
 				13205EF01DB64F6300A3360D /* ShijieBeiModeCalcul.m */,
+				13A0CBDE1E6683C700096050 /* CountryCupModeCalcul.h */,
+				13A0CBDF1E6683C700096050 /* CountryCupModeCalcul.m */,
 				1317B8081D781E7800F48B18 /* FileManageObject.h */,
 				1317B8091D781E7800F48B18 /* FileManageObject.m */,
 				1317B80B1D782C8F00F48B18 /* resultDataModel.xcdatamodeld */,
 				13D066F51DBDA4070056301A /* ChineseToPinyin */,
 			);
 			name = tools;
+			sourceTree = "<group>";
+		};
+		135C5FE61E10A9EF0073C1FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				135C5FE71E10A9EF0073C1FC /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		135C5FE91E10A9EF0073C1FC /* TestWidget */ = {
+			isa = PBXGroup;
+			children = (
+				135C5FF81E10ACB60073C1FC /* TestWidget.entitlements */,
+				135C5FEA1E10A9EF0073C1FC /* TodayViewController.h */,
+				135C5FEB1E10A9EF0073C1FC /* TodayViewController.m */,
+				135C5FED1E10A9EF0073C1FC /* MainInterface.storyboard */,
+				135C5FF01E10A9EF0073C1FC /* Info.plist */,
+			);
+			path = TestWidget;
 			sourceTree = "<group>";
 		};
 		13D066F51DBDA4070056301A /* ChineseToPinyin */ = {
@@ -184,6 +263,8 @@
 			isa = PBXGroup;
 			children = (
 				7E30B8EB1B9D7F8800F9A12A /* TestTest */,
+				135C5FE91E10A9EF0073C1FC /* TestWidget */,
+				135C5FE61E10A9EF0073C1FC /* Frameworks */,
 				7E30B8EA1B9D7F8800F9A12A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -200,8 +281,10 @@
 		7E30B8EB1B9D7F8800F9A12A /* TestTest */ = {
 			isa = PBXGroup;
 			children = (
+				135C5FF91E10ACC50073C1FC /* TestTest.entitlements */,
 				7E30B8F01B9D7F8800F9A12A /* AppDelegate.h */,
 				7E30B8F11B9D7F8800F9A12A /* AppDelegate.m */,
+				131F97941E03DE300038F005 /* circleReconger */,
 				1357822B1D755C6800E2C5A3 /* tools */,
 				7EAB17451CBE33B60063E874 /* city */,
 				7E30B8F31B9D7F8800F9A12A /* ViewController.h */,
@@ -209,6 +292,9 @@
 				130B7CBE1D82949E008BC15D /* LianSaiFenzuViewController.h */,
 				130B7CBF1D82949E008BC15D /* LianSaiFenzuViewController.m */,
 				130B7CC01D82949E008BC15D /* LianSaiFenzuViewController.xib */,
+				13A0CBD91E66818900096050 /* CountryCupModeViewController.h */,
+				13A0CBDA1E66818900096050 /* CountryCupModeViewController.m */,
+				13A0CBDB1E66818900096050 /* CountryCupModeViewController.xib */,
 				130B7CC31D82A3CA008BC15D /* LianSaiJingxingshiViewController.h */,
 				130B7CC41D82A3CA008BC15D /* LianSaiJingxingshiViewController.m */,
 				130B7CC51D82A3CA008BC15D /* LianSaiJingxingshiViewController.xib */,
@@ -218,6 +304,9 @@
 				13205EEA1DB64B1300A3360D /* ShijiebeiModeViewController.h */,
 				13205EEB1DB64B1300A3360D /* ShijiebeiModeViewController.m */,
 				13205EEC1DB64B1300A3360D /* ShijiebeiModeViewController.xib */,
+				131140891E6D03A80083FC8C /* YuXuanSaiViewController.h */,
+				1311408A1E6D03A80083FC8C /* YuXuanSaiViewController.m */,
+				1311408B1E6D03A80083FC8C /* YuXuanSaiViewController.xib */,
 				7E3F85C61BA131F9006D67E7 /* 民航局项目接口文档.doc */,
 				7E30B8F61B9D7F8800F9A12A /* Main.storyboard */,
 				7E30B8F91B9D7F8800F9A12A /* Images.xcassets */,
@@ -271,6 +360,7 @@
 				7ED237CD1CC53E0F003F1AF2 /* HAINANSHENG.plist */,
 				1347508E1D8B9B72007C09C2 /* TAIWAN.plist */,
 				13205EE81DB63BDD00A3360D /* zulian.plist */,
+				13A0CBD71E6677B900096050 /* zulianpaiming.plist */,
 			);
 			name = city;
 			sourceTree = "<group>";
@@ -285,6 +375,7 @@
 				7E30B8E51B9D7F8800F9A12A /* Sources */,
 				7E30B8E61B9D7F8800F9A12A /* Frameworks */,
 				7E30B8E71B9D7F8800F9A12A /* Resources */,
+				135C5FF71E10A9EF0073C1FC /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -324,8 +415,11 @@
 				TargetAttributes = {
 					7E30B8E81B9D7F8800F9A12A = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = 584CFSR8QA;
+						DevelopmentTeam = ALC8X8425P;
 						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
 							com.apple.OMC = {
 								enabled = 0;
 							};
@@ -363,6 +457,7 @@
 			files = (
 				7ED237CE1CC53E0F003F1AF2 /* HAINANSHENG.plist in Resources */,
 				13205EEE1DB64B1300A3360D /* ShijiebeiModeViewController.xib in Resources */,
+				13A0CBDD1E66818900096050 /* CountryCupModeViewController.xib in Resources */,
 				7ED237C21CC521BB003F1AF2 /* XICANG.plist in Resources */,
 				1347508F1D8B9B72007C09C2 /* TAIWAN.plist in Resources */,
 				7EAB17471CBE33D80063E874 /* ANHUI.plist in Resources */,
@@ -374,6 +469,8 @@
 				7E1D465F1CBF283F00968F31 /* HUBEI.plist in Resources */,
 				7E3F85C71BA131F9006D67E7 /* 民航局项目接口文档.doc in Resources */,
 				7E1D46651CBF3D1800968F31 /* HENAN.plist in Resources */,
+				1311408D1E6D03A80083FC8C /* YuXuanSaiViewController.xib in Resources */,
+				13A0CBD81E6677B900096050 /* zulianpaiming.plist in Resources */,
 				7E00C7E11CC46CA7002701BC /* JIANGSU.plist in Resources */,
 				13DCDC2E1D94FFC200E156E2 /* ShengjiangjiModeViewController.xib in Resources */,
 				7E00C7E51CC4788E002701BC /* ZHEJIANG.plist in Resources */,
@@ -421,14 +518,20 @@
 				7E30B8F51B9D7F8800F9A12A /* ViewController.m in Sources */,
 				13205EED1DB64B1300A3360D /* ShijiebeiModeViewController.m in Sources */,
 				7E30B8F21B9D7F8800F9A12A /* AppDelegate.m in Sources */,
+				13A0CBDC1E66818900096050 /* CountryCupModeViewController.m in Sources */,
 				130B7CC61D82A3CA008BC15D /* LianSaiJingxingshiViewController.m in Sources */,
+				13A0CBE01E6683C700096050 /* CountryCupModeCalcul.m in Sources */,
+				1311408C1E6D03A80083FC8C /* YuXuanSaiViewController.m in Sources */,
+				131F97971E03DEC10038F005 /* kouqiGeometry.m in Sources */,
 				7E30B8EF1B9D7F8800F9A12A /* main.m in Sources */,
 				13205EF11DB64F6300A3360D /* ShijieBeiModeCalcul.m in Sources */,
 				1317B80A1D781E7800F48B18 /* FileManageObject.m in Sources */,
 				13DCDC2D1D94FFC200E156E2 /* ShengjiangjiModeViewController.m in Sources */,
 				13D066F81DBDA4070056301A /* ChineseToPinyin.m in Sources */,
 				1317B80D1D782C8F00F48B18 /* resultDataModel.xcdatamodeld in Sources */,
+				13FBF4971E711C0000D568BC /* NSString+ChineseToPinyinCategory.m in Sources */,
 				1357822E1D755CEE00E2C5A3 /* CalculationGameTool.m in Sources */,
+				131F97931E03DCF60038F005 /* kouqiCircleRecognizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +553,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		135C5FED1E10A9EF0073C1FC /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				135C5FEE1E10A9EF0073C1FC /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		7E30B8F61B9D7F8800F9A12A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -562,9 +673,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_ENTITLEMENTS = TestTest/TestTest.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ALC8X8425P;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestTest",
@@ -587,9 +699,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_ENTITLEMENTS = TestTest/TestTest.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ALC8X8425P;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestTest",

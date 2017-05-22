@@ -7,19 +7,19 @@
 		<string>杭州</string>
 		<key>city</key>
 		<array>
-			<string>建德市</string>
+			<string>江干区</string>
+			<string>西湖区</string>
 			<string>余杭区</string>
 			<string>萧山区</string>
+			<string>拱墅区</string>
+			<string>上城区</string>
+			<string>滨江区</string>
+			<string>下城区</string>
+			<string>富阳区</string>
 			<string>淳安县</string>
 			<string>桐庐县</string>
 			<string>临安市</string>
-			<string>拱墅区</string>
-			<string>上城区</string>
-			<string>西湖区</string>
-			<string>滨江区</string>
-			<string>下城区</string>
-			<string>江干区</string>
-			<string>富阳区</string>
+			<string>建德市</string>
 		</array>
 	</dict>
 	<dict>
@@ -27,12 +27,12 @@
 		<string>绍兴</string>
 		<key>city</key>
 		<array>
-			<string>新昌县</string>
-			<string>嵊州市</string>
-			<string>柯桥区</string>
-			<string>诸暨市</string>
-			<string>上虞区</string>
 			<string>越城区</string>
+			<string>柯桥区</string>
+			<string>上虞区</string>
+			<string>新昌县</string>
+			<string>诸暨市</string>
+			<string>嵊州市</string>
 		</array>
 	</dict>
 	<dict>
@@ -40,15 +40,15 @@
 		<string>金华</string>
 		<key>city</key>
 		<array>
-			<string>永康市</string>
+			<string>婺城区</string>
 			<string>金东区</string>
 			<string>武义县</string>
+			<string>浦江县</string>
+			<string>磐安县</string>
 			<string>义乌市</string>
 			<string>东阳市</string>
 			<string>兰溪市</string>
-			<string>婺城区</string>
-			<string>浦江县</string>
-			<string>磐安县</string>
+			<string>永康市</string>
 		</array>
 	</dict>
 	<dict>
@@ -56,15 +56,15 @@
 		<string>丽水</string>
 		<key>city</key>
 		<array>
+			<string>莲都区</string>
 			<string>云和县</string>
-			<string>龙泉市</string>
-			<string>景宁畲族自治县</string>
 			<string>松阳县</string>
 			<string>庆元县</string>
-			<string>莲都区</string>
 			<string>青田县</string>
 			<string>遂昌县</string>
 			<string>缙云县</string>
+			<string>景宁畲族自治县</string>
+			<string>龙泉市</string>
 		</array>
 	</dict>
 	<dict>
@@ -73,10 +73,10 @@
 		<key>city</key>
 		<array>
 			<string>南湖区</string>
-			<string>海宁市</string>
 			<string>秀洲区</string>
 			<string>嘉善县</string>
 			<string>海盐县</string>
+			<string>海宁市</string>
 			<string>平湖市</string>
 			<string>桐乡市</string>
 		</array>
@@ -86,10 +86,10 @@
 		<string>湖州</string>
 		<key>city</key>
 		<array>
-			<string>德清县</string>
-			<string>长兴县</string>
 			<string>吴兴区</string>
 			<string>南浔区</string>
+			<string>长兴县</string>
+			<string>德清县</string>
 			<string>安吉县</string>
 		</array>
 	</dict>
@@ -98,15 +98,15 @@
 		<string>台州</string>
 		<key>city</key>
 		<array>
-			<string>临海市</string>
+			<string>椒江区</string>
+			<string>路桥区</string>
+			<string>黄岩区</string>
 			<string>三门县</string>
 			<string>仙居县</string>
 			<string>天台县</string>
-			<string>椒江区</string>
-			<string>温岭市</string>
-			<string>路桥区</string>
 			<string>玉环县</string>
-			<string>黄岩区</string>
+			<string>温岭市</string>
+			<string>临海市</string>
 		</array>
 	</dict>
 	<dict>
@@ -114,12 +114,12 @@
 		<string>衢州</string>
 		<key>city</key>
 		<array>
-			<string>常山县</string>
 			<string>柯城区</string>
 			<string>衢江区</string>
-			<string>江山市</string>
+			<string>常山县</string>
 			<string>开化县</string>
 			<string>龙游县</string>
+			<string>江山市</string>
 		</array>
 	</dict>
 	<dict>
@@ -127,9 +127,9 @@
 		<string>舟山</string>
 		<key>city</key>
 		<array>
-			<string>岱山县</string>
 			<string>定海区</string>
 			<string>普陀区</string>
+			<string>岱山县</string>
 			<string>嵊泗县</string>
 		</array>
 	</dict>
@@ -138,17 +138,17 @@
 		<string>温州</string>
 		<key>city</key>
 		<array>
+			<string>鹿城区</string>
+			<string>龙湾区</string>
+			<string>瓯海区</string>
+			<string>洞头区</string>
 			<string>平阳县</string>
 			<string>苍南县</string>
 			<string>文成县</string>
 			<string>泰顺县</string>
-			<string>鹿城区</string>
-			<string>龙湾区</string>
-			<string>瓯海区</string>
+			<string>永嘉县</string>
 			<string>瑞安市</string>
 			<string>乐清市</string>
-			<string>洞头区</string>
-			<string>永嘉县</string>
 		</array>
 	</dict>
 	<dict>
@@ -156,17 +156,16 @@
 		<string>宁波</string>
 		<key>city</key>
 		<array>
+			<string>鄞州区</string>
 			<string>北仑区</string>
 			<string>江北区</string>
-			<string>江东区</string>
-			<string>奉化市</string>
-			<string>慈溪市</string>
-			<string>余姚市</string>
-			<string>鄞州区</string>
+			<string>奉化区</string>
 			<string>海曙区</string>
+			<string>镇海区</string>
 			<string>象山县</string>
 			<string>宁海县</string>
-			<string>镇海区</string>
+			<string>慈溪市</string>
+			<string>余姚市</string>
 		</array>
 	</dict>
 </array>

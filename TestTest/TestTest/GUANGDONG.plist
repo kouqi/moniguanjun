@@ -7,6 +7,7 @@
 		<string>广州</string>
 		<key>city</key>
 		<array>
+			<string>越秀区</string>
 			<string>白云区</string>
 			<string>天河区</string>
 			<string>番禺区</string>
@@ -14,7 +15,6 @@
 			<string>南沙区</string>
 			<string>花都区</string>
 			<string>增城区</string>
-			<string>越秀区</string>
 			<string>海珠区</string>
 			<string>荔湾区</string>
 			<string>从化区</string>
@@ -25,16 +25,14 @@
 		<string>深圳</string>
 		<key>city</key>
 		<array>
+			<string>福田区</string>
 			<string>南山区</string>
 			<string>宝安区</string>
 			<string>罗湖区</string>
 			<string>龙岗区</string>
-			<string>福田区</string>
 			<string>盐田区</string>
 			<string>龙华区</string>
 			<string>坪山区</string>
-			<string>大鹏区</string>
-			<string>光明区</string>
 		</array>
 	</dict>
 	<dict>
@@ -52,10 +50,10 @@
 		<string>阳江</string>
 		<key>city</key>
 		<array>
-			<string>阳春市</string>
-			<string>阳西县</string>
-			<string>阳东区</string>
 			<string>江城区</string>
+			<string>阳东区</string>
+			<string>阳西县</string>
+			<string>阳春市</string>
 		</array>
 	</dict>
 	<dict>
@@ -63,16 +61,16 @@
 		<string>韶关</string>
 		<key>city</key>
 		<array>
-			<string>始兴县</string>
-			<string>翁源县</string>
+			<string>浈江区</string>
 			<string>武江区</string>
 			<string>曲江区</string>
+			<string>始兴县</string>
+			<string>翁源县</string>
+			<string>仁化县</string>
+			<string>新丰县</string>
+			<string>乳源瑶族自治县</string>
 			<string>乐昌市</string>
 			<string>南雄市</string>
-			<string>仁化县</string>
-			<string>乳源瑶族自治县</string>
-			<string>新丰县</string>
-			<string>浈江区</string>
 		</array>
 	</dict>
 	<dict>
@@ -80,11 +78,11 @@
 		<string>揭阳</string>
 		<key>city</key>
 		<array>
-			<string>普宁市</string>
 			<string>榕城区</string>
-			<string>揭西县</string>
 			<string>揭东区</string>
+			<string>揭西县</string>
 			<string>惠来县</string>
+			<string>普宁市</string>
 		</array>
 	</dict>
 	<dict>
@@ -92,9 +90,9 @@
 		<string>茂名</string>
 		<key>city</key>
 		<array>
+			<string>茂南区</string>
 			<string>电白区</string>
 			<string>信宜市</string>
-			<string>茂南区</string>
 			<string>化州市</string>
 			<string>高州市</string>
 		</array>
@@ -104,14 +102,14 @@
 		<string>清远</string>
 		<key>city</key>
 		<array>
-			<string>连山壮族瑶族自治县</string>
+			<string>清城区</string>
 			<string>清新区</string>
 			<string>阳山县</string>
 			<string>佛冈县</string>
+			<string>连南瑶族自治县</string>
+			<string>连山壮族瑶族自治县</string>
 			<string>连州市</string>
 			<string>英德市</string>
-			<string>清城区</string>
-			<string>连南瑶族自治县</string>
 		</array>
 	</dict>
 	<dict>
@@ -132,12 +130,12 @@
 		<string>汕头</string>
 		<key>city</key>
 		<array>
+			<string>金平区</string>
 			<string>澄海区</string>
 			<string>潮南区</string>
 			<string>潮阳区</string>
 			<string>濠江区</string>
 			<string>龙湖区</string>
-			<string>金平区</string>
 			<string>南澳县</string>
 		</array>
 	</dict>
@@ -146,15 +144,15 @@
 		<string>湛江</string>
 		<key>city</key>
 		<array>
-			<string>廉江市</string>
+			<string>赤坎区</string>
 			<string>霞山区</string>
 			<string>坡头区</string>
+			<string>麻章区</string>
 			<string>遂溪县</string>
 			<string>徐闻县</string>
 			<string>雷州市</string>
 			<string>吴川市</string>
-			<string>赤坎区</string>
-			<string>麻章区</string>
+			<string>廉江市</string>
 		</array>
 	</dict>
 	<dict>
@@ -162,11 +160,11 @@
 		<string>佛山</string>
 		<key>city</key>
 		<array>
+			<string>禅城区</string>
 			<string>南海区</string>
 			<string>顺德区</string>
 			<string>三水区</string>
 			<string>高明区</string>
-			<string>禅城区</string>
 		</array>
 	</dict>
 	<dict>
@@ -174,12 +172,12 @@
 		<string>江门</string>
 		<key>city</key>
 		<array>
+			<string>蓬江区</string>
+			<string>江海区</string>
+			<string>新会区</string>
 			<string>开平市</string>
 			<string>鹤山市</string>
 			<string>恩平市</string>
-			<string>江海区</string>
-			<string>蓬江区</string>
-			<string>新会区</string>
 			<string>台山市</string>
 		</array>
 	</dict>
@@ -189,8 +187,8 @@
 		<key>city</key>
 		<array>
 			<string>湘桥区</string>
-			<string>饶平县</string>
 			<string>潮安区</string>
+			<string>饶平县</string>
 		</array>
 	</dict>
 	<dict>
@@ -209,14 +207,14 @@
 		<string>肇庆</string>
 		<key>city</key>
 		<array>
-			<string>封开县</string>
-			<string>四会市</string>
+			<string>端州区</string>
 			<string>高要区</string>
+			<string>鼎湖区</string>
+			<string>封开县</string>
 			<string>怀集县</string>
 			<string>广宁县</string>
-			<string>端州区</string>
-			<string>鼎湖区</string>
 			<string>德庆县</string>
+			<string>四会市</string>
 		</array>
 	</dict>
 	<dict>
@@ -237,10 +235,10 @@
 		<key>city</key>
 		<array>
 			<string>云城区</string>
-			<string>新兴县</string>
-			<string>罗定市</string>
 			<string>云安区</string>
+			<string>新兴县</string>
 			<string>郁南县</string>
+			<string>罗定市</string>
 		</array>
 	</dict>
 	<dict>
@@ -248,14 +246,14 @@
 		<string>梅州</string>
 		<key>city</key>
 		<array>
+			<string>梅江区</string>
+			<string>梅县区</string>
 			<string>平远县</string>
 			<string>蕉岭县</string>
-			<string>梅县区</string>
-			<string>兴宁市</string>
 			<string>丰顺县</string>
 			<string>大埔县</string>
-			<string>梅江区</string>
 			<string>五华县</string>
+			<string>兴宁市</string>
 		</array>
 	</dict>
 </array>

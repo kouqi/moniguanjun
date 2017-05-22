@@ -8,11 +8,11 @@
 		<key>city</key>
 		<array>
 			<string>城关区</string>
+			<string>堆龙德庆区</string>
 			<string>林周县</string>
 			<string>当雄县</string>
 			<string>尼木县</string>
 			<string>曲水县</string>
-			<string>堆龙德庆区</string>
 			<string>达孜县</string>
 			<string>墨竹工卡县</string>
 		</array>
@@ -25,7 +25,6 @@
 			<string>卡若区</string>
 			<string>江达县</string>
 			<string>贡觉县</string>
-			<string>类乌齐县</string>
 			<string>丁青县</string>
 			<string>察雅县</string>
 			<string>八宿县</string>
@@ -33,6 +32,7 @@
 			<string>芒康县</string>
 			<string>洛隆县</string>
 			<string>边坝县</string>
+			<string>类乌齐县</string>
 		</array>
 	</dict>
 	<dict>
@@ -60,13 +60,11 @@
 		<key>city</key>
 		<array>
 			<string>桑珠孜区</string>
-			<string>南木林县</string>
 			<string>江孜县</string>
 			<string>定日县</string>
 			<string>萨迦县</string>
 			<string>拉孜县</string>
 			<string>昂仁县</string>
-			<string>谢通门县</string>
 			<string>白朗县</string>
 			<string>仁布县</string>
 			<string>康马县</string>
@@ -74,9 +72,11 @@
 			<string>仲巴县</string>
 			<string>亚东县</string>
 			<string>吉隆县</string>
-			<string>聂拉木县</string>
 			<string>萨嘎县</string>
 			<string>岗巴县</string>
+			<string>南木林县</string>
+			<string>谢通门县</string>
+			<string>聂拉木县</string>
 		</array>
 	</dict>
 	<dict>
@@ -85,12 +85,12 @@
 		<key>city</key>
 		<array>
 			<string>那曲县</string>
+			<string>索县</string>
 			<string>嘉黎县</string>
 			<string>比如县</string>
 			<string>聂荣县</string>
 			<string>安多县</string>
 			<string>申扎县</string>
-			<string>索县</string>
 			<string>班戈县</string>
 			<string>巴青县</string>
 			<string>尼玛县</string>
@@ -102,9 +102,9 @@
 		<string>阿里</string>
 		<key>city</key>
 		<array>
+			<string>噶尔县</string>
 			<string>普兰县</string>
 			<string>札达县</string>
-			<string>噶尔县</string>
 			<string>日土县</string>
 			<string>革吉县</string>
 			<string>改则县</string>
@@ -117,12 +117,12 @@
 		<key>city</key>
 		<array>
 			<string>巴宜区</string>
-			<string>工布江达县</string>
+			<string>朗县</string>
 			<string>米林县</string>
 			<string>墨脱县</string>
 			<string>波密县</string>
 			<string>察隅县</string>
-			<string>朗县</string>
+			<string>工布江达县</string>
 		</array>
 	</dict>
 </array>

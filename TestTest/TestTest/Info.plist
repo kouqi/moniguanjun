@@ -42,11 +42,13 @@
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.appExp.EStore</string>
+			<string>com.hna.eking.mobile.zhengbasai</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>Estore</string>
+				<string>zhengbasai</string>
 			</array>
 		</dict>
 	</array>

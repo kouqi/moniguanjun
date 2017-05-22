@@ -8,10 +8,10 @@
 		<key>city</key>
 		<array>
 			<string>城关区</string>
-			<string>七里河区</string>
 			<string>西固区</string>
 			<string>安宁区</string>
 			<string>红古区</string>
+			<string>七里河区</string>
 			<string>永登县</string>
 			<string>皋兰县</string>
 			<string>榆中县</string>
@@ -69,11 +69,11 @@
 		<key>city</key>
 		<array>
 			<string>甘州区</string>
-			<string>肃南裕固族自治县</string>
 			<string>民乐县</string>
 			<string>临泽县</string>
 			<string>高台县</string>
 			<string>山丹县</string>
+			<string>肃南裕固族自治县</string>
 		</array>
 	</dict>
 	<dict>
@@ -110,12 +110,12 @@
 		<key>city</key>
 		<array>
 			<string>西峰区</string>
-			<string>庆城县</string>
 			<string>环县</string>
+			<string>宁县</string>
+			<string>庆城县</string>
 			<string>华池县</string>
 			<string>合水县</string>
 			<string>正宁县</string>
-			<string>宁县</string>
 			<string>镇原县</string>
 		</array>
 	</dict>
@@ -125,12 +125,12 @@
 		<key>city</key>
 		<array>
 			<string>安定区</string>
+			<string>漳县</string>
+			<string>岷县</string>
 			<string>通渭县</string>
 			<string>陇西县</string>
 			<string>渭源县</string>
 			<string>临洮县</string>
-			<string>漳县</string>
-			<string>岷县</string>
 		</array>
 	</dict>
 	<dict>
@@ -140,12 +140,12 @@
 		<array>
 			<string>武都区</string>
 			<string>成县</string>
-			<string>文县</string>
-			<string>宕昌县</string>
 			<string>康县</string>
-			<string>西和县</string>
 			<string>礼县</string>
 			<string>徽县</string>
+			<string>文县</string>
+			<string>宕昌县</string>
+			<string>西和县</string>
 			<string>两当县</string>
 		</array>
 	</dict>

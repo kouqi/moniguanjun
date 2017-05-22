@@ -11,6 +11,8 @@
 #import "LianSaiFenzuViewController.h"
 #import "ChineseToPinyin.h"
 
+#import "kouqiCircleRecognizer.h"
+
 @interface ViewController ()<UIDocumentInteractionControllerDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *bSText;
 @property (weak, nonatomic) IBOutlet UITextField *biOText;
@@ -39,6 +41,7 @@
     [self shengchengShuzu];
     LianSaiFenzuViewController *lsfVC = [[LianSaiFenzuViewController alloc] initWithNibName:@"LianSaiFenzuViewController" bundle:nil];
     lsfVC.allQiuduiArray = [NSMutableArray arrayWithArray:self.allArray];
+    lsfVC.isCountry = self.isGuojia;
     UINavigationController *mavi = [[UINavigationController alloc] initWithRootViewController:lsfVC];
     [self presentViewController:mavi animated:YES completion:^{
         
@@ -81,8 +84,17 @@
     
 }
 
+-(void) shoushishenxhaile
+{
+    NSLog(@"执行了------");
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    kouqiCircleRecognizer *circle = [[kouqiCircleRecognizer alloc] initWithTarget:self action:@selector(shoushishenxhaile)];
+    [self.view addGestureRecognizer:circle];
+    
     self.isShiji = 0;
     self.isDanBaiMode = NO;
     self.isGuojia = NO;
@@ -594,14 +606,14 @@
     self.jieshu++;
     self.jieduanshu = 1;
     [self shengchengShuzu];
-    [self kaishiMoniWithArray];
+    [self kaishiMoniWithArrayWithIsHH:NO];
 }
 
 -(void) shengchengShuzu
 {
     NSMutableArray *arra = [NSMutableArray array];
     if (self.isGuojia) {
-        NSString *filePath = [[NSBundle mainBundle] pathForResource:@"zulian" ofType:@"plist"];
+        NSString *filePath = [[NSBundle mainBundle] pathForResource:@"zulianpaiming" ofType:@"plist"];
         [arra addObjectsFromArray:[NSArray arrayWithContentsOfFile:filePath]];
     }else{
         if (self.isShiji) {
@@ -702,11 +714,21 @@
                 NSMutableArray *all = [dic valueForKey:@"city"];
                 if ((self.cotainTextfi.text != nil) && (![self.cotainTextfi.text isEqualToString:@""])) {
                     for (NSString *cityNmae in all) {
-                        if ([cityNmae containsString:self.cotainTextfi.text]) {
-                            if (self.isShiji) {
-                                [array addObject:cityNmae];
-                            }else{
-                                [array addObject:[NSString stringWithFormat:@"%@%@",[dic valueForKey:@"shi"],cityNmae]];
+                        if ([self.cotainTextfi.text isEqualToString:@"市"] || [self.cotainTextfi.text isEqualToString:@"县"] || [self.cotainTextfi.text isEqualToString:@"区"] || [self.cotainTextfi.text isEqualToString:@"旗"] || [self.cotainTextfi.text isEqualToString:@"州"] || [self.cotainTextfi.text isEqualToString:@"盟"]) {
+                            if ([cityNmae hasSuffix:self.cotainTextfi.text]) {
+                                if (self.isShiji) {
+                                    [array addObject:cityNmae];
+                                }else{
+                                    [array addObject:[NSString stringWithFormat:@"%@%@",[dic valueForKey:@"shi"],cityNmae]];
+                                }
+                            }
+                        } else {
+                            if ([cityNmae containsString:self.cotainTextfi.text]) {
+                                if (self.isShiji) {
+                                    [array addObject:cityNmae];
+                                }else{
+                                    [array addObject:[NSString stringWithFormat:@"%@%@",[dic valueForKey:@"shi"],cityNmae]];
+                                }
                             }
                         }
                     }
@@ -724,13 +746,24 @@
             NSMutableArray *all = [dic valueForKey:@"city"];
             if ((self.cotainTextfi.text != nil) && (![self.cotainTextfi.text isEqualToString:@""])) {
                 for (NSString *cityNmae in all) {
-                    if ([cityNmae containsString:self.cotainTextfi.text]) {
-                        if (self.isShiji) {
-                            [array addObject:cityNmae];
-                        }else{
-                            [array addObject:[NSString stringWithFormat:@"%@%@",[dic valueForKey:@"shi"],cityNmae]];
+                    if ([self.cotainTextfi.text isEqualToString:@"市"] || [self.cotainTextfi.text isEqualToString:@"县"] || [self.cotainTextfi.text isEqualToString:@"区"] || [self.cotainTextfi.text isEqualToString:@"旗"] || [self.cotainTextfi.text isEqualToString:@"州"] || [self.cotainTextfi.text isEqualToString:@"盟"]) {
+                        if ([cityNmae hasSuffix:self.cotainTextfi.text]) {
+                            if (self.isShiji) {
+                                [array addObject:cityNmae];
+                            }else{
+                                [array addObject:[NSString stringWithFormat:@"%@%@",[dic valueForKey:@"shi"],cityNmae]];
+                            }
+                        }
+                    } else {
+                        if ([cityNmae containsString:self.cotainTextfi.text]) {
+                            if (self.isShiji) {
+                                [array addObject:cityNmae];
+                            }else{
+                                [array addObject:[NSString stringWithFormat:@"%@%@",[dic valueForKey:@"shi"],cityNmae]];
+                            }
                         }
                     }
+                    
                 }
             }else{
                 for (NSString *cityNmae in all) {
@@ -755,22 +788,57 @@
             if (self.isShiji) {
                 [array addObject:cityNmae];
             }else{
-                [array addObject:[NSString stringWithFormat:@"%@%@",[dic valueForKey:@"shi"],cityNmae]];
+                if (self.cotainTextfi.text != nil && [self.cotainTextfi.text isKindOfClass:[NSString class]] && (![self.cotainTextfi.text isEqualToString:@""])) {
+                    if (self.isDanBaiMode) {
+                        if ([self.cotainTextfi.text isEqualToString:@"市"] || [self.cotainTextfi.text isEqualToString:@"县"] || [self.cotainTextfi.text isEqualToString:@"区"] || [self.cotainTextfi.text isEqualToString:@"旗"] || [self.cotainTextfi.text isEqualToString:@"州"] || [self.cotainTextfi.text isEqualToString:@"盟"]) {
+                            if (![cityNmae hasSuffix:self.cotainTextfi.text]) {
+                                [array addObject:[NSString stringWithFormat:@"%@%@",[dic valueForKey:@"shi"],cityNmae]];
+                            }
+                        } else {
+                            if (![cityNmae containsString:self.cotainTextfi.text]) {
+                                [array addObject:[NSString stringWithFormat:@"%@%@",[dic valueForKey:@"shi"],cityNmae]];
+                            }
+                        }
+                        
+                    }else{
+                        if ([self.cotainTextfi.text isEqualToString:@"市"] || [self.cotainTextfi.text isEqualToString:@"县"] || [self.cotainTextfi.text isEqualToString:@"区"] || [self.cotainTextfi.text isEqualToString:@"旗"] || [self.cotainTextfi.text isEqualToString:@"州"] || [self.cotainTextfi.text isEqualToString:@"盟"]) {
+                            if ([cityNmae hasSuffix:self.cotainTextfi.text]) {
+                                [array addObject:[NSString stringWithFormat:@"%@%@",[dic valueForKey:@"shi"],cityNmae]];
+                            }
+                        } else {
+                            if ([cityNmae containsString:self.cotainTextfi.text]) {
+                                [array addObject:[NSString stringWithFormat:@"%@%@",[dic valueForKey:@"shi"],cityNmae]];
+                            }
+                        }
+                        
+                    }
+                }else{
+                    [array addObject:[NSString stringWithFormat:@"%@%@",[dic valueForKey:@"shi"],cityNmae]];
+                }
             }
         }
     }
     return array;
 }
 
--(void) kaishiMoniWithArray{
+-(void) kaishiMoniWithArrayWithIsHH:(BOOL) hh{
     if (self.allArray.count < 4) {
         return;
     }
-    if (self.isDanBaiMode) {
-        [self danBaiModeWithArray:self.allArray andjieduan:self.jieduanshu];
+    if (hh) {
+//        if (self.isDanBaiMode) {
+//            [self danBaiModeWithArray:self.allArray andjieduan:self.jieduanshu];
+//        }else{
+            [self chouYuxuanWithArray:self.allArray andjieduan:self.jieduanshu];
+//        }
     }else{
-        [self chouYuxuanWithArray:self.allArray andjieduan:self.jieduanshu];
+        if (self.isDanBaiMode) {
+            [self danBaiModeWithArray:self.allArray andjieduan:self.jieduanshu];
+        }else{
+            [self chouYuxuanWithArray:self.allArray andjieduan:self.jieduanshu];
+        }
     }
+    
 }
 
 

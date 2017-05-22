@@ -7,14 +7,14 @@
 		<string>南昌</string>
 		<key>city</key>
 		<array>
-			<string>青山湖区</string>
-			<string>南昌县</string>
-			<string>西湖区</string>
 			<string>东湖区</string>
 			<string>新建区</string>
-			<string>进贤县</string>
-			<string>青云谱区</string>
+			<string>西湖区</string>
 			<string>湾里区</string>
+			<string>青云谱区</string>
+			<string>青山湖区</string>
+			<string>南昌县</string>
+			<string>进贤县</string>
 			<string>安义县</string>
 		</array>
 	</dict>
@@ -23,24 +23,24 @@
 		<string>赣州</string>
 		<key>city</key>
 		<array>
-			<string>兴国县</string>
 			<string>章贡区</string>
+			<string>南康区</string>
+			<string>赣县区</string>
+			<string>兴国县</string>
 			<string>石城县</string>
 			<string>定南县</string>
-			<string>瑞金市</string>
 			<string>安远县</string>
 			<string>信丰县</string>
 			<string>崇义县</string>
 			<string>上犹县</string>
 			<string>全南县</string>
-			<string>赣县</string>
-			<string>南康区</string>
 			<string>寻乌县</string>
 			<string>宁都县</string>
 			<string>于都县</string>
 			<string>龙南县</string>
 			<string>会昌县</string>
 			<string>大余县</string>
+			<string>瑞金市</string>
 		</array>
 	</dict>
 	<dict>
@@ -48,18 +48,18 @@
 		<string>九江</string>
 		<key>city</key>
 		<array>
+			<string>浔阳区</string>
+			<string>濂溪区</string>
 			<string>武宁县</string>
 			<string>九江县</string>
 			<string>彭泽县</string>
-			<string>庐山区</string>
-			<string>瑞昌市</string>
-			<string>浔阳区</string>
 			<string>湖口县</string>
 			<string>都昌县</string>
 			<string>永修县</string>
 			<string>修水县</string>
-			<string>庐山市</string>
 			<string>德安县</string>
+			<string>瑞昌市</string>
+			<string>庐山市</string>
 			<string>共青城市</string>
 		</array>
 	</dict>
@@ -68,8 +68,8 @@
 		<string>萍乡</string>
 		<key>city</key>
 		<array>
-			<string>湘东区</string>
 			<string>安源区</string>
+			<string>湘东区</string>
 			<string>上栗县</string>
 			<string>莲花县</string>
 			<string>芦溪县</string>
@@ -80,12 +80,12 @@
 		<string>吉安</string>
 		<key>city</key>
 		<array>
-			<string>万安县</string>
 			<string>吉州区</string>
+			<string>青原区</string>
+			<string>万安县</string>
 			<string>吉安县</string>
 			<string>吉水县</string>
 			<string>峡江县</string>
-			<string>青原区</string>
 			<string>泰和县</string>
 			<string>遂川县</string>
 			<string>新干县</string>
@@ -100,10 +100,10 @@
 		<string>景德镇</string>
 		<key>city</key>
 		<array>
+			<string>昌江区</string>
+			<string>珠山区</string>
 			<string>浮梁县</string>
 			<string>乐平市</string>
-			<string>珠山区</string>
-			<string>昌江区</string>
 		</array>
 	</dict>
 	<dict>
@@ -111,9 +111,9 @@
 		<string>鹰潭</string>
 		<key>city</key>
 		<array>
-			<string>贵溪市</string>
-			<string>余江县</string>
 			<string>月湖区</string>
+			<string>余江县</string>
+			<string>贵溪市</string>
 		</array>
 	</dict>
 	<dict>
@@ -121,14 +121,14 @@
 		<string>抚州</string>
 		<key>city</key>
 		<array>
+			<string>临川区</string>
+			<string>东乡区</string>
 			<string>南丰县</string>
 			<string>南城县</string>
-			<string>临川区</string>
 			<string>宜黄县</string>
 			<string>乐安县</string>
 			<string>崇仁县</string>
 			<string>广昌县</string>
-			<string>东乡县</string>
 			<string>资溪县</string>
 			<string>金溪县</string>
 			<string>黎川县</string>
@@ -148,16 +148,16 @@
 		<string>宜春</string>
 		<key>city</key>
 		<array>
-			<string>高安市</string>
+			<string>袁州区</string>
 			<string>奉新县</string>
-			<string>丰城市</string>
-			<string>樟树市</string>
 			<string>宜丰县</string>
 			<string>靖安县</string>
 			<string>万载县</string>
 			<string>上高县</string>
 			<string>铜鼓县</string>
-			<string>袁州区</string>
+			<string>高安市</string>
+			<string>樟树市</string>
+			<string>丰城市</string>
 		</array>
 	</dict>
 	<dict>
@@ -165,9 +165,9 @@
 		<string>上饶</string>
 		<key>city</key>
 		<array>
-			<string>上饶县</string>
-			<string>德兴市</string>
 			<string>信州区</string>
+			<string>广丰区</string>
+			<string>上饶县</string>
 			<string>玉山县</string>
 			<string>铅山县</string>
 			<string>横峰县</string>
@@ -176,7 +176,7 @@
 			<string>鄱阳县</string>
 			<string>万年县</string>
 			<string>婺源县</string>
-			<string>广丰区</string>
+			<string>德兴市</string>
 		</array>
 	</dict>
 </array>

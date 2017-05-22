@@ -24,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.nstring = [[NSMutableString alloc] init];
-    [self.nstring appendFormat:@"参赛球队\n"];
+    [self.nstring appendFormat:@"参赛球队(%ld支)\n",self.cansaiArray.count];
     for (NSString *name in self.cansaiArray) {
         [self.nstring appendFormat:@"%@ ",name];
     }

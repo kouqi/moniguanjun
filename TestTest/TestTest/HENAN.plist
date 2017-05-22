@@ -7,17 +7,17 @@
 		<string>郑州</string>
 		<key>city</key>
 		<array>
-			<string>金水区</string>
-			<string>荧阳市</string>
-			<string>二七区</string>
-			<string>管城回族区</string>
 			<string>中原区</string>
+			<string>金水区</string>
+			<string>二七区</string>
+			<string>惠济区</string>
+			<string>上街区</string>
+			<string>管城回族区</string>
+			<string>中牟县</string>
+			<string>荧阳市</string>
 			<string>新郑市</string>
 			<string>新密市</string>
 			<string>登封市</string>
-			<string>惠济区</string>
-			<string>中牟县</string>
-			<string>上街区</string>
 			<string>巩义市</string>
 		</array>
 	</dict>
@@ -26,15 +26,15 @@
 		<string>平顶山</string>
 		<key>city</key>
 		<array>
-			<string>宝丰县</string>
-			<string>叶县</string>
-			<string>郏县</string>
-			<string>鲁山县</string>
+			<string>新华区</string>
 			<string>湛河区</string>
 			<string>卫东区</string>
-			<string>新华区</string>
-			<string>舞钢市</string>
 			<string>石龙区</string>
+			<string>叶县</string>
+			<string>郏县</string>
+			<string>宝丰县</string>
+			<string>鲁山县</string>
+			<string>舞钢市</string>
 			<string>汝州市</string>
 		</array>
 	</dict>
@@ -43,10 +43,10 @@
 		<string>濮阳</string>
 		<key>city</key>
 		<array>
+			<string>华龙区</string>
 			<string>范县</string>
 			<string>濮阳县</string>
 			<string>南乐县</string>
-			<string>华龙区</string>
 			<string>台前县</string>
 			<string>清丰县</string>
 		</array>
@@ -56,21 +56,21 @@
 		<string>洛阳</string>
 		<key>city</key>
 		<array>
-			<string>孟津县</string>
 			<string>洛龙区</string>
-			<string>新安县</string>
-			<string>汝阳县</string>
-			<string>偃师市</string>
-			<string>宜阳县</string>
 			<string>老城区</string>
 			<string>涧西区</string>
-			<string>洛宁县</string>
-			<string>嵩县</string>
-			<string>栾川县</string>
 			<string>西工区</string>
-			<string>伊川县</string>
 			<string>吉利区</string>
 			<string>瀍河回族区</string>
+			<string>嵩县</string>
+			<string>孟津县</string>
+			<string>新安县</string>
+			<string>汝阳县</string>
+			<string>宜阳县</string>
+			<string>洛宁县</string>
+			<string>栾川县</string>
+			<string>伊川县</string>
+			<string>偃师市</string>
 		</array>
 	</dict>
 	<dict>
@@ -78,14 +78,14 @@
 		<string>商丘</string>
 		<key>city</key>
 		<array>
+			<string>睢阳区</string>
+			<string>梁园区</string>
+			<string>睢县</string>
 			<string>民权县</string>
 			<string>虞城县</string>
 			<string>柘城县</string>
 			<string>夏邑县</string>
 			<string>宁陵县</string>
-			<string>睢县</string>
-			<string>睢阳区</string>
-			<string>梁园区</string>
 			<string>永城市</string>
 		</array>
 	</dict>
@@ -94,6 +94,7 @@
 		<string>驻马店</string>
 		<key>city</key>
 		<array>
+			<string>驿城区</string>
 			<string>平舆县</string>
 			<string>上蔡县</string>
 			<string>遂平县</string>
@@ -102,7 +103,6 @@
 			<string>汝南县</string>
 			<string>确山县</string>
 			<string>正阳县</string>
-			<string>驿城区</string>
 			<string>新蔡县</string>
 		</array>
 	</dict>
@@ -111,6 +111,8 @@
 		<string>南阳</string>
 		<key>city</key>
 		<array>
+			<string>卧龙区</string>
+			<string>宛城区</string>
 			<string>唐河县</string>
 			<string>社旗县</string>
 			<string>新野县</string>
@@ -120,9 +122,7 @@
 			<string>西峡县</string>
 			<string>南召县</string>
 			<string>桐柏县</string>
-			<string>卧龙区</string>
 			<string>镇平县</string>
-			<string>宛城区</string>
 			<string>邓州市</string>
 		</array>
 	</dict>
@@ -131,18 +131,18 @@
 		<string>新乡</string>
 		<key>city</key>
 		<array>
-			<string>辉县市</string>
-			<string>卫辉市</string>
+			<string>卫滨区</string>
+			<string>牧野区</string>
+			<string>凤泉区</string>
 			<string>红旗区</string>
 			<string>延津县</string>
 			<string>原阳县</string>
 			<string>封丘县</string>
 			<string>新乡县</string>
-			<string>卫滨区</string>
-			<string>牧野区</string>
-			<string>凤泉区</string>
 			<string>获嘉县</string>
 			<string>长垣县</string>
+			<string>卫辉市</string>
+			<string>辉县市</string>
 		</array>
 	</dict>
 	<dict>
@@ -150,15 +150,15 @@
 		<string>安阳</string>
 		<key>city</key>
 		<array>
-			<string>林州市</string>
+			<string>北关区</string>
 			<string>文峰区</string>
+			<string>龙安区</string>
+			<string>殷都区</string>
+			<string>滑县</string>
 			<string>内黄县</string>
 			<string>汤阴县</string>
-			<string>殷都区</string>
-			<string>龙安区</string>
 			<string>安阳县</string>
-			<string>北关区</string>
-			<string>滑县</string>
+			<string>林州市</string>
 		</array>
 	</dict>
 	<dict>
@@ -166,14 +166,15 @@
 		<string>开封</string>
 		<key>city</key>
 		<array>
+			<string>鼓楼区</string>
+			<string>龙亭区</string>
+			<string>祥符区</string>
+			<string>禹王台区</string>
+			<string>顺河回族区</string>
 			<string>杞县</string>
 			<string>尉氏县</string>
 			<string>通许县</string>
-			<string>祥符区</string>
-			<string>禹王台区</string>
-			<string>鼓楼区</string>
-			<string>龙亭区</string>
-			<string>顺河回族区</string>
+			<string>兰考县</string>
 		</array>
 	</dict>
 	<dict>
@@ -181,14 +182,14 @@
 		<string>信阳</string>
 		<key>city</key>
 		<array>
+			<string>平桥区</string>
+			<string>浉河区</string>
 			<string>息县</string>
+			<string>新县</string>
 			<string>商城县</string>
 			<string>潢川县</string>
 			<string>罗山县</string>
 			<string>淮滨县</string>
-			<string>平桥区</string>
-			<string>新县</string>
-			<string>浉河区</string>
 			<string>光山县</string>
 			<string>固始县</string>
 		</array>
@@ -199,11 +200,11 @@
 		<key>city</key>
 		<array>
 			<string>湖滨区</string>
-			<string>灵宝市</string>
-			<string>义马市</string>
+			<string>陕州区</string>
 			<string>卢氏县</string>
 			<string>渑池县</string>
-			<string>陕州区</string>
+			<string>义马市</string>
+			<string>灵宝市</string>
 		</array>
 	</dict>
 	<dict>
@@ -211,16 +212,16 @@
 		<string>焦作</string>
 		<key>city</key>
 		<array>
-			<string>沁阳市</string>
+			<string>解放区</string>
+			<string>马村区</string>
+			<string>山阳区</string>
+			<string>中站区</string>
 			<string>温县</string>
 			<string>武陟县</string>
-			<string>解放区</string>
 			<string>修武县</string>
-			<string>孟州市</string>
-			<string>山阳区</string>
 			<string>博爱县</string>
-			<string>马村区</string>
-			<string>中站区</string>
+			<string>孟州市</string>
+			<string>沁阳市</string>
 		</array>
 	</dict>
 	<dict>
@@ -228,11 +229,11 @@
 		<string>许昌</string>
 		<key>city</key>
 		<array>
-			<string>长葛市</string>
+			<string>魏都区</string>
+			<string>建安区</string>
 			<string>鄢陵县</string>
 			<string>襄城县</string>
-			<string>许昌县</string>
-			<string>魏都区</string>
+			<string>长葛市</string>
 			<string>禹州市</string>
 		</array>
 	</dict>
@@ -253,16 +254,16 @@
 		<string>周口</string>
 		<key>city</key>
 		<array>
+			<string>川汇区</string>
 			<string>太康县</string>
 			<string>郸城县</string>
 			<string>沈丘县</string>
-			<string>项城市</string>
 			<string>西华县</string>
 			<string>淮阳县</string>
 			<string>商水县</string>
 			<string>扶沟县</string>
-			<string>川汇区</string>
 			<string>鹿邑县</string>
+			<string>项城市</string>
 		</array>
 	</dict>
 	<dict>
@@ -270,10 +271,10 @@
 		<string>漯河</string>
 		<key>city</key>
 		<array>
-			<string>源汇区</string>
 			<string>郾城区</string>
-			<string>舞阳县</string>
+			<string>源汇区</string>
 			<string>召陵区</string>
+			<string>舞阳县</string>
 			<string>临颍县</string>
 		</array>
 	</dict>
@@ -283,7 +284,6 @@
 		<key>city</key>
 		<array>
 			<string>济源市</string>
-			<string>兰考县</string>
 		</array>
 	</dict>
 </array>

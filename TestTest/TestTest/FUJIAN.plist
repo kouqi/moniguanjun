@@ -7,19 +7,19 @@
 		<string>福州</string>
 		<key>city</key>
 		<array>
-			<string>长乐市</string>
+			<string>鼓楼区</string>
 			<string>晋安区</string>
-			<string>福清市</string>
 			<string>仓山区</string>
 			<string>台江区</string>
+			<string>马尾区</string>
 			<string>永泰县</string>
 			<string>闽侯县</string>
 			<string>罗源县</string>
 			<string>闽清县</string>
 			<string>连江县</string>
-			<string>马尾区</string>
-			<string>鼓楼区</string>
 			<string>平潭县</string>
+			<string>福清市</string>
+			<string>长乐市</string>
 		</array>
 	</dict>
 	<dict>
@@ -27,18 +27,18 @@
 		<string>泉州</string>
 		<key>city</key>
 		<array>
-			<string>南安市</string>
-			<string>安溪县</string>
-			<string>晋江市</string>
-			<string>惠安县</string>
-			<string>石狮市</string>
-			<string>永春县</string>
-			<string>泉港区</string>
 			<string>丰泽区</string>
+			<string>泉港区</string>
 			<string>鲤城区</string>
 			<string>洛江区</string>
+			<string>安溪县</string>
+			<string>惠安县</string>
+			<string>永春县</string>
 			<string>德化县</string>
 			<string>金门县</string>
+			<string>南安市</string>
+			<string>晋江市</string>
+			<string>石狮市</string>
 		</array>
 	</dict>
 	<dict>
@@ -46,13 +46,13 @@
 		<string>龙岩</string>
 		<key>city</key>
 		<array>
+			<string>新罗区</string>
+			<string>永定区</string>
 			<string>长汀县</string>
 			<string>武平县</string>
-			<string>永定区</string>
 			<string>上杭县</string>
-			<string>漳平市</string>
-			<string>新罗区</string>
 			<string>连城县</string>
+			<string>漳平市</string>
 		</array>
 	</dict>
 	<dict>
@@ -60,18 +60,18 @@
 		<string>三明</string>
 		<key>city</key>
 		<array>
+			<string>梅列区</string>
+			<string>三元区</string>
+			<string>沙县</string>
 			<string>尤溪县</string>
 			<string>大田县</string>
 			<string>宁化县</string>
 			<string>清流县</string>
-			<string>沙县</string>
-			<string>永安市</string>
 			<string>将乐县</string>
-			<string>三元区</string>
-			<string>梅列区</string>
 			<string>建宁县</string>
 			<string>明溪县</string>
 			<string>泰宁县</string>
+			<string>永安市</string>
 		</array>
 	</dict>
 	<dict>
@@ -79,15 +79,15 @@
 		<string>宁德</string>
 		<key>city</key>
 		<array>
-			<string>福安市</string>
-			<string>福鼎市</string>
+			<string>蕉城区</string>
 			<string>寿宁县</string>
 			<string>霞浦县</string>
 			<string>古田县</string>
 			<string>柘荣县</string>
 			<string>周宁县</string>
-			<string>蕉城区</string>
 			<string>屏南县</string>
+			<string>福安市</string>
+			<string>福鼎市</string>
 		</array>
 	</dict>
 	<dict>
@@ -95,10 +95,10 @@
 		<string>厦门</string>
 		<key>city</key>
 		<array>
+			<string>思明区</string>
 			<string>海沧区</string>
 			<string>湖里区</string>
 			<string>集美区</string>
-			<string>思明区</string>
 			<string>同安区</string>
 			<string>翔安区</string>
 		</array>
@@ -109,15 +109,15 @@
 		<key>city</key>
 		<array>
 			<string>建阳区</string>
-			<string>建瓯市</string>
 			<string>延平区</string>
-			<string>邵武市</string>
-			<string>武夷山市</string>
 			<string>浦城县</string>
 			<string>光泽县</string>
 			<string>顺昌县</string>
 			<string>松溪县</string>
 			<string>政和县</string>
+			<string>建瓯市</string>
+			<string>邵武市</string>
+			<string>武夷山市</string>
 		</array>
 	</dict>
 	<dict>
@@ -125,11 +125,11 @@
 		<string>莆田</string>
 		<key>city</key>
 		<array>
-			<string>仙游县</string>
-			<string>涵江区</string>
 			<string>城厢区</string>
+			<string>涵江区</string>
 			<string>秀屿区</string>
 			<string>荔城区</string>
+			<string>仙游县</string>
 		</array>
 	</dict>
 	<dict>
@@ -137,17 +137,17 @@
 		<string>漳州</string>
 		<key>city</key>
 		<array>
-			<string>漳浦县</string>
+			<string>龙文区</string>
 			<string>芗城区</string>
+			<string>漳浦县</string>
 			<string>诏安县</string>
 			<string>云霄县</string>
 			<string>东山县</string>
 			<string>长泰县</string>
-			<string>龙文区</string>
-			<string>龙海市</string>
 			<string>平和县</string>
 			<string>南靖县</string>
 			<string>华安县</string>
+			<string>龙海市</string>
 		</array>
 	</dict>
 </array>

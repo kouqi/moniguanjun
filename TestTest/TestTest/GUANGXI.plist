@@ -8,14 +8,14 @@
 		<key>city</key>
 		<array>
 			<string>青秀区</string>
-			<string>西乡塘区</string>
-			<string>武鸣县</string>
+			<string>邕宁区</string>
+			<string>武鸣区</string>
 			<string>江南区</string>
-			<string>横县</string>
 			<string>兴宁区</string>
 			<string>良庆区</string>
+			<string>西乡塘区</string>
+			<string>横县</string>
 			<string>隆安县</string>
-			<string>邕宁区</string>
 			<string>马山县</string>
 			<string>上林县</string>
 			<string>宾阳县</string>
@@ -26,11 +26,11 @@
 		<string>崇左</string>
 		<key>city</key>
 		<array>
+			<string>江州区</string>
 			<string>宁明县</string>
 			<string>龙州县</string>
 			<string>天等县</string>
 			<string>大新县</string>
-			<string>江州区</string>
 			<string>扶绥县</string>
 			<string>凭祥市</string>
 		</array>
@@ -40,13 +40,13 @@
 		<string>玉林</string>
 		<key>city</key>
 		<array>
-			<string>陆川县</string>
-			<string>北流市</string>
-			<string>博白县</string>
-			<string>容县</string>
-			<string>福绵区</string>
 			<string>玉州区</string>
+			<string>福绵区</string>
+			<string>容县</string>
+			<string>陆川县</string>
+			<string>博白县</string>
 			<string>兴业县</string>
+			<string>北流市</string>
 		</array>
 	</dict>
 	<dict>
@@ -54,13 +54,13 @@
 		<string>梧州</string>
 		<key>city</key>
 		<array>
-			<string>岑溪市</string>
-			<string>藤县</string>
-			<string>蒙山县</string>
-			<string>苍梧县</string>
 			<string>长洲区</string>
 			<string>龙圩区</string>
 			<string>万秀区</string>
+			<string>藤县</string>
+			<string>苍梧县</string>
+			<string>蒙山县</string>
+			<string>岑溪市</string>
 		</array>
 	</dict>
 	<dict>
@@ -68,10 +68,10 @@
 		<string>钦州</string>
 		<key>city</key>
 		<array>
-			<string>灵山县</string>
-			<string>浦北县</string>
 			<string>钦北区</string>
 			<string>钦南区</string>
+			<string>灵山县</string>
+			<string>浦北县</string>
 		</array>
 	</dict>
 	<dict>
@@ -79,17 +79,17 @@
 		<string>河池</string>
 		<key>city</key>
 		<array>
+			<string>宜州区</string>
+			<string>金城江区</string>
+			<string>东兰县</string>
+			<string>凤山县</string>
+			<string>天峨县</string>
+			<string>南丹县</string>
 			<string>都安瑶族自治县</string>
 			<string>大化瑶族自治县</string>
-			<string>东兰县</string>
-			<string>罗城仫佬族自治县</string>
-			<string>宜州市</string>
-			<string>环江毛南族自治县</string>
 			<string>巴马瑶族自治县</string>
-			<string>天峨县</string>
-			<string>金城江区</string>
-			<string>凤山县</string>
-			<string>南丹县</string>
+			<string>罗城仫佬族自治县</string>
+			<string>环江毛南族自治县</string>
 		</array>
 	</dict>
 	<dict>
@@ -97,10 +97,10 @@
 		<string>防城港</string>
 		<key>city</key>
 		<array>
-			<string>上思县</string>
+			<string>港口区</string>
 			<string>防城区</string>
 			<string>东兴市</string>
-			<string>港口区</string>
+			<string>上思县</string>
 		</array>
 	</dict>
 	<dict>
@@ -108,11 +108,11 @@
 		<string>来宾</string>
 		<key>city</key>
 		<array>
-			<string>象州县</string>
 			<string>兴宾区</string>
-			<string>金秀瑶族自治县</string>
+			<string>象州县</string>
 			<string>忻城县</string>
 			<string>武宣县</string>
+			<string>金秀瑶族自治县</string>
 			<string>合山市</string>
 		</array>
 	</dict>
@@ -121,11 +121,11 @@
 		<string>贺州</string>
 		<key>city</key>
 		<array>
-			<string>昭平县</string>
-			<string>平桂区</string>
-			<string>富川瑶族自治县</string>
-			<string>钟山县</string>
 			<string>八步区</string>
+			<string>平桂区</string>
+			<string>昭平县</string>
+			<string>钟山县</string>
+			<string>富川瑶族自治县</string>
 		</array>
 	</dict>
 	<dict>
@@ -133,11 +133,11 @@
 		<string>贵港</string>
 		<key>city</key>
 		<array>
-			<string>平南县</string>
-			<string>桂平市</string>
 			<string>港北区</string>
 			<string>覃塘区</string>
 			<string>港南区</string>
+			<string>平南县</string>
+			<string>桂平市</string>
 		</array>
 	</dict>
 	<dict>
@@ -145,18 +145,18 @@
 		<string>百色</string>
 		<key>city</key>
 		<array>
+			<string>右江区</string>
 			<string>田东县</string>
 			<string>田林县</string>
-			<string>隆林各族自治县</string>
-			<string>靖西市</string>
 			<string>凌云县</string>
 			<string>德保县</string>
-			<string>右江区</string>
 			<string>平果县</string>
 			<string>那坡县</string>
 			<string>乐业县</string>
 			<string>西林县</string>
 			<string>田阳县</string>
+			<string>隆林各族自治县</string>
+			<string>靖西市</string>
 		</array>
 	</dict>
 	<dict>
@@ -164,10 +164,10 @@
 		<string>北海</string>
 		<key>city</key>
 		<array>
-			<string>合浦县</string>
 			<string>海城区</string>
 			<string>银海区</string>
 			<string>铁山港区</string>
+			<string>合浦县</string>
 		</array>
 	</dict>
 	<dict>
@@ -175,16 +175,16 @@
 		<string>柳州</string>
 		<key>city</key>
 		<array>
+			<string>柳北区</string>
 			<string>柳江区</string>
+			<string>鱼峰区</string>
 			<string>柳南区</string>
-			<string>三江侗族自治县</string>
-			<string>融水苗族自治县</string>
+			<string>城中区</string>
 			<string>融安县</string>
 			<string>鹿寨县</string>
-			<string>鱼峰区</string>
-			<string>柳北区</string>
-			<string>城中区</string>
 			<string>柳城县</string>
+			<string>三江侗族自治县</string>
+			<string>融水苗族自治县</string>
 		</array>
 	</dict>
 	<dict>
@@ -192,22 +192,23 @@
 		<string>桂林</string>
 		<key>city</key>
 		<array>
-			<string>灵川县</string>
-			<string>全州县</string>
+			<string>临桂区</string>
 			<string>象山区</string>
-			<string>恭城瑶族自治县</string>
-			<string>平乐县</string>
-			<string>资源县</string>
+			<string>七星区</string>
 			<string>雁山区</string>
 			<string>秀峰区</string>
-			<string>临桂区</string>
-			<string>阳朔县</string>
 			<string>叠彩区</string>
-			<string>龙胜各族自治县</string>
+			<string>灵川县</string>
+			<string>全州县</string>
+			<string>平乐县</string>
+			<string>资源县</string>
+			<string>阳朔县</string>
 			<string>永福县</string>
 			<string>兴安县</string>
 			<string>灌阳县</string>
 			<string>荔浦县</string>
+			<string>恭城瑶族自治县</string>
+			<string>龙胜各族自治县</string>
 		</array>
 	</dict>
 </array>

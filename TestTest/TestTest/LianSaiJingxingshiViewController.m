@@ -153,7 +153,8 @@
 
 -(void) doucanjia{
     self.cansaiArray = [NSMutableArray array];
-    for (NSString *city in self.allQiuduiArray) {
+    for (NSInteger i = 0; i < self.allQiuduiArray.count; i++) {
+        NSString *city = [self.allQiuduiArray objectAtIndex:i];
         NSMutableDictionary *mdic = [NSMutableDictionary dictionary];
         [mdic setValue:city forKey:@"city"];
         [mdic setValue:[NSNumber numberWithInt:0] forKey:@"jifen"];
@@ -163,6 +164,17 @@
         [mdic setValue:[NSNumber numberWithInt:0] forKey:@"ping"];
         [mdic setValue:[NSNumber numberWithInt:0] forKey:@"fu"];
         [mdic setValue:[NSNumber numberWithInt:0] forKey:@"changci"];
+        if (i < 0) {
+            [mdic setValue:[NSNumber numberWithInt:2] forKey:@"strongLevel"];
+        }else if (i < 0){
+            [mdic setValue:[NSNumber numberWithInt:1] forKey:@"strongLevel"];
+        }else{
+            if ([city isEqualToString:@"阜阳市"] || [city isEqualToString:@"绥化市"]|| [city isEqualToString:@"阜阳颍泉区"]|| [city isEqualToString:@"绥化北林区"]) {
+                [mdic setValue:[NSNumber numberWithInt:2] forKey:@"strongLevel"];
+            }else{
+                [mdic setValue:[NSNumber numberWithInt:0] forKey:@"strongLevel"];
+            }
+        }
         [self.cansaiArray addObject:mdic];
     }
 //    if (self.cansaiArray.count < 4) {
@@ -341,6 +353,20 @@
     self.finalfinalAllLunArray = [NSMutableArray array];
     [self.finalfinalAllLunArray addObjectsFromArray:ssslllArra];
     [self.finalfinalAllLunArray addObjectsFromArray:ffflllArra];
+
+    //        [self.finalfinalAllLunArray addObjectsFromArray:ssslllArra];
+//        [self.finalfinalAllLunArray addObjectsFromArray:ffflllArra];
+//    }
+//    if (self.cansaiArray.count <= 6) {
+//        [self.finalfinalAllLunArray addObjectsFromArray:ssslllArra];
+//        [self.finalfinalAllLunArray addObjectsFromArray:ffflllArra];
+//    }
+//    if (self.cansaiArray.count <= 4) {
+//        [self.finalfinalAllLunArray addObjectsFromArray:ssslllArra];
+//        [self.finalfinalAllLunArray addObjectsFromArray:ffflllArra];
+//        [self.finalfinalAllLunArray addObjectsFromArray:ssslllArra];
+//        [self.finalfinalAllLunArray addObjectsFromArray:ffflllArra];
+//    }
     self.currentLunshu = 0;
     self.allLunshu = self.finalfinalAllLunArray.count;
 }
@@ -496,7 +522,8 @@
         if (!([[arr objectAtIndex:0] isKindOfClass:[NSString class]] || [[arr objectAtIndex:1] isKindOfClass:[NSString class]])) {
             NSMutableDictionary *mdic1 = [arr objectAtIndex:0];
             NSMutableDictionary *mdic2 = [arr objectAtIndex:1];
-            NSMutableDictionary *dic21 = [CalculationGameTool biSaiJieGuoWithCity:[mdic1 valueForKey:@"city"] andCity:[mdic2 valueForKey:@"city"]];
+//            NSMutableDictionary *dic21 = [CalculationGameTool biSaiJieGuoWithCity:[mdic1 valueForKey:@"city"] andCity:[mdic2 valueForKey:@"city"]];
+            NSMutableDictionary *dic21 = [CalculationGameTool biSaiJieGuoWithCityDic:mdic1 andCityDic:mdic2];
             int fjifen = [[mdic1 valueForKey:@"jifen"] intValue] ,fjingqiu = [[mdic1 valueForKey:@"jingqiu"] intValue] ,fjingsheng = [[mdic1 valueForKey:@"jingshengqiu"] intValue],ffu = [[mdic1 valueForKey:@"fu"] intValue],fsheng = [[mdic1 valueForKey:@"sheng"] intValue],fping = [[mdic1 valueForKey:@"ping"] intValue] ;
             int sjifen = [[mdic2 valueForKey:@"jifen"] intValue] ,sjingqiu = [[mdic2 valueForKey:@"jingqiu"] intValue] ,sjingsheng = [[mdic2 valueForKey:@"jingshengqiu"] intValue],ssheng = [[mdic2 valueForKey:@"sheng"] intValue],sping = [[mdic2 valueForKey:@"ping"] intValue],sfu = [[mdic2 valueForKey:@"fu"] intValue] ;
             NSArray *arr21 = [dic21 valueForKey:@"typeArray"];
@@ -599,7 +626,7 @@
     for (int i = 0 ;i < arra.count; i++) {
         NSDictionary *d1 = [arra objectAtIndex:i];
         NSInteger diuqiu = [[d1 valueForKey:@"jingqiu"] integerValue] - [[d1 valueForKey:@"jingshengqiu"] integerValue];
-        NSLog(@"%d、%@ %@胜 %@平 %@负 %@/%ld %@分",(i+1),[d1 valueForKey:@"city"],[d1 valueForKey:@"sheng"],[d1 valueForKey:@"ping"],[d1 valueForKey:@"fu"],[d1 valueForKey:@"jingqiu"],diuqiu,[d1 valueForKey:@"jifen"]);
+        NSLog(@"%d、%@ %@胜 %@平 %@负 %@-%ld=%@ %@分",(i+1),[d1 valueForKey:@"city"],[d1 valueForKey:@"sheng"],[d1 valueForKey:@"ping"],[d1 valueForKey:@"fu"],[d1 valueForKey:@"jingqiu"],diuqiu,[d1 valueForKey:@"jingshengqiu"],[d1 valueForKey:@"jifen"]);
         [self.xianshiString appendFormat:@"%d、%@ %@胜 %@平 %@负 %@/%ld %@分\n",(i+1),[d1 valueForKey:@"city"],[d1 valueForKey:@"sheng"],[d1 valueForKey:@"ping"],[d1 valueForKey:@"fu"],[d1 valueForKey:@"jingqiu"],diuqiu,[d1 valueForKey:@"jifen"]];
     }
 
