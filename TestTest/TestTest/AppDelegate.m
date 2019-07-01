@@ -384,6 +384,7 @@
 //    self.jieshu = 0;
 //    self.yiyuxuansaicishu = 0;
 //    [self moniguanjun];
+    NSLog(@"%d",31400%100);
     return YES;
 }
 

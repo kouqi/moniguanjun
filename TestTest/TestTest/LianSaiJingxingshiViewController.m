@@ -504,10 +504,12 @@
         if (([[arr objectAtIndex:0] isKindOfClass:[NSString class]] || [[arr objectAtIndex:1] isKindOfClass:[NSString class]])) {
             if ([[arr objectAtIndex:0] isKindOfClass:[NSString class]]) {
                 NSMutableDictionary *mdic2 = [arr objectAtIndex:1];
-                [self.xianshiString appendFormat:@"本轮轮空球队：%@\n",[mdic2 valueForKey:@"city"]];
+                NSLog(@"第%ld轮轮空球队：%@",self.currentLunshu + 1,[mdic2 valueForKey:@"city"]);
+                [self.xianshiString appendFormat:@"第%ld轮轮空球队：%@\n",self.currentLunshu + 1,[mdic2 valueForKey:@"city"]];
             }else{
                 NSMutableDictionary *mdic1 = [arr objectAtIndex:0];
-                [self.xianshiString appendFormat:@"本轮轮空球队：%@\n",[mdic1 valueForKey:@"city"]];
+                NSLog(@"第%ld轮轮空球队：%@",self.currentLunshu + 1,[mdic1 valueForKey:@"city"]);
+                [self.xianshiString appendFormat:@"第%ld轮轮空球队：%@\n",self.currentLunshu + 1,[mdic1 valueForKey:@"city"]];
             }
             break;
         }
@@ -626,7 +628,7 @@
     for (int i = 0 ;i < arra.count; i++) {
         NSDictionary *d1 = [arra objectAtIndex:i];
         NSInteger diuqiu = [[d1 valueForKey:@"jingqiu"] integerValue] - [[d1 valueForKey:@"jingshengqiu"] integerValue];
-        NSLog(@"%d、%@ %@胜 %@平 %@负 %@-%ld=%@ %@分",(i+1),[d1 valueForKey:@"city"],[d1 valueForKey:@"sheng"],[d1 valueForKey:@"ping"],[d1 valueForKey:@"fu"],[d1 valueForKey:@"jingqiu"],diuqiu,[d1 valueForKey:@"jingshengqiu"],[d1 valueForKey:@"jifen"]);
+        NSLog(@"%d、%@ %@胜 %@平 %@负 %@/%ld %@分",(i+1),[d1 valueForKey:@"city"],[d1 valueForKey:@"sheng"],[d1 valueForKey:@"ping"],[d1 valueForKey:@"fu"],[d1 valueForKey:@"jingqiu"],diuqiu,[d1 valueForKey:@"jifen"]);
         [self.xianshiString appendFormat:@"%d、%@ %@胜 %@平 %@负 %@/%ld %@分\n",(i+1),[d1 valueForKey:@"city"],[d1 valueForKey:@"sheng"],[d1 valueForKey:@"ping"],[d1 valueForKey:@"fu"],[d1 valueForKey:@"jingqiu"],diuqiu,[d1 valueForKey:@"jifen"]];
     }
 
